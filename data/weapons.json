@@ -1,0 +1,2279 @@
+[
+  {
+    "wmapi.internal.<CLEAN-200.5>": {
+      "display_name": "NO PYLON",
+      "name": "<CLEAN-200.5>",
+      "ws_type": "{0,0,0,0}"
+    },
+    "wmapi.internal.ALQ_184": {
+      "display_name": "ALQ-184 - ECM Pod",
+      "name": "ALQ_184",
+      "ws_type": "{4,15,45,142}"
+    },
+    "wmapi.internal.ALQ_184_Long": {
+      "display_name": "ALQ-184 Long - ECM Pod",
+      "name": "ALQ_184_Long",
+      "ws_type": "{4,15,45,968}"
+    },
+    "wmapi.internal.BARAX_ECM": {
+      "display_name": "BARAX - ECM Pod",
+      "name": "BARAX_ECM",
+      "ws_type": "{4,15,45,1735}"
+    },
+    "wmapi.internal.BF109K_4_FUEL_TANK": {
+      "display_name": "300 liter Fuel Tank",
+      "name": "BF109K_4_FUEL_TANK",
+      "ws_type": "{1,3,43,263}"
+    },
+    "wmapi.internal.DIS_AKG_DLPOD": {
+      "display_name": "DATA-LINK POD",
+      "name": "DIS_AKG_DLPOD",
+      "ws_type": "{4,15,44,461}"
+    },
+    "wmapi.internal.DIS_SMOKE_GENERATOR_B": {
+      "display_name": "Smoke Generator - blue",
+      "name": "DIS_SMOKE_GENERATOR_B",
+      "ws_type": "{4,15,50,88}"
+    },
+    "wmapi.internal.DIS_SMOKE_GENERATOR_G": {
+      "display_name": "Smoke Generator - green",
+      "name": "DIS_SMOKE_GENERATOR_G",
+      "ws_type": "{4,15,50,87}"
+    },
+    "wmapi.internal.DIS_SMOKE_GENERATOR_R": {
+      "display_name": "Smoke Generator - red",
+      "name": "DIS_SMOKE_GENERATOR_R",
+      "ws_type": "{4,15,50,67}"
+    },
+    "wmapi.internal.DIS_SMOKE_GENERATOR_Y": {
+      "display_name": "Smoke Generator - yellow",
+      "name": "DIS_SMOKE_GENERATOR_Y",
+      "ws_type": "{4,15,50,90}"
+    },
+    "wmapi.internal.DIS_SPJ_POD": {
+      "display_name": "KG-600",
+      "name": "DIS_SPJ_POD",
+      "ws_type": "{4,15,45,462}"
+    },
+    "wmapi.internal.DIS_TANK1100": {
+      "display_name": "1100L Tank",
+      "name": "DIS_TANK1100",
+      "ws_type": "{1,3,43,466}"
+    },
+    "wmapi.internal.DIS_TANK1100_EMPTY": {
+      "display_name": "1100L Tank Empty",
+      "name": "DIS_TANK1100_EMPTY",
+      "ws_type": "{1,3,43,929}"
+    },
+    "wmapi.internal.DIS_TANK800": {
+      "display_name": "800L Tank",
+      "name": "DIS_TANK800",
+      "ws_type": "{1,3,43,465}"
+    },
+    "wmapi.internal.DIS_TANK800_EMPTY": {
+      "display_name": "800L Tank Empty",
+      "name": "DIS_TANK800_EMPTY",
+      "ws_type": "{1,3,43,928}"
+    },
+    "wmapi.internal.DIS_WMD7": {
+      "display_name": "WMD7 POD",
+      "name": "DIS_WMD7",
+      "ws_type": "{4,15,44,463}"
+    },
+    "wmapi.internal.Fuel_Tank_FT600": {
+      "display_name": "Fuel tank FT600",
+      "name": "Fuel_Tank_FT600",
+      "ws_type": "{1,3,43,103}"
+    },
+    "wmapi.internal.FW109_FUEL_TANK": {
+      "display_name": "300 liter Fuel Tank Type E2",
+      "name": "FW109_FUEL_TANK",
+      "ws_type": "{1,3,43,264}"
+    },
+    "wmapi.internal.GUV_VOG": {
+      "display_name": "GUV-8700 w AP-30 - 30mm Grenade Launcher",
+      "name": "GUV_VOG",
+      "ws_type": "{4,15,46,171}"
+    },
+    "wmapi.internal.GUV_YakB_GSHP": {
+      "display_name": "GUV-8700 w 1x12.7 mm & 2x7.62 mm Rotary HMG",
+      "name": "GUV_YakB_GSHP",
+      "ws_type": "{4,15,46,170}"
+    },
+    "wmapi.internal.I16_DROP_FUEL_TANK": {
+      "display_name": "I-16 External Fuel Tank",
+      "name": "I16_DROP_FUEL_TANK",
+      "ws_type": "{1,3,43,589}"
+    },
+    "wmapi.internal.KORD_12_7": {
+      "display_name": "Kord 12.7mm HMG",
+      "name": "KORD_12_7",
+      "ws_type": "{4,15,46,183}"
+    },
+    "wmapi.internal.KORD_12_7_MI24_L": {
+      "display_name": "Kord 12.7mm HMG",
+      "name": "KORD_12_7_MI24_L",
+      "ws_type": "{4,15,46,1295}"
+    },
+    "wmapi.internal.KORD_12_7_MI24_R": {
+      "display_name": "Kord 12.7mm HMG",
+      "name": "KORD_12_7_MI24_R",
+      "ws_type": "{4,15,46,1294}"
+    },
+    "wmapi.internal.M134_L": {
+      "display_name": "M134 - 6 x 7.62mm MiniGun left",
+      "name": "M134_L",
+      "ws_type": "{4,15,46,160}"
+    },
+    "wmapi.internal.M134_R": {
+      "display_name": "M134 - 6 x 7.62mm MiniGun right",
+      "name": "M134_R",
+      "ws_type": "{4,15,46,161}"
+    },
+    "wmapi.internal.M134_SIDE_L": {
+      "display_name": "M134 - 6 x 7.62mm MiniGun left door",
+      "name": "M134_SIDE_L",
+      "ws_type": "{4,15,46,174}"
+    },
+    "wmapi.internal.M134_SIDE_R": {
+      "display_name": "M134 - 6 x 7.62mm MiniGun right door",
+      "name": "M134_SIDE_R",
+      "ws_type": "{4,15,46,175}"
+    },
+    "wmapi.internal.M60_SIDE_L": {
+      "display_name": "M60 - 7.62mm MG left door",
+      "name": "M60_SIDE_L",
+      "ws_type": "{4,15,46,176}"
+    },
+    "wmapi.internal.M60_SIDE_R": {
+      "display_name": "M60 - 7.62mm MG right door",
+      "name": "M60_SIDE_R",
+      "ws_type": "{4,15,46,177}"
+    },
+    "wmapi.internal.MXU-648-TP": {
+      "display_name": "MXU-648 Travel Pod",
+      "name": "MXU-648-TP",
+      "ws_type": "{4,15,47,104}"
+    },
+    "wmapi.internal.PKT_7_62": {
+      "display_name": "PKT 7.62mm MMG",
+      "name": "PKT_7_62",
+      "ws_type": "{4,15,46,184}"
+    },
+    "wmapi.internal.PTB-1200-F1-EMPTY": {
+      "display_name": "RP35 Pylon Fuel Tank (1137 l usable) [Empty]",
+      "name": "PTB-1200-F1-EMPTY",
+      "ws_type": "{1,3,43,1469}"
+    },
+    "wmapi.internal.PTB300_MIG15": {
+      "display_name": "Fuel Tank 300 liters",
+      "name": "PTB300_MIG15",
+      "ws_type": "{1,3,43,611}"
+    },
+    "wmapi.internal.PTB400_MIG15": {
+      "display_name": "Fuel Tank 400 liters",
+      "name": "PTB400_MIG15",
+      "ws_type": "{1,3,43,609}"
+    },
+    "wmapi.internal.PTB600_MIG15": {
+      "display_name": "Fuel Tank 600 liters",
+      "name": "PTB600_MIG15",
+      "ws_type": "{1,3,43,610}"
+    },
+    "wmapi.internal.PTB760_MIG19": {
+      "display_name": "Fuel Tank 760 liters",
+      "name": "PTB760_MIG19",
+      "ws_type": "{1,3,43,617}"
+    },
+    "wmapi.internal.SPITFIRE_45GAL_SLIPPER_TANK": {
+      "display_name": "45 gal. Slipper Tank",
+      "name": "SPITFIRE_45GAL_SLIPPER_TANK",
+      "ws_type": "{1,3,43,274}"
+    },
+    "wmapi.internal.SPITFIRE_45GAL_TORPEDO_TANK": {
+      "display_name": "45 gal. Torpedo Tank",
+      "name": "SPITFIRE_45GAL_TORPEDO_TANK",
+      "ws_type": "{1,3,43,275}"
+    },
+    "wmapi.internal.{0395076D-2F77-4420-9D33-087A4398130B}": {
+      "display_name": "F-5 275Gal Fuel tank",
+      "name": "{0395076D-2F77-4420-9D33-087A4398130B}",
+      "ws_type": "{1,3,43,36}"
+    },
+    "wmapi.internal.{0519A264-0AB6-11d6-9193-00A0249B6F00}": {
+      "display_name": "L-081 Fantasmagoria ELINT pod",
+      "name": "{0519A264-0AB6-11d6-9193-00A0249B6F00}",
+      "ws_type": "{4,15,44,65}"
+    },
+    "wmapi.internal.{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}": {
+      "display_name": "Fuel tank 1400L",
+      "name": "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+      "ws_type": "{1,3,43,17}"
+    },
+    "wmapi.internal.{44EE8698-89F9-48EE-AF36-5FD31896A82A}": {
+      "display_name": "L005 Sorbtsiya ECM pod (right)",
+      "name": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
+      "ws_type": "{4,15,45,173}"
+    },
+    "wmapi.internal.{44EE8698-89F9-48EE-AF36-5FD31896A82D}": {
+      "display_name": "MPS-410",
+      "name": "{44EE8698-89F9-48EE-AF36-5FD31896A82D}",
+      "ws_type": "{4,15,45,94}"
+    },
+    "wmapi.internal.{44EE8698-89F9-48EE-AF36-5FD31896A82F}": {
+      "display_name": "L005 Sorbtsiya ECM pod (left)",
+      "name": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
+      "ws_type": "{4,15,45,29}"
+    },
+    "wmapi.internal.{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}": {
+      "display_name": "ALQ-131 - ECM Pod",
+      "name": "{6D21ECEA-F85B-4E8D-9D51-31DC9B8AA4EF}",
+      "ws_type": "{4,15,45,25}"
+    },
+    "wmapi.internal.{8A0BE8AE-58D4-4572-9263-3144C0D06364}": {
+      "display_name": "Fuel tank 300 gal",
+      "name": "{8A0BE8AE-58D4-4572-9263-3144C0D06364}",
+      "ws_type": "{1,3,43,12}"
+    },
+    "wmapi.internal.{9M114 Shturm-V-2 Rack}": {
+      "display_name": "Missile Launcher Rack (Empty)",
+      "name": "{9M114 Shturm-V-2 Rack}",
+      "ws_type": "{4,4,32,719}"
+    },
+    "wmapi.internal.{A111396E-D3E8-4b9c-8AC9-2432489304D5}": {
+      "display_name": "AN/AAQ-28 LITENING - Targeting Pod",
+      "name": "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+      "ws_type": "{4,15,44,101}"
+    },
+    "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}": {
+      "display_name": "Smokewinder - white",
+      "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+      "ws_type": "{4,15,50,89}"
+    },
+    "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E746}": {
+      "display_name": "Smokewinder - orange",
+      "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}",
+      "ws_type": "{4,15,50,91}"
+    },
+    "wmapi.internal.{AAQ-28_LEFT}": {
+      "display_name": "AN/AAQ-28 LITENING - Targeting Pod",
+      "name": "{AAQ-28_LEFT}",
+      "ws_type": "{4,15,44,425}"
+    },
+    "wmapi.internal.{ADEN_GUNPOD}": {
+      "display_name": "ADEN GUNPOD",
+      "name": "{ADEN_GUNPOD}",
+      "ws_type": "{4,15,46,588}"
+    },
+    "wmapi.internal.{AKAN}": {
+      "display_name": "AKAN M/55 Gunpod, 150 rnds MINGR55-HE",
+      "name": "{AKAN}",
+      "ws_type": "{4,15,46,286}"
+    },
+    "wmapi.internal.{ALQ_164_RF_Jammer}": {
+      "display_name": "AN/ALQ-164 DECM Pod",
+      "name": "{ALQ_164_RF_Jammer}",
+      "ws_type": "{4,15,45,301}"
+    },
+    "wmapi.internal.{AN-M3}": {
+      "display_name": "AN-M3 - 2*Browning Machine Guns 12.7mm",
+      "name": "{AN-M3}",
+      "ws_type": "{4,15,46,429}"
+    },
+    "wmapi.internal.{AN_ASQ_213}": {
+      "display_name": "AN/ASQ-213 HTS - HARM Targeting System",
+      "name": "{AN_ASQ_213}",
+      "ws_type": "{4,15,44,808}"
+    },
+    "wmapi.internal.{AN_ASQ_228}": {
+      "display_name": "AN/ASQ-228 ATFLIR - Targeting Pod",
+      "name": "{AN_ASQ_228}",
+      "ws_type": "{4,15,44,426}"
+    },
+    "wmapi.internal.{ASO-2}": {
+      "display_name": "ASO-2 - countermeasures pod",
+      "name": "{ASO-2}",
+      "ws_type": "{4,15,48,666}"
+    },
+    "wmapi.internal.{AV8BNA_AERO1D_EMPTY}": {
+      "display_name": "AERO 1D 300 Gallons Fuel Tank (Empty)",
+      "name": "{AV8BNA_AERO1D_EMPTY}",
+      "ws_type": "{1,3,43,1573}"
+    },
+    "wmapi.internal.{AV8BNA_AERO1D}": {
+      "display_name": "AERO 1D 300 Gallons Fuel Tank ",
+      "name": "{AV8BNA_AERO1D}",
+      "ws_type": "{1,3,43,1572}"
+    },
+    "wmapi.internal.{AWW-13}": {
+      "display_name": "AWW-13 DATALINK POD",
+      "name": "{AWW-13}",
+      "ws_type": "{4,15,44,424}"
+    },
+    "wmapi.internal.{B1EF6B0E-3D91-4047-A7A5-A99E7D8B4A8B}": {
+      "display_name": "Mercury LLTV Pod",
+      "name": "{B1EF6B0E-3D91-4047-A7A5-A99E7D8B4A8B}",
+      "ws_type": "{4,15,44,19}"
+    },
+    "wmapi.internal.{C-101-DEFA553}": {
+      "display_name": "DEFA-553 - 30mm Revolver Cannon",
+      "name": "{C-101-DEFA553}",
+      "ws_type": "{4,15,46,428}"
+    },
+    "wmapi.internal.{C0FF4842-FBAC-11d5-9190-00A0249B6F00}": {
+      "display_name": "Fuel tank 1150L MiG-29",
+      "name": "{C0FF4842-FBAC-11d5-9190-00A0249B6F00}",
+      "ws_type": "{1,3,43,61}"
+    },
+    "wmapi.internal.{CE2_SMOKE_WHITE}": {
+      "display_name": "Smoke for Christen Eagle II, white",
+      "name": "{CE2_SMOKE_WHITE}",
+      "ws_type": "{4,15,50,467}"
+    },
+    "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}": {
+      "display_name": "Smoke Generator - red",
+      "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+      "ws_type": "{4,15,50,66}"
+    },
+    "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}": {
+      "display_name": "Smoke Generator - orange",
+      "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+      "ws_type": "{4,15,50,86}"
+    },
+    "wmapi.internal.{DT75GAL}": {
+      "display_name": "75 US gal. Fuel Tank",
+      "name": "{DT75GAL}",
+      "ws_type": "{1,3,43,152}"
+    },
+    "wmapi.internal.{E1F29B21-F291-4589-9FD8-3272EEC69506}": {
+      "display_name": "Fuel tank 610 gal",
+      "name": "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
+      "ws_type": "{1,3,43,10}"
+    },
+    "wmapi.internal.{E8D4652F-FD48-45B7-BA5B-2AE05BB5A9CF}": {
+      "display_name": "Fuel tank 800L Wing",
+      "name": "{E8D4652F-FD48-45B7-BA5B-2AE05BB5A9CF}",
+      "ws_type": "{1,3,43,54}"
+    },
+    "wmapi.internal.{E92CBFE5-C153-11d8-9897-000476191836}": {
+      "display_name": "SPPU-22-1 - 2 x 23mm  GSh-23L Autocannon Pod",
+      "name": "{E92CBFE5-C153-11d8-9897-000476191836}",
+      "ws_type": "{4,15,46,18}"
+    },
+    "wmapi.internal.{EclairM_06}": {
+      "display_name": "Eclair-M 0/6 : 108 chaffs",
+      "name": "{EclairM_06}",
+      "ws_type": "{4,15,48,1174}"
+    },
+    "wmapi.internal.{EclairM_15}": {
+      "display_name": "Eclair-M 1/5 : 8 flares 90 chaffs",
+      "name": "{EclairM_15}",
+      "ws_type": "{4,15,48,1173}"
+    },
+    "wmapi.internal.{EclairM_24}": {
+      "display_name": "Eclair-M 2/4 : 16 flares 72 chaffs",
+      "name": "{EclairM_24}",
+      "ws_type": "{4,15,48,1172}"
+    },
+    "wmapi.internal.{EclairM_33}": {
+      "display_name": "Eclair-M 3/3 : 24 flares 54 chaffs",
+      "name": "{EclairM_33}",
+      "ws_type": "{4,15,48,1171}"
+    },
+    "wmapi.internal.{EclairM_42}": {
+      "display_name": "Eclair-M 4/2 : 32 flares 36 chaffs",
+      "name": "{EclairM_42}",
+      "ws_type": "{4,15,48,1170}"
+    },
+    "wmapi.internal.{EclairM_51}": {
+      "display_name": "Eclair-M 5/1 : 40 flares 18 chaffs",
+      "name": "{EclairM_51}",
+      "ws_type": "{4,15,48,1169}"
+    },
+    "wmapi.internal.{EclairM_60}": {
+      "display_name": "Eclair-M 6/0 : 48 flares",
+      "name": "{EclairM_60}",
+      "ws_type": "{4,15,48,1168}"
+    },
+    "wmapi.internal.{Eclair}": {
+      "display_name": "Eclair 16 flares 16 chaffs",
+      "name": "{Eclair}",
+      "ws_type": "{4,15,48,608}"
+    },
+    "wmapi.internal.{EFT_230GAL}": {
+      "display_name": "Fuel tank 230 gal",
+      "name": "{EFT_230GAL}",
+      "ws_type": "{1,3,43,1056}"
+    },
+    "wmapi.internal.{F14-300gal-empty}": {
+      "display_name": "Fuel tank 300 gal (empty)",
+      "name": "{F14-300gal-empty}",
+      "ws_type": "{1,3,43,484}"
+    },
+    "wmapi.internal.{F14-300gal}": {
+      "display_name": "Fuel tank 300 gal",
+      "name": "{F14-300gal}",
+      "ws_type": "{1,3,43,485}"
+    },
+    "wmapi.internal.{F14-LANTIRN-TP}": {
+      "display_name": "LANTIRN Targeting Pod",
+      "name": "{F14-LANTIRN-TP}",
+      "ws_type": "{4,15,44,486}"
+    },
+    "wmapi.internal.{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}": {
+      "display_name": "Fuel tank 370 gal",
+      "name": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}",
+      "ws_type": "{1,3,43,11}"
+    },
+    "wmapi.internal.{F75187EF-1D9E-4DA9-84B4-1A1A14A3973A}": {
+      "display_name": "SPS-141 - ECM Jamming Pod",
+      "name": "{F75187EF-1D9E-4DA9-84B4-1A1A14A3973A}",
+      "ws_type": "{4,15,45,30}"
+    },
+    "wmapi.internal.{FAS}": {
+      "display_name": "Sand Filter",
+      "name": "{FAS}",
+      "ws_type": "{4,15,47,679}"
+    },
+    "wmapi.internal.{FPU_8A_FUEL_TANK}": {
+      "display_name": "FPU-8A Fuel Tank 330 gallons",
+      "name": "{FPU_8A_FUEL_TANK}",
+      "ws_type": "{1,3,43,587}"
+    },
+    "wmapi.internal.{FUEL-SUBAL_TANK-330}": {
+      "display_name": "Fuel Tank 330lt",
+      "name": "{FUEL-SUBAL_TANK-330}",
+      "ws_type": "{1,3,43,1552}"
+    },
+    "wmapi.internal.{FUEL-TIP-ELLITTIC-L}": {
+      "display_name": "Elliptic Tip Tank 320lt",
+      "name": "{FUEL-TIP-ELLITTIC-L}",
+      "ws_type": "{1,3,43,1555}"
+    },
+    "wmapi.internal.{FUEL-TIP-ELLITTIC-R}": {
+      "display_name": "Elliptic Tip Tank 320lt",
+      "name": "{FUEL-TIP-ELLITTIC-R}",
+      "ws_type": "{1,3,43,1556}"
+    },
+    "wmapi.internal.{FUEL-TIP-TANK-500-L}": {
+      "display_name": "Cylindrical Tip Tank 500lt",
+      "name": "{FUEL-TIP-TANK-500-L}",
+      "ws_type": "{1,3,43,1553}"
+    },
+    "wmapi.internal.{FUEL-TIP-TANK-500-R}": {
+      "display_name": "Cylindrical Tip Tank 500lt",
+      "name": "{FUEL-TIP-TANK-500-R}",
+      "ws_type": "{1,3,43,1554}"
+    },
+    "wmapi.internal.{GAU_12_Equalizer_AP}": {
+      "display_name": "GAU 12 Gunpod w/AP M79",
+      "name": "{GAU_12_Equalizer_AP}",
+      "ws_type": "{4,15,46,824}"
+    },
+    "wmapi.internal.{GAU_12_Equalizer_HE}": {
+      "display_name": "GAU 12 Gunpod w/HE M792",
+      "name": "{GAU_12_Equalizer_HE}",
+      "ws_type": "{4,15,46,825}"
+    },
+    "wmapi.internal.{GAU_12_Equalizer}": {
+      "display_name": "GAU 12 Gunpod w/SAPHEI-T",
+      "name": "{GAU_12_Equalizer}",
+      "ws_type": "{4,15,46,300}"
+    },
+    "wmapi.internal.{HVAR_SMOKE_2}": {
+      "display_name": "HVAR SMOKE, UnGd Rkt",
+      "name": "{HVAR_SMOKE_2}",
+      "ws_type": "{4,15,50,470}"
+    },
+    "wmapi.internal.{HVAR_SMOKE_GENERATOR}": {
+      "display_name": "HVAR Smoke Generator",
+      "name": "{HVAR_SMOKE_GENERATOR}",
+      "ws_type": "{4,15,50,172}"
+    },
+    "wmapi.internal.{IAFS_ComboPak_100}": {
+      "display_name": "Internal Auxiliary Fuel tank 100 gal Combo Pak",
+      "name": "{IAFS_ComboPak_100}",
+      "ws_type": "{1,3,43,1695}"
+    },
+    "wmapi.internal.{INV-SMOKE-BLUE}": {
+      "display_name": "Smoke Generator - blue",
+      "name": "{INV-SMOKE-BLUE}",
+      "ws_type": "{4,15,50,83}"
+    },
+    "wmapi.internal.{INV-SMOKE-GREEN}": {
+      "display_name": "Smoke Generator - green",
+      "name": "{INV-SMOKE-GREEN}",
+      "ws_type": "{4,15,50,82}"
+    },
+    "wmapi.internal.{INV-SMOKE-WHITE}": {
+      "display_name": "Smoke Generator - white",
+      "name": "{INV-SMOKE-WHITE}",
+      "ws_type": "{4,15,50,84}"
+    },
+    "wmapi.internal.{INV-SMOKE-YELLOW}": {
+      "display_name": "Smoke Generator - yellow",
+      "name": "{INV-SMOKE-YELLOW}",
+      "ws_type": "{4,15,50,85}"
+    },
+    "wmapi.internal.{IR_Deflector}": {
+      "display_name": "IR Deflector",
+      "name": "{IR_Deflector}",
+      "ws_type": "{4,15,47,680}"
+    },
+    "wmapi.internal.{KB}": {
+      "display_name": "KB Flare/Chaff dispenser pod",
+      "name": "{KB}",
+      "ws_type": "{4,15,48,297}"
+    },
+    "wmapi.internal.{LAU-138 wtip - TCTS L}": {
+      "display_name": "AN/ASQ-T50 TCTS Pod - ACMI Pod",
+      "name": "{LAU-138 wtip - TCTS L}",
+      "ws_type": "{4,15,47,108}"
+    },
+    "wmapi.internal.{M2KC_02_RPL541_EMPTY}": {
+      "display_name": "RPL 541 2000 liters Fuel Tank (Empty)",
+      "name": "{M2KC_02_RPL541_EMPTY}",
+      "ws_type": "{1,3,43,1640}"
+    },
+    "wmapi.internal.{M2KC_02_RPL541}": {
+      "display_name": "RPL 541 2000 liters Fuel Tank ",
+      "name": "{M2KC_02_RPL541}",
+      "ws_type": "{1,3,43,603}"
+    },
+    "wmapi.internal.{M2KC_08_RPL541_EMPTY}": {
+      "display_name": "RPL 541 2000 liters Fuel Tank (Empty)",
+      "name": "{M2KC_08_RPL541_EMPTY}",
+      "ws_type": "{1,3,43,1641}"
+    },
+    "wmapi.internal.{M2KC_08_RPL541}": {
+      "display_name": "RPL 541 2000 liters Fuel Tank ",
+      "name": "{M2KC_08_RPL541}",
+      "ws_type": "{1,3,43,604}"
+    },
+    "wmapi.internal.{M2KC_AGF}": {
+      "display_name": "A/G Training",
+      "name": "{M2KC_AGF}",
+      "ws_type": "{4,15,48,765}"
+    },
+    "wmapi.internal.{M2KC_RPL_522_EMPTY}": {
+      "display_name": "RPL 522 1300 liters Fuel Tank (Empty)",
+      "name": "{M2KC_RPL_522_EMPTY}",
+      "ws_type": "{1,3,43,1642}"
+    },
+    "wmapi.internal.{M2KC_RPL_522}": {
+      "display_name": "RPL 522 1300 liters Fuel Tank",
+      "name": "{M2KC_RPL_522}",
+      "ws_type": "{1,3,43,605}"
+    },
+    "wmapi.internal.{MB339_ANM3_L}": {
+      "display_name": "AN/M3 Gunpod Left",
+      "name": "{MB339_ANM3_L}",
+      "ws_type": "{4,15,46,1546}"
+    },
+    "wmapi.internal.{MB339_ANM3_R}": {
+      "display_name": "AN/M3 Gunpod Right",
+      "name": "{MB339_ANM3_R}",
+      "ws_type": "{4,15,46,1547}"
+    },
+    "wmapi.internal.{MB339_DEFA553_L}": {
+      "display_name": "DEFA553 Gunpod Left",
+      "name": "{MB339_DEFA553_L}",
+      "ws_type": "{4,15,46,1544}"
+    },
+    "wmapi.internal.{MB339_DEFA553_R}": {
+      "display_name": "DEFA553 Gunpod Right",
+      "name": "{MB339_DEFA553_R}",
+      "ws_type": "{4,15,46,1545}"
+    },
+    "wmapi.internal.{MB339_TRAVELPOD}": {
+      "display_name": "Luggage Container",
+      "name": "{MB339_TRAVELPOD}",
+      "ws_type": "{4,15,47,1549}"
+    },
+    "wmapi.internal.{MB339_VINTEN}": {
+      "display_name": "Photo-Recon Pod (4*70mm Vinten Cameras)",
+      "name": "{MB339_VINTEN}",
+      "ws_type": "{4,15,44,1548}"
+    },
+    "wmapi.internal.{MIG21_SMOKE_WHITE}": {
+      "display_name": "Smoke - white - 21",
+      "name": "{MIG21_SMOKE_WHITE}",
+      "ws_type": "{4,15,50,667}"
+    },
+    "wmapi.internal.{MOSQUITO_100GAL_SLIPPER_TANK}": {
+      "display_name": "100 gal. Drop Tank",
+      "name": "{MOSQUITO_100GAL_SLIPPER_TANK}",
+      "ws_type": "{1,3,43,783}"
+    },
+    "wmapi.internal.{MOSQUITO_50GAL_SLIPPER_TANK}": {
+      "display_name": "50 gal. Drop Tank",
+      "name": "{MOSQUITO_50GAL_SLIPPER_TANK}",
+      "ws_type": "{1,3,43,782}"
+    },
+    "wmapi.internal.{PK-3}": {
+      "display_name": "PK-3 - 7.62mm GPMG",
+      "name": "{PK-3}",
+      "ws_type": "{4,15,46,596}"
+    },
+    "wmapi.internal.{PTB-150GAL}": {
+      "display_name": "F-5 150Gal Fuel tank",
+      "name": "{PTB-150GAL}",
+      "ws_type": "{1,3,43,107}"
+    },
+    "wmapi.internal.{PTB_120_F86F35}": {
+      "display_name": "Fuel Tank 120 gallons",
+      "name": "{PTB_120_F86F35}",
+      "ws_type": "{1,3,43,469}"
+    },
+    "wmapi.internal.{PTB_150L_L39}": {
+      "display_name": "Fuel Tank 150 liters",
+      "name": "{PTB_150L_L39}",
+      "ws_type": "{1,3,43,590}"
+    },
+    "wmapi.internal.{PTB_200_F86F35}": {
+      "display_name": "Fuel Tank 200 gallons",
+      "name": "{PTB_200_F86F35}",
+      "ws_type": "{1,3,43,468}"
+    },
+    "wmapi.internal.{PTB_350L_L39}": {
+      "display_name": "Fuel Tank 350 liters",
+      "name": "{PTB_350L_L39}",
+      "ws_type": "{1,3,43,593}"
+    },
+    "wmapi.internal.{PTB_490C_MIG21}": {
+      "display_name": "Fuel Tank 490 L Central (21)",
+      "name": "{PTB_490C_MIG21}",
+      "ws_type": "{1,3,43,663}"
+    },
+    "wmapi.internal.{PTB_490_MIG21}": {
+      "display_name": "Fuel Tank 490 L (21)",
+      "name": "{PTB_490_MIG21}",
+      "ws_type": "{1,3,43,662}"
+    },
+    "wmapi.internal.{PTB_800_MIG21}": {
+      "display_name": "Fuel Tank 800 L (21)",
+      "name": "{PTB_800_MIG21}",
+      "ws_type": "{1,3,43,664}"
+    },
+    "wmapi.internal.{SA342_Dipole}": {
+      "display_name": "Dipole Antanna (aesthetic)",
+      "name": "{SA342_Dipole}",
+      "ws_type": "{4,15,47,1100}"
+    },
+    "wmapi.internal.{SMOKE-GREEN-MB339}": {
+      "display_name": "MB339 Green Smoke",
+      "name": "{SMOKE-GREEN-MB339}",
+      "ws_type": "{4,15,50,1550}"
+    },
+    "wmapi.internal.{SMOKE-RED-AVIOJET}": {
+      "display_name": "Smoke System red colorant",
+      "name": "{SMOKE-RED-AVIOJET}",
+      "ws_type": "{4,15,50,427}"
+    },
+    "wmapi.internal.{SPS-141-100}": {
+      "display_name": "SPS-141-100 (21) - jamming and countermeasures pod",
+      "name": "{SPS-141-100}",
+      "ws_type": "{4,15,45,665}"
+    },
+    "wmapi.internal.{U22A}": {
+      "display_name": "U22/A Jammer",
+      "name": "{U22A}",
+      "ws_type": "{4,15,45,296}"
+    },
+    "wmapi.internal.{U22}": {
+      "display_name": "U/22 Jammer pod",
+      "name": "{U22}",
+      "ws_type": "{4,15,45,295}"
+    },
+    "wmapi.internal.{UPK-23-250 MiG-21}": {
+      "display_name": "UPK-23-250 - gun pod",
+      "name": "{UPK-23-250 MiG-21}",
+      "ws_type": "{4,15,46,20}"
+    },
+    "wmapi.internal.{US_108GAL_PAPER_FUEL_TANK}": {
+      "display_name": "108 US gal. Paper Fuel Tank",
+      "name": "{US_108GAL_PAPER_FUEL_TANK}",
+      "ws_type": "{1,3,43,265}"
+    },
+    "wmapi.internal.{US_110GAL_FUEL_TANK}": {
+      "display_name": "110 US gal. Fuel Tank",
+      "name": "{US_110GAL_FUEL_TANK}",
+      "ws_type": "{1,3,43,266}"
+    },
+    "wmapi.internal.{US_150GAL_FUEL_TANK}": {
+      "display_name": "150 US gal. Fuel Tank",
+      "name": "{US_150GAL_FUEL_TANK}",
+      "ws_type": "{1,3,43,267}"
+    },
+    "wmapi.internal.{US_M10_SMOKE_TANK_BLUE}": {
+      "display_name": "M10 Smoke Tank - blue",
+      "name": "{US_M10_SMOKE_TANK_BLUE}",
+      "ws_type": "{4,15,50,272}"
+    },
+    "wmapi.internal.{US_M10_SMOKE_TANK_GREEN}": {
+      "display_name": "M10 Smoke Tank - green",
+      "name": "{US_M10_SMOKE_TANK_GREEN}",
+      "ws_type": "{4,15,50,271}"
+    },
+    "wmapi.internal.{US_M10_SMOKE_TANK_ORANGE}": {
+      "display_name": "M10 Smoke Tank - orange",
+      "name": "{US_M10_SMOKE_TANK_ORANGE}",
+      "ws_type": "{4,15,50,270}"
+    },
+    "wmapi.internal.{US_M10_SMOKE_TANK_RED}": {
+      "display_name": "M10 Smoke Tank - red",
+      "name": "{US_M10_SMOKE_TANK_RED}",
+      "ws_type": "{4,15,50,268}"
+    },
+    "wmapi.internal.{US_M10_SMOKE_TANK_WHITE}": {
+      "display_name": "M10 Smoke Tank - white",
+      "name": "{US_M10_SMOKE_TANK_WHITE}",
+      "ws_type": "{4,15,50,273}"
+    },
+    "wmapi.internal.{US_M10_SMOKE_TANK_YELLOW}": {
+      "display_name": "M10 Smoke Tank - yellow",
+      "name": "{US_M10_SMOKE_TANK_YELLOW}",
+      "ws_type": "{4,15,50,269}"
+    },
+    "wmapi.internal.{VIGGEN_X-TANK}": {
+      "display_name": "AJS External-tank 1013kg fuel",
+      "name": "{VIGGEN_X-TANK}",
+      "ws_type": "{1,3,43,294}"
+    },
+    "wmapi.internal.{WHITE-TANK}": {
+      "display_name": "White Oil Tank",
+      "name": "{WHITE-TANK}",
+      "ws_type": "{1,3,43,1551}"
+    },
+    "{0,0,0,0}": {
+      "display_name": "NO PYLON",
+      "name": "<CLEAN-200.5>",
+      "ws_type": "{0,0,0,0}"
+    },
+    "{1,3,43,1469}": {
+      "display_name": "RP35 Pylon Fuel Tank (1137 l usable) [Empty]",
+      "name": "PTB-1200-F1-EMPTY",
+      "ws_type": "{1,3,43,1469}"
+    },
+    "{1,3,43,1551}": {
+      "display_name": "White Oil Tank",
+      "name": "{WHITE-TANK}",
+      "ws_type": "{1,3,43,1551}"
+    },
+    "{1,3,43,855}": {
+      "display_name": "Fuel tank PTB-450",
+      "name": "{B99EE8A8-99BC-4a8d-89AC-A26831920DCE}",
+      "ws_type": "{1,3,43,855}"
+    },
+    "{4,15,45,94}": {
+      "display_name": "MPS-410",
+      "name": "{44EE8698-89F9-48EE-AF36-5FD31896A82D}",
+      "ws_type": "{4,15,45,94}"
+    },
+    "{4,15,46,20}": {
+      "display_name": "UPK-23-250 - gun pod",
+      "name": "{UPK-23-250 MiG-21}",
+      "ws_type": "{4,15,46,20}"
+    },
+    "{4,15,47,108}": {
+      "display_name": "AN/ASQ-T50 TCTS Pod - ACMI Pod",
+      "name": "{LAU-138 wtip - TCTS L}",
+      "ws_type": "{4,15,47,108}"
+    },
+    "{4,15,50,1550}": {
+      "display_name": "MB339 Green Smoke",
+      "name": "{SMOKE-GREEN-MB339}",
+      "ws_type": "{4,15,50,1550}"
+    },
+    "{4,15,50,427}": {
+      "display_name": "Smoke System red colorant",
+      "name": "{SMOKE-RED-AVIOJET}",
+      "ws_type": "{4,15,50,427}"
+    },
+    "{4,15,50,66}": {
+      "display_name": "Smoke Generator - red",
+      "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+      "ws_type": "{4,15,50,66}"
+    },
+    "{4,15,50,67}": {
+      "display_name": "Smoke Generator - red",
+      "name": "DIS_SMOKE_GENERATOR_R",
+      "ws_type": "{4,15,50,67}"
+    },
+    "{4,15,50,82}": {
+      "display_name": "Smoke Generator - green",
+      "name": "{INV-SMOKE-GREEN}",
+      "ws_type": "{4,15,50,82}"
+    },
+    "{4,15,50,83}": {
+      "display_name": "Smoke Generator - blue",
+      "name": "{INV-SMOKE-BLUE}",
+      "ws_type": "{4,15,50,83}"
+    },
+    "{4,15,50,84}": {
+      "display_name": "Smoke Generator - white",
+      "name": "{INV-SMOKE-WHITE}",
+      "ws_type": "{4,15,50,84}"
+    },
+    "{4,15,50,85}": {
+      "display_name": "Smoke Generator - yellow",
+      "name": "{INV-SMOKE-YELLOW}",
+      "ws_type": "{4,15,50,85}"
+    },
+    "{4,15,50,86}": {
+      "display_name": "Smoke Generator - orange",
+      "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+      "ws_type": "{4,15,50,86}"
+    },
+    "{4,15,50,87}": {
+      "display_name": "Smoke Generator - green",
+      "name": "DIS_SMOKE_GENERATOR_G",
+      "ws_type": "{4,15,50,87}"
+    },
+    "{4,15,50,88}": {
+      "display_name": "Smoke Generator - blue",
+      "name": "DIS_SMOKE_GENERATOR_B",
+      "ws_type": "{4,15,50,88}"
+    },
+    "{4,15,50,89}": {
+      "display_name": "Smokewinder - white",
+      "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+      "ws_type": "{4,15,50,89}"
+    },
+    "{4,15,50,90}": {
+      "display_name": "Smoke Generator - yellow",
+      "name": "DIS_SMOKE_GENERATOR_Y",
+      "ws_type": "{4,15,50,90}"
+    },
+    "{4,15,50,91}": {
+      "display_name": "Smokewinder - orange",
+      "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E746}",
+      "ws_type": "{4,15,50,91}"
+    },
+    "{4,4,100,143}": {
+      "display_name": "CATM-9M",
+      "name": "CATM_9M",
+      "ws_type": "{4,4,100,143}"
+    },
+    "{4,4,101,140}": {
+      "display_name": "TGM-65G - Trg Round for Mav G (IIR)",
+      "name": "TGM_65G",
+      "ws_type": "{4,4,101,140}"
+    },
+    "{4,4,101,141}": {
+      "display_name": "TGM-65D - Trg Round for Mav D (IIR)",
+      "name": "TGM_65D",
+      "ws_type": "{4,4,101,141}"
+    },
+    "{4,4,101,142}": {
+      "display_name": "CATM-65K Maverick",
+      "name": "CATM_65K",
+      "ws_type": "{4,4,101,142}"
+    },
+    "{4,4,101,154}": {
+      "display_name": "TGM-65H",
+      "name": "TGM_65H",
+      "ws_type": "{4,4,101,154}"
+    },
+    "{4,4,7,106}": {
+      "display_name": "AIM-120C",
+      "name": "AIM_120C",
+      "ws_type": "{4,4,7,106}"
+    },
+    "{4,4,7,10}": {
+      "display_name": "R-60M (AA-8 Aphid-B)",
+      "name": "P_60",
+      "ws_type": "{4,4,7,10}"
+    },
+    "{4,4,7,11037}": {
+      "display_name": "RB-24",
+      "name": "Rb 24",
+      "ws_type": "{4,4,7,11037}"
+    },
+    "{4,4,7,11038}": {
+      "display_name": "RB-24J",
+      "name": "Rb 24J",
+      "ws_type": "{4,4,7,11038}"
+    },
+    "{4,4,7,11039}": {
+      "display_name": "RB-74",
+      "name": "Rb 74",
+      "ws_type": "{4,4,7,11039}"
+    },
+    "{4,4,7,135}": {
+      "display_name": "AIM-9P",
+      "name": "AIM-9P",
+      "ws_type": "{4,4,7,135}"
+    },
+    "{4,4,7,136}": {
+      "display_name": "AIM-9X",
+      "name": "AIM_9X",
+      "ws_type": "{4,4,7,136}"
+    },
+    "{4,4,7,13}": {
+      "display_name": "R-27R (AA-10 Alamo A)",
+      "name": "P_27P",
+      "ws_type": "{4,4,7,13}"
+    },
+    "{4,4,7,14}": {
+      "display_name": "R-27ER (AA-10 Alamo C)",
+      "name": "P_27PE",
+      "ws_type": "{4,4,7,14}"
+    },
+    "{4,4,7,15}": {
+      "display_name": "R-27T (AA-10 Alamo B)",
+      "name": "P_27T",
+      "ws_type": "{4,4,7,15}"
+    },
+    "{4,4,7,16}": {
+      "display_name": "R-27ET (AA-10 Alamo D)",
+      "name": "P_27TE",
+      "ws_type": "{4,4,7,16}"
+    },
+    "{4,4,7,18}": {
+      "display_name": "R-73 (AA-11 Archer)",
+      "name": "P_73",
+      "ws_type": "{4,4,7,18}"
+    },
+    "{4,4,7,19}": {
+      "display_name": "R-77 (AA-12 Adder)",
+      "name": "P_77",
+      "ws_type": "{4,4,7,19}"
+    },
+    "{4,4,7,1}": {
+      "display_name": "R550 Magic 2",
+      "name": "R_550",
+      "ws_type": "{4,4,7,1}"
+    },
+    "{4,4,7,21}": {
+      "display_name": "AIM-7M",
+      "name": "AIM_7",
+      "ws_type": "{4,4,7,21}"
+    },
+    "{4,4,7,22}": {
+      "display_name": "AIM-9M",
+      "name": "AIM_9",
+      "ws_type": "{4,4,7,22}"
+    },
+    "{4,4,7,24}": {
+      "display_name": "AIM-120B",
+      "name": "AIM_120",
+      "ws_type": "{4,4,7,24}"
+    },
+    "{4,4,7,265}": {
+      "display_name": "AIM-9B",
+      "name": "GAR-8",
+      "ws_type": "{4,4,7,265}"
+    },
+    "{4,4,7,266}": {
+      "display_name": "AIM-9P5",
+      "name": "AIM-9P5",
+      "ws_type": "{4,4,7,266}"
+    },
+    "{4,4,7,267}": {
+      "display_name": "AIM-9L",
+      "name": "AIM-9L",
+      "ws_type": "{4,4,7,267}"
+    },
+    "{4,4,7,269}": {
+      "display_name": "AIM-7F",
+      "name": "AIM-7F",
+      "ws_type": "{4,4,7,269}"
+    },
+    "{4,4,7,270}": {
+      "display_name": "AIM-7MH",
+      "name": "AIM-7MH",
+      "ws_type": "{4,4,7,270}"
+    },
+    "{4,4,7,306}": {
+      "display_name": "PL-5EII",
+      "name": "PL-5EII",
+      "ws_type": "{4,4,7,306}"
+    },
+    "{4,4,7,307}": {
+      "display_name": "SD-10",
+      "name": "SD-10",
+      "ws_type": "{4,4,7,307}"
+    },
+    "{4,4,7,320}": {
+      "display_name": "AIM-54A-Mk47",
+      "name": "AIM_54A_Mk47",
+      "ws_type": "{4,4,7,320}"
+    },
+    "{4,4,7,321}": {
+      "display_name": "AIM-54A-Mk60",
+      "name": "AIM_54A_Mk60",
+      "ws_type": "{4,4,7,321}"
+    },
+    "{4,4,7,322}": {
+      "display_name": "AIM-54C-Mk47",
+      "name": "AIM_54C_Mk47",
+      "ws_type": "{4,4,7,322}"
+    },
+    "{4,4,7,327}": {
+      "display_name": "Matra Magic II",
+      "name": "MMagicII",
+      "ws_type": "{4,4,7,327}"
+    },
+    "{4,4,7,333}": {
+      "display_name": "R-13M - AAM, IR guided",
+      "name": "R-13M",
+      "ws_type": "{4,4,7,333}"
+    },
+    "{4,4,7,334}": {
+      "display_name": "R-13M1 - AAM, IR guided",
+      "name": "R-13M1",
+      "ws_type": "{4,4,7,334}"
+    },
+    "{4,4,7,335}": {
+      "display_name": "R-3S - AAM, IR guided",
+      "name": "R-3S",
+      "ws_type": "{4,4,7,335}"
+    },
+    "{4,4,7,336}": {
+      "display_name": "R-3R - AAM, radar guided",
+      "name": "R-3R",
+      "ws_type": "{4,4,7,336}"
+    },
+    "{4,4,7,337}": {
+      "display_name": "RS2US - AAM, beam-rider",
+      "name": "RS2US",
+      "ws_type": "{4,4,7,337}"
+    },
+    "{4,4,7,338}": {
+      "display_name": "R-55 - AAM, IR guided",
+      "name": "R-55",
+      "ws_type": "{4,4,7,338}"
+    },
+    "{4,4,7,339}": {
+      "display_name": "R-60 - AAM, IR guided",
+      "name": "R-60",
+      "ws_type": "{4,4,7,339}"
+    },
+    "{4,4,7,346}": {
+      "display_name": "MBDA Mistral",
+      "name": "MBDA_Mistral",
+      "ws_type": "{4,4,7,346}"
+    },
+    "{4,4,7,352}": {
+      "display_name": "9M220O Ataka (AT-9 Spiral-2)",
+      "name": "Ataka_9M220",
+      "ws_type": "{4,4,7,352}"
+    },
+    "{4,4,7,368}": {
+      "display_name": "Super 530D",
+      "name": "Matra Super 530D",
+      "ws_type": "{4,4,7,368}"
+    },
+    "{4,4,7,371}": {
+      "display_name": "AIM-9J",
+      "name": "AIM-9J",
+      "ws_type": "{4,4,7,371}"
+    },
+    "{4,4,7,372}": {
+      "display_name": "AIM-9JULI",
+      "name": "AIM-9JULI",
+      "ws_type": "{4,4,7,372}"
+    },
+    "{4,4,7,395}": {
+      "display_name": "R530F EM",
+      "name": "R_530F_EM",
+      "ws_type": "{4,4,7,395}"
+    },
+    "{4,4,7,396}": {
+      "display_name": "R530F IR",
+      "name": "R_530F_IR",
+      "ws_type": "{4,4,7,396}"
+    },
+    "{4,4,7,397}": {
+      "display_name": "AIM-7P",
+      "name": "AIM-7P",
+      "ws_type": "{4,4,7,397}"
+    },
+    "{4,4,7,403}": {
+      "display_name": "R550 Magic 1",
+      "name": "R_550_M1",
+      "ws_type": "{4,4,7,403}"
+    },
+    "{4,4,7,405}": {
+      "display_name": "AIM-54C-Mk60",
+      "name": "AIM_54C_Mk60",
+      "ws_type": "{4,4,7,405}"
+    },
+    "{4,4,7,409}": {
+      "display_name": "S530F",
+      "name": "Super_530F",
+      "ws_type": "{4,4,7,409}"
+    },
+    "{4,4,7,410}": {
+      "display_name": "AIM-7E-2",
+      "name": "AIM-7E-2",
+      "ws_type": "{4,4,7,410}"
+    },
+    "{4,4,8,11031}": {
+      "display_name": "BK90 MJ1-MJ2",
+      "name": "BK90_MJ1_MJ2",
+      "ws_type": "{4,4,8,11031}"
+    },
+    "{4,4,8,11035}": {
+      "display_name": "RB-05A",
+      "name": "Rb 05A",
+      "ws_type": "{4,4,8,11035}"
+    },
+    "{4,4,8,11040}": {
+      "display_name": "RB-04E",
+      "name": "Rb 04E",
+      "ws_type": "{4,4,8,11040}"
+    },
+    "{4,4,8,11041}": {
+      "display_name": "RB-15F",
+      "name": "Rb 15F",
+      "ws_type": "{4,4,8,11041}"
+    },
+    "{4,4,8,11050}": {
+      "display_name": "RB-75A",
+      "name": "RB75",
+      "ws_type": "{4,4,8,11050}"
+    },
+    "{4,4,8,11051}": {
+      "display_name": "RB-75T",
+      "name": "RB75T",
+      "ws_type": "{4,4,8,11051}"
+    },
+    "{4,4,8,11052}": {
+      "display_name": "RB-75B",
+      "name": "RB75B",
+      "ws_type": "{4,4,8,11052}"
+    },
+    "{4,4,8,11053}": {
+      "display_name": "BK90 MJ1",
+      "name": "BK90_MJ1",
+      "ws_type": "{4,4,8,11053}"
+    },
+    "{4,4,8,11054}": {
+      "display_name": "BK90 MJ2",
+      "name": "BK90_MJ2",
+      "ws_type": "{4,4,8,11054}"
+    },
+    "{4,4,8,132}": {
+      "display_name": "AGM-154C",
+      "name": "AGM_154",
+      "ws_type": "{4,4,8,132}"
+    },
+    "{4,4,8,133}": {
+      "display_name": "S-25L",
+      "name": "S_25L",
+      "ws_type": "{4,4,8,133}"
+    },
+    "{4,4,8,138}": {
+      "display_name": "AGM-65H",
+      "name": "AGM_65H",
+      "ws_type": "{4,4,8,138}"
+    },
+    "{4,4,8,139}": {
+      "display_name": "AGM-65G",
+      "name": "AGM_65G",
+      "ws_type": "{4,4,8,139}"
+    },
+    "{4,4,8,263}": {
+      "display_name": "RB-15F (for A.I.)",
+      "name": "Rb 15F (for A.I.)",
+      "ws_type": "{4,4,8,263}"
+    },
+    "{4,4,8,264}": {
+      "display_name": "RB-04E (for A.I.)",
+      "name": "Rb 04E (for A.I.)",
+      "ws_type": "{4,4,8,264}"
+    },
+    "{4,4,8,271}": {
+      "display_name": "AGM-65F",
+      "name": "AGM_65F",
+      "ws_type": "{4,4,8,271}"
+    },
+    "{4,4,8,272}": {
+      "display_name": "AGM-65L",
+      "name": "AGM_65L",
+      "ws_type": "{4,4,8,272}"
+    },
+    "{4,4,8,278}": {
+      "display_name": "AGM-84D",
+      "name": "AGM_84D",
+      "ws_type": "{4,4,8,278}"
+    },
+    "{4,4,8,279}": {
+      "display_name": "AGM-84H",
+      "name": "AGM_84H",
+      "ws_type": "{4,4,8,279}"
+    },
+    "{4,4,8,280}": {
+      "display_name": "AGM-154A",
+      "name": "AGM_154A",
+      "ws_type": "{4,4,8,280}"
+    },
+    "{4,4,8,287}": {
+      "display_name": "Kh-25MP (AS-12 Kegler)",
+      "name": "Kh25MP_PRGS1VP",
+      "ws_type": "{4,4,8,287}"
+    },
+    "{4,4,8,289}": {
+      "display_name": "ADM-141A",
+      "name": "ADM_141A",
+      "ws_type": "{4,4,8,289}"
+    },
+    "{4,4,8,292}": {
+      "display_name": "HYDRA-70 HE APKWS",
+      "name": "AGR_20A",
+      "ws_type": "{4,4,8,292}"
+    },
+    "{4,4,8,293}": {
+      "display_name": "HYDRA-70 MPP APKWS",
+      "name": "AGR_20_M282",
+      "ws_type": "{4,4,8,293}"
+    },
+    "{4,4,8,294}": {
+      "display_name": "LS-6-500",
+      "name": "LS-6-500",
+      "ws_type": "{4,4,8,294}"
+    },
+    "{4,4,8,295}": {
+      "display_name": "GB-6",
+      "name": "GB-6",
+      "ws_type": "{4,4,8,295}"
+    },
+    "{4,4,8,296}": {
+      "display_name": "GB-6-SFW",
+      "name": "GB-6-SFW",
+      "ws_type": "{4,4,8,296}"
+    },
+    "{4,4,8,297}": {
+      "display_name": "GB-6-HE",
+      "name": "GB-6-HE",
+      "ws_type": "{4,4,8,297}"
+    },
+    "{4,4,8,298}": {
+      "display_name": "BRM-1_90MM",
+      "name": "BRM-1_90MM",
+      "ws_type": "{4,4,8,298}"
+    },
+    "{4,4,8,300}": {
+      "display_name": "C-701T",
+      "name": "C-701T",
+      "ws_type": "{4,4,8,300}"
+    },
+    "{4,4,8,301}": {
+      "display_name": "C-701IR",
+      "name": "C-701IR",
+      "ws_type": "{4,4,8,301}"
+    },
+    "{4,4,8,302}": {
+      "display_name": "C802AK (DIS)",
+      "name": "C-802AK",
+      "ws_type": "{4,4,8,302}"
+    },
+    "{4,4,8,304}": {
+      "display_name": "CM802AKG (DIS)",
+      "name": "CM-802AKG",
+      "ws_type": "{4,4,8,304}"
+    },
+    "{4,4,8,305}": {
+      "display_name": "LD-10",
+      "name": "LD-10",
+      "ws_type": "{4,4,8,305}"
+    },
+    "{4,4,8,332}": {
+      "display_name": "Kh-66 Grom (21) - AGM, radar guided",
+      "name": "Kh-66_Grom",
+      "ws_type": "{4,4,8,332}"
+    },
+    "{4,4,8,345}": {
+      "display_name": "HOT3",
+      "name": "HOT3",
+      "ws_type": "{4,4,8,345}"
+    },
+    "{4,4,8,353}": {
+      "display_name": "9M120 Ataka (AT-9 Spiral-2)",
+      "name": "Ataka_9M120",
+      "ws_type": "{4,4,8,353}"
+    },
+    "{4,4,8,354}": {
+      "display_name": "9M120F Ataka (AT-9 Spiral-2)",
+      "name": "Ataka_9M120F",
+      "ws_type": "{4,4,8,354}"
+    },
+    "{4,4,8,399}": {
+      "display_name": "CM802AKG (DIS) for AI",
+      "name": "CM-802AKG_AI",
+      "ws_type": "{4,4,8,399}"
+    },
+    "{4,4,8,39}": {
+      "display_name": "AGM-114K",
+      "name": "AGM_114K",
+      "ws_type": "{4,4,8,39}"
+    },
+    "{4,4,8,404}": {
+      "display_name": "LS-6-250",
+      "name": "LS-6-250",
+      "ws_type": "{4,4,8,404}"
+    },
+    "{4,4,8,45}": {
+      "display_name": "Kh-25ML",
+      "name": "X_25ML",
+      "ws_type": "{4,4,8,45}"
+    },
+    "{4,4,8,46}": {
+      "display_name": "Kh-58U",
+      "name": "X_58",
+      "ws_type": "{4,4,8,46}"
+    },
+    "{4,4,8,47}": {
+      "display_name": "Kh-25MP",
+      "name": "X_25MP",
+      "ws_type": "{4,4,8,47}"
+    },
+    "{4,4,8,48}": {
+      "display_name": "9M114 Shturm-V (AT-6 Spiral)",
+      "name": "AT_6",
+      "ws_type": "{4,4,8,48}"
+    },
+    "{4,4,8,49}": {
+      "display_name": "Kh-29L",
+      "name": "X_29L",
+      "ws_type": "{4,4,8,49}"
+    },
+    "{4,4,8,58}": {
+      "display_name": "9M127-1 Vikhr-M",
+      "name": "Vikhr_M",
+      "ws_type": "{4,4,8,58}"
+    },
+    "{4,4,8,59}": {
+      "display_name": "AGM-114L",
+      "name": "AGM_114",
+      "ws_type": "{4,4,8,59}"
+    },
+    "{4,4,8,61}": {
+      "display_name": "AGM-65K",
+      "name": "AGM_65K",
+      "ws_type": "{4,4,8,61}"
+    },
+    "{4,4,8,63}": {
+      "display_name": "AGM-84E",
+      "name": "AGM_84E",
+      "ws_type": "{4,4,8,63}"
+    },
+    "{4,4,8,65}": {
+      "display_name": "AGM-88C",
+      "name": "AGM_88",
+      "ws_type": "{4,4,8,65}"
+    },
+    "{4,4,8,66}": {
+      "display_name": "Sea Eagle",
+      "name": "Sea_Eagle",
+      "ws_type": "{4,4,8,66}"
+    },
+    "{4,4,8,68}": {
+      "display_name": "AGM-122",
+      "name": "AGM_122",
+      "ws_type": "{4,4,8,68}"
+    },
+    "{4,4,8,70}": {
+      "display_name": "AGM-65E",
+      "name": "AGM_65E",
+      "ws_type": "{4,4,8,70}"
+    },
+    "{4,4,8,75}": {
+      "display_name": "Kh-29T",
+      "name": "X_29T",
+      "ws_type": "{4,4,8,75}"
+    },
+    "{4,4,8,77}": {
+      "display_name": "AGM-65D",
+      "name": "AGM_65D",
+      "ws_type": "{4,4,8,77}"
+    },
+    "{4,5,36,12}": {
+      "display_name": "KAB-500Kr",
+      "name": "KAB_500Kr",
+      "ws_type": "{4,5,36,12}"
+    },
+    "{4,5,36,290}": {
+      "display_name": "GBU-31(V)2/B",
+      "name": "GBU_31_V_2B",
+      "ws_type": "{4,5,36,290}"
+    },
+    "{4,5,36,291}": {
+      "display_name": "GBU-31(V)4/B",
+      "name": "GBU_31_V_4B",
+      "ws_type": "{4,5,36,291}"
+    },
+    "{4,5,36,292}": {
+      "display_name": "GBU-32(V)2/B",
+      "name": "GBU_32_V_2B",
+      "ws_type": "{4,5,36,292}"
+    },
+    "{4,5,36,293}": {
+      "display_name": "GBU-54B",
+      "name": "GBU_54_V_1B",
+      "ws_type": "{4,5,36,293}"
+    },
+    "{4,5,36,351}": {
+      "display_name": "BDU-45LGB",
+      "name": "BDU_45LGB",
+      "ws_type": "{4,5,36,351}"
+    },
+    "{4,5,36,36}": {
+      "display_name": "GBU-10",
+      "name": "GBU_10",
+      "ws_type": "{4,5,36,36}"
+    },
+    "{4,5,36,38}": {
+      "display_name": "GBU-12",
+      "name": "GBU_12",
+      "ws_type": "{4,5,36,38}"
+    },
+    "{4,5,36,39}": {
+      "display_name": "GBU-16",
+      "name": "GBU_16",
+      "ws_type": "{4,5,36,39}"
+    },
+    "{4,5,36,402}": {
+      "display_name": "LS-6-100",
+      "name": "LS-6-100",
+      "ws_type": "{4,5,36,402}"
+    },
+    "{4,5,36,41}": {
+      "display_name": "GBU-24A/B Paveway III",
+      "name": "GBU_24",
+      "ws_type": "{4,5,36,41}"
+    },
+    "{4,5,36,47}": {
+      "display_name": "AGM-62 Walleye II",
+      "name": "AGM_62",
+      "ws_type": "{4,5,36,47}"
+    },
+    "{4,5,36,72}": {
+      "display_name": "BDU-50LGB",
+      "name": "BDU_50LGB",
+      "ws_type": "{4,5,36,72}"
+    },
+    "{4,5,36,85}": {
+      "display_name": "GBU-31(V)1/B",
+      "name": "GBU_31",
+      "ws_type": "{4,5,36,85}"
+    },
+    "{4,5,36,86}": {
+      "display_name": "GBU-38",
+      "name": "GBU_38",
+      "ws_type": "{4,5,36,86}"
+    },
+    "{4,5,36,92}": {
+      "display_name": "GBU-31(V)3/B",
+      "name": "GBU_31_V_3B",
+      "ws_type": "{4,5,36,92}"
+    },
+    "{4,5,37,320}": {
+      "display_name": "TYPE-200A",
+      "name": "TYPE-200A",
+      "ws_type": "{4,5,37,320}"
+    },
+    "{4,5,37,347}": {
+      "display_name": "BAP-100",
+      "name": "BAP_100",
+      "ws_type": "{4,5,37,347}"
+    },
+    "{4,5,37,384}": {
+      "display_name": "BAP-100",
+      "name": "BAP-100",
+      "ws_type": "{4,5,37,384}"
+    },
+    "{4,5,37,3}": {
+      "display_name": "BetAB-500",
+      "name": "BetAB_500",
+      "ws_type": "{4,5,37,3}"
+    },
+    "{4,5,37,4}": {
+      "display_name": "BetAB-500ShP",
+      "name": "BetAB_500ShP",
+      "ws_type": "{4,5,37,4}"
+    },
+    "{4,5,37,62}": {
+      "display_name": "BLU-107/B Durandal",
+      "name": "Durandal",
+      "ws_type": "{4,5,37,62}"
+    },
+    "{4,5,38,18}": {
+      "display_name": "RBK-250 PTAB-2.5M",
+      "name": "RBK_250",
+      "ws_type": "{4,5,38,18}"
+    },
+    "{4,5,38,20}": {
+      "display_name": "RBK-500-255 PTAB-10-5",
+      "name": "RBK_500AO",
+      "ws_type": "{4,5,38,20}"
+    },
+    "{4,5,38,23}": {
+      "display_name": "BL755",
+      "name": "BL_755",
+      "ws_type": "{4,5,38,23}"
+    },
+    "{4,5,38,263}": {
+      "display_name": "AB 250-2 SD-2",
+      "name": "AB_250_2_SD_2",
+      "ws_type": "{4,5,38,263}"
+    },
+    "{4,5,38,265}": {
+      "display_name": "AB 250-2 SD-10A",
+      "name": "AB_250_2_SD_10A",
+      "ws_type": "{4,5,38,265}"
+    },
+    "{4,5,38,267}": {
+      "display_name": "AB 500-1 SD-10A",
+      "name": "AB_500_1_SD_10A",
+      "ws_type": "{4,5,38,267}"
+    },
+    "{4,5,38,299}": {
+      "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+      "name": "RBK_250_275_AO_1SCH",
+      "ws_type": "{4,5,38,299}"
+    },
+    "{4,5,38,301}": {
+      "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+      "name": "RBK_500U_OAB_2_5RT",
+      "ws_type": "{4,5,38,301}"
+    },
+    "{4,5,38,302}": {
+      "display_name": "CBU-99 - 490lbs, 247 x HEAT Bomblets",
+      "name": "CBU_99",
+      "ws_type": "{4,5,38,302}"
+    },
+    "{4,5,38,319}": {
+      "display_name": "Belouga",
+      "name": "BELOUGA",
+      "ws_type": "{4,5,38,319}"
+    },
+    "{4,5,38,324}": {
+      "display_name": "BLG-66 Belouga",
+      "name": "BLG66_BELOUGA",
+      "ws_type": "{4,5,38,324}"
+    },
+    "{4,5,38,35}": {
+      "display_name": "CBU-97",
+      "name": "CBU_97",
+      "ws_type": "{4,5,38,35}"
+    },
+    "{4,5,38,361}": {
+      "display_name": "BKF - 12 x AO-2.5RT",
+      "name": "BKF_AO2_5RT",
+      "ws_type": "{4,5,38,361}"
+    },
+    "{4,5,38,362}": {
+      "display_name": "BKF - 12 x PTAB-2.5KO",
+      "name": "BKF_PTAB2_5KO",
+      "ws_type": "{4,5,38,362}"
+    },
+    "{4,5,38,45}": {
+      "display_name": "Mk-20 Rockeye",
+      "name": "ROCKEYE",
+      "ws_type": "{4,5,38,45}"
+    },
+    "{4,5,38,77}": {
+      "display_name": "CBU-87",
+      "name": "CBU_87",
+      "ws_type": "{4,5,38,77}"
+    },
+    "{4,5,38,87}": {
+      "display_name": "CBU-105",
+      "name": "CBU_105",
+      "ws_type": "{4,5,38,87}"
+    },
+    "{4,5,38,88}": {
+      "display_name": "CBU-103",
+      "name": "CBU_103",
+      "ws_type": "{4,5,38,88}"
+    },
+    "{4,5,38,91}": {
+      "display_name": "RBK-500 PTAB-1M",
+      "name": "RBK_500U",
+      "ws_type": "{4,5,38,91}"
+    },
+    "{4,5,38,93}": {
+      "display_name": "CBU-52B",
+      "name": "CBU_52B",
+      "ws_type": "{4,5,38,93}"
+    },
+    "{4,5,49,11030}": {
+      "display_name": "LYSBOMB Illumination bomb",
+      "name": "LYSBOMB",
+      "ws_type": "{4,5,49,11030}"
+    },
+    "{4,5,49,427}": {
+      "display_name": "SAB-250-200",
+      "name": "SAB_250_200",
+      "ws_type": "{4,5,49,427}"
+    },
+    "{4,5,49,63}": {
+      "display_name": "SAB-100MN",
+      "name": "SAB_100MN",
+      "ws_type": "{4,5,49,63}"
+    },
+    "{4,5,49,64}": {
+      "display_name": "LUU-2B Flare",
+      "name": "LUU_2B",
+      "ws_type": "{4,5,49,64}"
+    },
+    "{4,5,9,11033}": {
+      "display_name": "M/71 HE-Bomb",
+      "name": "HEBOMB",
+      "ws_type": "{4,5,9,11033}"
+    },
+    "{4,5,9,11034}": {
+      "display_name": "M/71 HE-Bomb w chute",
+      "name": "HEBOMBD",
+      "ws_type": "{4,5,9,11034}"
+    },
+    "{4,5,9,255}": {
+      "display_name": "SC 50",
+      "name": "SC_50",
+      "ws_type": "{4,5,9,255}"
+    },
+    "{4,5,9,256}": {
+      "display_name": "SC 250 Type 1 L2",
+      "name": "SC_250_T1_L2",
+      "ws_type": "{4,5,9,256}"
+    },
+    "{4,5,9,257}": {
+      "display_name": "SC 250 Type 3 J",
+      "name": "SC_250_T3_J",
+      "ws_type": "{4,5,9,257}"
+    },
+    "{4,5,9,258}": {
+      "display_name": "SC 500 J",
+      "name": "SC_500_J",
+      "ws_type": "{4,5,9,258}"
+    },
+    "{4,5,9,259}": {
+      "display_name": "SC 500 L2",
+      "name": "SC_500_L2",
+      "ws_type": "{4,5,9,259}"
+    },
+    "{4,5,9,260}": {
+      "display_name": "SD 250 Stg",
+      "name": "SD_250_Stg",
+      "ws_type": "{4,5,9,260}"
+    },
+    "{4,5,9,261}": {
+      "display_name": "SD 500 A",
+      "name": "SD_500_A",
+      "ws_type": "{4,5,9,261}"
+    },
+    "{4,5,9,268}": {
+      "display_name": "250 lb GP Mk.I",
+      "name": "British_GP_250LB_Bomb_Mk1",
+      "ws_type": "{4,5,9,268}"
+    },
+    "{4,5,9,269}": {
+      "display_name": "250 lb GP Mk.IV",
+      "name": "British_GP_250LB_Bomb_Mk4",
+      "ws_type": "{4,5,9,269}"
+    },
+    "{4,5,9,270}": {
+      "display_name": "250 lb GP Mk.V",
+      "name": "British_GP_250LB_Bomb_Mk5",
+      "ws_type": "{4,5,9,270}"
+    },
+    "{4,5,9,271}": {
+      "display_name": "500 lb GP Mk.I",
+      "name": "British_GP_500LB_Bomb_Mk1",
+      "ws_type": "{4,5,9,271}"
+    },
+    "{4,5,9,272}": {
+      "display_name": "500 lb GP Mk.IV",
+      "name": "British_GP_500LB_Bomb_Mk4",
+      "ws_type": "{4,5,9,272}"
+    },
+    "{4,5,9,273}": {
+      "display_name": "500 lb GP Short tail",
+      "name": "British_GP_500LB_Bomb_Mk4_Short",
+      "ws_type": "{4,5,9,273}"
+    },
+    "{4,5,9,274}": {
+      "display_name": "500 lb GP Mk.V",
+      "name": "British_GP_500LB_Bomb_Mk5",
+      "ws_type": "{4,5,9,274}"
+    },
+    "{4,5,9,275}": {
+      "display_name": "250 lb MC Mk.I",
+      "name": "British_MC_250LB_Bomb_Mk1",
+      "ws_type": "{4,5,9,275}"
+    },
+    "{4,5,9,276}": {
+      "display_name": "250 lb MC Mk.II",
+      "name": "British_MC_250LB_Bomb_Mk2",
+      "ws_type": "{4,5,9,276}"
+    },
+    "{4,5,9,277}": {
+      "display_name": "500 lb MC Short tail",
+      "name": "British_MC_500LB_Bomb_Mk1_Short",
+      "ws_type": "{4,5,9,277}"
+    },
+    "{4,5,9,278}": {
+      "display_name": "500 lb MC Mk.II",
+      "name": "British_MC_500LB_Bomb_Mk2",
+      "ws_type": "{4,5,9,278}"
+    },
+    "{4,5,9,279}": {
+      "display_name": "250 lb S.A.P.",
+      "name": "British_SAP_250LB_Bomb_Mk5",
+      "ws_type": "{4,5,9,279}"
+    },
+    "{4,5,9,280}": {
+      "display_name": "500 lb S.A.P.",
+      "name": "British_SAP_500LB_Bomb_Mk5",
+      "ws_type": "{4,5,9,280}"
+    },
+    "{4,5,9,281}": {
+      "display_name": "AN-M30A1",
+      "name": "AN_M30A1",
+      "ws_type": "{4,5,9,281}"
+    },
+    "{4,5,9,282}": {
+      "display_name": "AN-M57",
+      "name": "AN_M57",
+      "ws_type": "{4,5,9,282}"
+    },
+    "{4,5,9,283}": {
+      "display_name": "AN-M65",
+      "name": "AN_M65",
+      "ws_type": "{4,5,9,283}"
+    },
+    "{4,5,9,285}": {
+      "display_name": "\"Beer Bomb\"",
+      "name": "BEER_BOMB",
+      "ws_type": "{4,5,9,285}"
+    },
+    "{4,5,9,30}": {
+      "display_name": "Mk-81",
+      "name": "Mk_81",
+      "ws_type": "{4,5,9,30}"
+    },
+    "{4,5,9,312}": {
+      "display_name": "Mk-82Y - 500lb GP Chute Retarded HD",
+      "name": "Mk_82Y",
+      "ws_type": "{4,5,9,312}"
+    },
+    "{4,5,9,314}": {
+      "display_name": "BDU-45",
+      "name": "BDU_45",
+      "ws_type": "{4,5,9,314}"
+    },
+    "{4,5,9,315}": {
+      "display_name": "BDU-45B",
+      "name": "BDU_45B",
+      "ws_type": "{4,5,9,315}"
+    },
+    "{4,5,9,316}": {
+      "display_name": "BIN-200 - 200kg Napalm Incendiary Bomb",
+      "name": "BIN_200",
+      "ws_type": "{4,5,9,316}"
+    },
+    "{4,5,9,317}": {
+      "display_name": "BR-250 - 250kg GP Bomb LD",
+      "name": "BR_250",
+      "ws_type": "{4,5,9,317}"
+    },
+    "{4,5,9,318}": {
+      "display_name": "BR-500 - 500kg GP Bomb LD",
+      "name": "BR_500",
+      "ws_type": "{4,5,9,318}"
+    },
+    "{4,5,9,31}": {
+      "display_name": "Mk-82",
+      "name": "Mk_82",
+      "ws_type": "{4,5,9,31}"
+    },
+    "{4,5,9,321}": {
+      "display_name": "FAB-100SV",
+      "name": "FAB_100SV",
+      "ws_type": "{4,5,9,321}"
+    },
+    "{4,5,9,322}": {
+      "display_name": "P-50T - 50kg Practice Bomb LD",
+      "name": "P-50T",
+      "ws_type": "{4,5,9,322}"
+    },
+    "{4,5,9,323}": {
+      "display_name": "OFAB-100 Jupiter - 100kg GP Bomb HD",
+      "name": "OFAB-100 Jupiter",
+      "ws_type": "{4,5,9,323}"
+    },
+    "{4,5,9,325}": {
+      "display_name": "FAB-50 - 50kg GP Bomb LD",
+      "name": "FAB_50",
+      "ws_type": "{4,5,9,325}"
+    },
+    "{4,5,9,326}": {
+      "display_name": "FAB-100M - 100kg GP Bomb LD",
+      "name": "FAB_100M",
+      "ws_type": "{4,5,9,326}"
+    },
+    "{4,5,9,328}": {
+      "display_name": "RN-24 - 470kg, nuclear bomb, free fall",
+      "name": "RN-24",
+      "ws_type": "{4,5,9,328}"
+    },
+    "{4,5,9,329}": {
+      "display_name": "RN-28 - 260 kg, nuclear bomb, free fall",
+      "name": "RN-28",
+      "ws_type": "{4,5,9,329}"
+    },
+    "{4,5,9,32}": {
+      "display_name": "Mk-83",
+      "name": "Mk_83",
+      "ws_type": "{4,5,9,32}"
+    },
+    "{4,5,9,337}": {
+      "display_name": "FAB-250 M54 TU - 235 kg, bomb, parachute",
+      "name": "FAB-250M54TU",
+      "ws_type": "{4,5,9,337}"
+    },
+    "{4,5,9,33}": {
+      "display_name": "Mk-84",
+      "name": "Mk_84",
+      "ws_type": "{4,5,9,33}"
+    },
+    "{4,5,9,34}": {
+      "display_name": "M117",
+      "name": "M_117",
+      "ws_type": "{4,5,9,34}"
+    },
+    "{4,5,9,374}": {
+      "display_name": "FAB-250-M62",
+      "name": "FAB-250-M62",
+      "ws_type": "{4,5,9,374}"
+    },
+    "{4,5,9,385}": {
+      "display_name": "BAT-120 ABL",
+      "name": "BAT-120",
+      "ws_type": "{4,5,9,385}"
+    },
+    "{4,5,9,386}": {
+      "display_name": "Mk 76",
+      "name": "MK76",
+      "ws_type": "{4,5,9,386}"
+    },
+    "{4,5,9,387}": {
+      "display_name": "Mk 106",
+      "name": "MK106",
+      "ws_type": "{4,5,9,387}"
+    },
+    "{4,5,9,388}": {
+      "display_name": "SAMP-125 LD",
+      "name": "SAMP125LD",
+      "ws_type": "{4,5,9,388}"
+    },
+    "{4,5,9,389}": {
+      "display_name": "SAMP-250 LD",
+      "name": "SAMP250LD",
+      "ws_type": "{4,5,9,389}"
+    },
+    "{4,5,9,390}": {
+      "display_name": "SAMP-250 HD",
+      "name": "SAMP250HD",
+      "ws_type": "{4,5,9,390}"
+    },
+    "{4,5,9,391}": {
+      "display_name": "SAMP-400 LD",
+      "name": "SAMP400LD",
+      "ws_type": "{4,5,9,391}"
+    },
+    "{4,5,9,392}": {
+      "display_name": "SAMP-400 HD",
+      "name": "SAMP400HD",
+      "ws_type": "{4,5,9,392}"
+    },
+    "{4,5,9,412}": {
+      "display_name": "Mk-84 AIR GP HD",
+      "name": "Mk_84AIR_GP",
+      "ws_type": "{4,5,9,412}"
+    },
+    "{4,5,9,413}": {
+      "display_name": "Mk-84 AIR TP HD",
+      "name": "Mk_84AIR_TP",
+      "ws_type": "{4,5,9,413}"
+    },
+    "{4,5,9,5}": {
+      "display_name": "FAB-100",
+      "name": "FAB_100",
+      "ws_type": "{4,5,9,5}"
+    },
+    "{4,5,9,69}": {
+      "display_name": "BDU-33",
+      "name": "BDU_33",
+      "ws_type": "{4,5,9,69}"
+    },
+    "{4,5,9,6}": {
+      "display_name": "FAB-250",
+      "name": "FAB_250",
+      "ws_type": "{4,5,9,6}"
+    },
+    "{4,5,9,70}": {
+      "display_name": "BDU-50LD",
+      "name": "BDU_50LD",
+      "ws_type": "{4,5,9,70}"
+    },
+    "{4,5,9,71}": {
+      "display_name": "BDU-50HD",
+      "name": "BDU_50HD",
+      "ws_type": "{4,5,9,71}"
+    },
+    "{4,5,9,75}": {
+      "display_name": "Mk-82AIR",
+      "name": "MK_82AIR",
+      "ws_type": "{4,5,9,75}"
+    },
+    "{4,5,9,79}": {
+      "display_name": "Mk-82 Snakeye",
+      "name": "MK_82SNAKEYE",
+      "ws_type": "{4,5,9,79}"
+    },
+    "{4,5,9,7}": {
+      "display_name": "FAB-500 M-62",
+      "name": "FAB_500",
+      "ws_type": "{4,5,9,7}"
+    },
+    "{4,5,9,90}": {
+      "display_name": "AN-M64",
+      "name": "AN_M64",
+      "ws_type": "{4,5,9,90}"
+    },
+    "{4,7,33,11044}": {
+      "display_name": "ARAKM70BHE",
+      "name": "ARAKM70BHE",
+      "ws_type": "{4,7,33,11044}"
+    },
+    "{4,7,33,11049}": {
+      "display_name": "ARAKM70BAP",
+      "name": "ARAKM70BAP",
+      "ws_type": "{4,7,33,11049}"
+    },
+    "{4,7,33,144}": {
+      "display_name": "HYDRA-70 MK1",
+      "name": "HYDRA_70_MK1",
+      "ws_type": "{4,7,33,144}"
+    },
+    "{4,7,33,145}": {
+      "display_name": "HYDRA-70 MK5",
+      "name": "HYDRA_70_MK5",
+      "ws_type": "{4,7,33,145}"
+    },
+    "{4,7,33,146}": {
+      "display_name": "HYDRA-70 MK61",
+      "name": "HYDRA_70_MK61",
+      "ws_type": "{4,7,33,146}"
+    },
+    "{4,7,33,147}": {
+      "display_name": "Hydra 70 M151 HE",
+      "name": "HYDRA_70_M151",
+      "ws_type": "{4,7,33,147}"
+    },
+    "{4,7,33,148}": {
+      "display_name": "Hydra 70 M156 SM",
+      "name": "HYDRA_70_M156",
+      "ws_type": "{4,7,33,148}"
+    },
+    "{4,7,33,149}": {
+      "display_name": "HYDRA-70 WTU-1/B",
+      "name": "HYDRA_70_WTU1B",
+      "ws_type": "{4,7,33,149}"
+    },
+    "{4,7,33,150}": {
+      "display_name": "Hydra 70 M274 TP-SM",
+      "name": "HYDRA_70_M274",
+      "ws_type": "{4,7,33,150}"
+    },
+    "{4,7,33,151}": {
+      "display_name": "Hydra 70 M257 IL",
+      "name": "HYDRA_70_M257",
+      "ws_type": "{4,7,33,151}"
+    },
+    "{4,7,33,155}": {
+      "display_name": "S-8OFP2 MPP",
+      "name": "C_8OFP2",
+      "ws_type": "{4,7,33,155}"
+    },
+    "{4,7,33,158}": {
+      "display_name": "S-8OM IL",
+      "name": "C_8OM",
+      "ws_type": "{4,7,33,158}"
+    },
+    "{4,7,33,159}": {
+      "display_name": "HVAR",
+      "name": "HVAR",
+      "ws_type": "{4,7,33,159}"
+    },
+    "{4,7,33,181}": {
+      "display_name": "S-8TsM SM Green",
+      "name": "C_8CM_GN",
+      "ws_type": "{4,7,33,181}"
+    },
+    "{4,7,33,182}": {
+      "display_name": "S-8TsM SM Red",
+      "name": "C_8CM_RD",
+      "ws_type": "{4,7,33,182}"
+    },
+    "{4,7,33,183}": {
+      "display_name": "S-8TsM SM White",
+      "name": "C_8CM_WH",
+      "ws_type": "{4,7,33,183}"
+    },
+    "{4,7,33,184}": {
+      "display_name": "S-8TsM SM Blue",
+      "name": "C_8CM_BU",
+      "ws_type": "{4,7,33,184}"
+    },
+    "{4,7,33,185}": {
+      "display_name": "S-8TsM SM Yellow",
+      "name": "C_8CM_YE",
+      "ws_type": "{4,7,33,185}"
+    },
+    "{4,7,33,186}": {
+      "display_name": "S-8TsM SM Violet",
+      "name": "C_8CM_VT",
+      "ws_type": "{4,7,33,186}"
+    },
+    "{4,7,33,256}": {
+      "display_name": "R4M 3.2kg UnGd air-to-air rocket",
+      "name": "R4M",
+      "ws_type": "{4,7,33,256}"
+    },
+    "{4,7,33,257}": {
+      "display_name": "Werfer-Granate 21",
+      "name": "WGr21",
+      "ws_type": "{4,7,33,257}"
+    },
+    "{4,7,33,258}": {
+      "display_name": "4.5-Inch M8",
+      "name": "M8rocket",
+      "ws_type": "{4,7,33,258}"
+    },
+    "{4,7,33,275}": {
+      "display_name": "2.75\" FFAR, UnGd Rkts Mk1, HE",
+      "name": "FFAR Mk1 HE",
+      "ws_type": "{4,7,33,275}"
+    },
+    "{4,7,33,276}": {
+      "display_name": "2.75\" FFAR, UnGd Rkts Mk5, HEAT",
+      "name": "FFAR Mk5 HEAT",
+      "ws_type": "{4,7,33,276}"
+    },
+    "{4,7,33,277}": {
+      "display_name": "2.75\" FFAR, UnGd Rkts M156, Wht Phos",
+      "name": "FFAR M156 WP",
+      "ws_type": "{4,7,33,277}"
+    },
+    "{4,7,33,299}": {
+      "display_name": "UG_90MM",
+      "name": "UG_90MM",
+      "ws_type": "{4,7,33,299}"
+    },
+    "{4,7,33,30}": {
+      "display_name": "S-8TsM SM Orange",
+      "name": "C_8CM",
+      "ws_type": "{4,7,33,30}"
+    },
+    "{4,7,33,31}": {
+      "display_name": "S-5KO",
+      "name": "C_5",
+      "ws_type": "{4,7,33,31}"
+    },
+    "{4,7,33,326}": {
+      "display_name": "RS-82",
+      "name": "RS-82",
+      "ws_type": "{4,7,33,326}"
+    },
+    "{4,7,33,32}": {
+      "display_name": "S-8KOM HEAT/Frag",
+      "name": "C_8",
+      "ws_type": "{4,7,33,32}"
+    },
+    "{4,7,33,331}": {
+      "display_name": "SPRD-99 takeoff rocket",
+      "name": "SPRD-99",
+      "ws_type": "{4,7,33,331}"
+    },
+    "{4,7,33,33}": {
+      "display_name": "S-13OF",
+      "name": "C_13",
+      "ws_type": "{4,7,33,33}"
+    },
+    "{4,7,33,340}": {
+      "display_name": "S-5M - unguided rocket 57mm",
+      "name": "S-5M",
+      "ws_type": "{4,7,33,340}"
+    },
+    "{4,7,33,341}": {
+      "display_name": "S-24A (21) - 180 kg, cumulative unguided rocket",
+      "name": "S-24A",
+      "ws_type": "{4,7,33,341}"
+    },
+    "{4,7,33,342}": {
+      "display_name": "S-24B (21) - 180 kg, fragmented unguided rocket",
+      "name": "S-24B",
+      "ws_type": "{4,7,33,342}"
+    },
+    "{4,7,33,34}": {
+      "display_name": "S-24B",
+      "name": "C_24",
+      "ws_type": "{4,7,33,34}"
+    },
+    "{4,7,33,359}": {
+      "display_name": "RP-3 HE",
+      "name": "British_HE_60LBFNo1_3INCHNo1",
+      "ws_type": "{4,7,33,359}"
+    },
+    "{4,7,33,35}": {
+      "display_name": "S-25-OFM",
+      "name": "C_25",
+      "ws_type": "{4,7,33,35}"
+    },
+    "{4,7,33,360}": {
+      "display_name": "RP-3 SAP",
+      "name": "British_HE_60LBSAPNo2_3INCHNo1",
+      "ws_type": "{4,7,33,360}"
+    },
+    "{4,7,33,361}": {
+      "display_name": "RP-3 AP",
+      "name": "British_AP_25LBNo1_3INCHNo1",
+      "ws_type": "{4,7,33,361}"
+    },
+    "{4,7,33,364}": {
+      "display_name": "ARF-8/M3 HEI Heavy",
+      "name": "ARF8M3HEI",
+      "ws_type": "{4,7,33,364}"
+    },
+    "{4,7,33,365}": {
+      "display_name": "ARF-8/M3 API",
+      "name": "ARF8M3API",
+      "ws_type": "{4,7,33,365}"
+    },
+    "{4,7,33,366}": {
+      "display_name": "ARF-8/M3 TP-SM",
+      "name": "ARF8M3TPSM",
+      "ws_type": "{4,7,33,366}"
+    },
+    "{4,7,33,367}": {
+      "display_name": "S-25-O",
+      "name": "S-25-O",
+      "ws_type": "{4,7,33,367}"
+    },
+    "{4,7,33,374}": {
+      "display_name": "Hydra 70 M229 HE",
+      "name": "HYDRA_70_M229",
+      "ws_type": "{4,7,33,374}"
+    },
+    "{4,7,33,375}": {
+      "display_name": "SNEB Type 250 F1B TP-SM",
+      "name": "SNEB_TYPE250_F1B",
+      "ws_type": "{4,7,33,375}"
+    },
+    "{4,7,33,376}": {
+      "display_name": "SNEB Type 251 F1B HE",
+      "name": "SNEB_TYPE251_F1B",
+      "ws_type": "{4,7,33,376}"
+    },
+    "{4,7,33,377}": {
+      "display_name": "SNEB Type 251 H1 HE",
+      "name": "SNEB_TYPE251_H1",
+      "ws_type": "{4,7,33,377}"
+    },
+    "{4,7,33,378}": {
+      "display_name": "SNEB Type 252 F1B TP",
+      "name": "SNEB_TYPE252_F1B",
+      "ws_type": "{4,7,33,378}"
+    },
+    "{4,7,33,379}": {
+      "display_name": "SNEB Type 252 H1 TP",
+      "name": "SNEB_TYPE252_H1",
+      "ws_type": "{4,7,33,379}"
+    },
+    "{4,7,33,37}": {
+      "display_name": "Zuni Mk. 71 HE GP",
+      "name": "Zuni_127",
+      "ws_type": "{4,7,33,37}"
+    },
+    "{4,7,33,380}": {
+      "display_name": "SNEB Type 253 F1B HEAT",
+      "name": "SNEB_TYPE253_F1B",
+      "ws_type": "{4,7,33,380}"
+    },
+    "{4,7,33,381}": {
+      "display_name": "SNEB Type 253 H1 HEAT",
+      "name": "SNEB_TYPE253_H1",
+      "ws_type": "{4,7,33,381}"
+    },
+    "{4,7,33,382}": {
+      "display_name": "SNEB Type 254 F1B SM Red",
+      "name": "SNEB_TYPE254_F1B_RED",
+      "ws_type": "{4,7,33,382}"
+    },
+    "{4,7,33,383}": {
+      "display_name": "SNEB Type 254 H1 SM Red",
+      "name": "SNEB_TYPE254_H1_RED",
+      "ws_type": "{4,7,33,383}"
+    },
+    "{4,7,33,384}": {
+      "display_name": "SNEB Type 254 F1B SM Yellow",
+      "name": "SNEB_TYPE254_F1B_YELLOW",
+      "ws_type": "{4,7,33,384}"
+    },
+    "{4,7,33,385}": {
+      "display_name": "SNEB Type 254 H1 SM Yellow",
+      "name": "SNEB_TYPE254_H1_YELLOW",
+      "ws_type": "{4,7,33,385}"
+    },
+    "{4,7,33,386}": {
+      "display_name": "SNEB Type 254 F1B SM Green",
+      "name": "SNEB_TYPE254_F1B_GREEN",
+      "ws_type": "{4,7,33,386}"
+    },
+    "{4,7,33,387}": {
+      "display_name": "SNEB Type 254 H1 SM Green",
+      "name": "SNEB_TYPE254_H1_GREEN",
+      "ws_type": "{4,7,33,387}"
+    },
+    "{4,7,33,388}": {
+      "display_name": "SNEB Type 256 F1B HE/Frag",
+      "name": "SNEB_TYPE256_F1B",
+      "ws_type": "{4,7,33,388}"
+    },
+    "{4,7,33,389}": {
+      "display_name": "SNEB Type 256 H1 HE/Frag",
+      "name": "SNEB_TYPE256_H1",
+      "ws_type": "{4,7,33,389}"
+    },
+    "{4,7,33,390}": {
+      "display_name": "SNEB Type 257 F1B HE/Frag Lg Whd",
+      "name": "SNEB_TYPE257_F1B",
+      "ws_type": "{4,7,33,390}"
+    },
+    "{4,7,33,391}": {
+      "display_name": "SNEB Type 257 H1 HE/Frag Lg Whd",
+      "name": "SNEB_TYPE257_H1",
+      "ws_type": "{4,7,33,391}"
+    },
+    "{4,7,33,392}": {
+      "display_name": "SNEB Type 259E F1B IL",
+      "name": "SNEB_TYPE259E_F1B",
+      "ws_type": "{4,7,33,392}"
+    },
+    "{4,7,33,393}": {
+      "display_name": "SNEB Type 259E H1 IL",
+      "name": "SNEB_TYPE259E_H1",
+      "ws_type": "{4,7,33,393}"
+    },
+    "{4,7,33,402}": {
+      "display_name": "Hydra 70 M151 HE, M433 RC Fuze",
+      "name": "HYDRA_70_M151_M433",
+      "ws_type": "{4,7,33,402}"
+    }
+  }
+]
