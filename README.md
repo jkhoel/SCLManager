@@ -1,5 +1,8 @@
 # SCL Manager
 
+[![Rust](https://github.com/jkhoel/SCLManager/actions/workflows/rust.yml/badge.svg)](https://github.com/jkhoel/SCLManager/actions/workflows/rust.yml)
+[![Security Audit](https://github.com/jkhoel/SCLManager/actions/workflows/audit.yml/badge.svg)](https://github.com/jkhoel/SCLManager/actions/workflows/audit.yml)
+
 A Standard Combat Load (SCL) manager for DCS:World
 
 ## Exporting data from DCS
