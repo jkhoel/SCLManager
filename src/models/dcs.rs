@@ -32,12 +32,12 @@ pub struct LauncherWeaponModel {
 
 /// A weapon as used in this application (Do we need all fields?)
 #[derive(Debug)]
-pub struct Weapon {
+pub struct LauncherWeapon {
     pub id: String,
     pub display_name: String,
     pub name: String,
     pub ws_type: String,
-    pub quantity: Option<u8>,
+    pub quantity: u8,
 }
 
 /// A launcher as used in this application (Do we need all fields?)
@@ -50,7 +50,7 @@ pub struct Launcher {
     pub attribute: String,
     pub display_name: String,
     pub weight: Option<f32>,
-    weapons: Option<Vec<Weapon>>,
+    pub weapons: Option<Vec<LauncherWeapon>>,
 }
 
 impl Launcher {
@@ -58,40 +58,30 @@ impl Launcher {
         launcher_model: &LauncherModel,
         weapon_models: &[WeaponModel],
     ) -> Result<Launcher, &'static str> {
-        let _weapons = launcher_model.weapons.clone().into_iter().map(|lwm| {
-            let wm: Option<&WeaponModel> = weapon_models.iter().find(|wm| wm.id == lwm.id);
+        let _weapons = launcher_model
+            .weapons
+            .clone()
+            .into_iter()
+            .map(|lwm| {
+                let wm: Option<&WeaponModel> = match weapon_models.iter().find(|wm| wm.id == lwm.id)
+                {
+                    None => None,
+                    Some(res) => Some(res),
+                };
 
-            wm.map(|wm| Weapon {
-                id: wm.id.clone(),
-                display_name: "".to_string(),
-                name: "".to_string(),
-                ws_type: "".to_string(),
-                quantity: None,
-            });
-        });
-
-        // let weapons = launcher_model.weapons.into_iter().map(|lwm| {
-        //     let weapon = weapon_models.into_iter().find(|wm| wm.id == &lwm.id);
-        //
-        //     let quantity: u8 = match lwm.quantity {
-        //         Some(q) => q,
-        //         None => 0
-        //     };
-        //
-        //     match weapon {
-        //         Ok(weapon) =>  Weapon {
-        //             id: weapon.id,
-        //             display_name: weapon.display_name,
-        //             name: weapon.name,
-        //             ws_type: weapon.ws_type,
-        //             quantity: Option::from(quantity)
-        //         },
-        //         Err(err) => err,
-        //     }
-        //
-        //
-        // });
-
+                match wm {
+                    None => None,
+                    Some(w) => Some(LauncherWeapon {
+                        id: w.id.to_string(),
+                        display_name: w.display_name.to_string(),
+                        name: w.name.to_string(),
+                        ws_type: w.ws_type.to_string(),
+                        quantity: lwm.quantity,
+                    }),
+                }
+            })
+            .collect();
+        
         // Return a new launcher object
         Ok(Launcher {
             clsid: launcher_model.clsid.clone(),
@@ -101,14 +91,10 @@ impl Launcher {
             attribute: launcher_model.attribute.clone(),
             display_name: launcher_model.display_name.clone(),
             weight: launcher_model.weight,
-            weapons: None,
-            // weapons: Some(vec![Weapon {
-            //     id: "someid".into(),
-            //     display_name: "Some ID".into(),
-            //     name: "some_id".into(),
-            //     ws_type: "someWS".into(),
-            //     quantity: Some(1),
-            // }])
+            weapons: match _weapons {
+                None => None,
+                Some(lw) => Some(lw),
+            },
         })
     }
 }
