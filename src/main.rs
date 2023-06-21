@@ -1,6 +1,6 @@
-mod models;
+use crate::models::dcs::{Launcher, LauncherModel, WeaponModel};
 
-use crate::models::dcs::{LauncherModel, WeaponModel};
+mod models;
 
 fn main() {
     // Load WEAPONS file into a string.
@@ -34,4 +34,15 @@ fn main() {
             .into_iter()
             .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
     );
+
+    match launchers
+        .into_iter()
+        .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
+    {
+        Some(lm) => {
+            // Create an print a launcher
+            let launcher = Launcher::new(&lm {}, &weapons);
+        }
+        _ => (),
+    };
 }
