@@ -43,9 +43,10 @@ jobs:
       - name: Linting
         run: cargo clippy -- -D warnings
 
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Build Release
-        run: cargo build --verbose --release
+  # build:
+  #   name: Build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Build Release
+  #       run: cargo build --verbose --release
