@@ -54,15 +54,24 @@ pub struct Launcher {
 impl Launcher {
     fn new(launcher_model: LauncherModel) -> Launcher {
         // TODO: Look up the weapon based on the launcher_model.weapons ID and create a Weapon from it
-        let weapons = Weapon {
+        let weapons = vec![Weapon {
             id: "someid".to_string(),
             display_name: "Some ID".to_string(),
             name: "some_id".to_string(),
             ws_type: "someWS".to_string(),
             quantity: Some(1),
-        };
+        }];
 
         // Return a new launcher object
-        Launcher(weapons: vec![weapons], ..launcher_model)
+        Launcher {
+            clsid: launcher_model.clsid,
+            category: launcher_model.category,
+            kind_of_shipping: launcher_model.kind_of_shipping,
+            adapter_type: launcher_model.adapter_type,
+            attribute: launcher_model.attribute,
+            display_name: launcher_model.display_name,
+            weight: launcher_model.weight,
+            weapons,
+        }
     }
 }
