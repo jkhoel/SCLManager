@@ -1,6 +1,6 @@
 mod models;
 
-use crate::models::dcs::{Launcher, Weapon};
+use crate::models::dcs::{LauncherModel, WeaponModel};
 
 fn main() {
     // Load WEAPONS file into a string.
@@ -8,7 +8,7 @@ fn main() {
     let weapons_file_content = std::fs::read_to_string(weapons_path).unwrap();
 
     // Parse the string into a dynamically-typed JSON structure.
-    let weapons: Vec<Weapon> = serde_json::from_str::<Vec<Weapon>>(&weapons_file_content).unwrap();
+    let weapons: Vec<WeaponModel> = serde_json::from_str::<Vec<WeaponModel>>(&weapons_file_content).unwrap();
     
     //println!("{:?}", weapons);
     
@@ -19,7 +19,7 @@ fn main() {
     let launchers_file_content = std::fs::read_to_string(launchers_path).unwrap();
 
     // Parse the string into a dynamically-typed JSON structure.
-    let launchers: Vec<Launcher> = serde_json::from_str::<Vec<Launcher>>(&launchers_file_content).unwrap();
+    let launchers: Vec<LauncherModel> = serde_json::from_str::<Vec<LauncherModel>>(&launchers_file_content).unwrap();
 
     //println!("{:?}", launchers);
 
