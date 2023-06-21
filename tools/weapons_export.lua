@@ -10,10 +10,9 @@
 -- --------------------------------------------------------------------------------------------------------------------
 -- MY CHANGES
 -- --------------------------------------------------------------------------------------------------------------------
-log.write('Weapon Info Here', log.INFO, "weapon info starting...")
+log.write("Weapon Info Here", log.INFO, "weapon info starting...")
 
 local JSON = loadfile("./Scripts/JSON.lua")()
-
 
 -------------------------------------------------------------------------------
 -- aircraft export planes and helicopters - HumanCockpit only exists on installed modules
@@ -81,8 +80,6 @@ flyable["SA342Minigun"] = true
 flyable["SA342Mistral"] = true
 flyable["UH-1H"] = true
 
-
-
 -- Now we can iterate through our aircraft  / plane
 local launchers = {}
 
@@ -91,7 +88,6 @@ local export_aircraft_data = {}
 local export_launchers = {}
 local export_weapons = {}
 
-
 -- reindex weapons_table based on wsType
 local weapons_db = {}
 local weapons_aliases = {}
@@ -99,19 +95,19 @@ local weapons_aliases = {}
 -- Helper Functions
 local function dump(o, prefix)
     if prefix == nil then
-        prefix = ''
+        prefix = ""
     end
 
-    if type(o) == 'table' then
+    if type(o) == "table" then
         for k, v in pairs(o) do
-            if type(v) == 'table' then
+            if type(v) == "table" then
                 dump(v, prefix .. "." .. tostring(k))
             else
-                log.write('weapon info', log.INFO, prefix .. "." .. tostring(k) .. ": " .. tostring(v))
+                log.write("weapon info", log.INFO, prefix .. "." .. tostring(k) .. ": " .. tostring(v))
             end
         end
     else
-        log.write('weapon info', log.INFO, prefix .. ": " .. tostring(o))
+        log.write("weapon info", log.INFO, prefix .. ": " .. tostring(o))
     end
 end
 
@@ -124,7 +120,6 @@ function load_launchers()
     for cat, cat_info in pairs(db.Weapons.Categories) do
         for _, launcher in ipairs(cat_info.Launchers) do
             if launcher.CLSID ~= nil then
-
                 -- We don't care if a launcher doesn't have a display name, some are only contained in
                 -- other launchers (like the M274_HYDRA / M257_HYDRA / M151_HYDRA) and they then reference
                 -- a weapon in their own right, so if we have no displayName, we set it to the weapon CLSID
@@ -147,13 +142,13 @@ function add_to_weapon_db(ws_type, weapon_data)
     --
     -- Return: True if added, False if not
 
-    if type(ws_type) ~= 'table' then
-        log.write('add_to_weapon_db', log.ERROR, "Unable to add weapon to DB, ws_type not a table")
+    if type(ws_type) ~= "table" then
+        log.write("add_to_weapon_db", log.ERROR, "Unable to add weapon to DB, ws_type not a table")
         return false
     end
 
     if #ws_type ~= 4 then
-        log.write('add_to_weapon_db', log.ERROR, "ws_type must have 4 elements to enter")
+        log.write("add_to_weapon_db", log.ERROR, "ws_type must have 4 elements to enter")
         return false
     end
 
@@ -170,7 +165,11 @@ function add_to_weapon_db(ws_type, weapon_data)
     local key = tostring(ws_type[4])
     if dest[key] ~= nil then
         if dest[key].ws_type_str ~= weapon_data.ws_type_str then
-            log.write('add_to_weapon_db', log.ERROR, "ws_type already exists (" .. dest[key].ws_type_str .. ") when adding " .. weapon_data.ws_type_str)
+            log.write(
+                "add_to_weapon_db",
+                log.ERROR,
+                "ws_type already exists (" .. dest[key].ws_type_str .. ") when adding " .. weapon_data.ws_type_str
+            )
         end
         return false
     end
@@ -185,7 +184,15 @@ function add_to_weapon_db(ws_type, weapon_data)
         weapons_aliases[weapon_data.resource] = dest[key]
     end
 
-    log.write('add_to_weapon_db', log.INFO, "adding " .. ws_type_str .. " " .. tostring(weapon_data.resource) .. " " .. weapon_data.name .. " cat: " .. (weapon_data.category or ''))
+    log.write(
+        "add_to_weapon_db",
+        log.INFO,
+        "adding " ..
+            ws_type_str ..
+                " " ..
+                    tostring(weapon_data.resource) ..
+                        " " .. weapon_data.name .. " cat: " .. (weapon_data.category or "")
+    )
 
     -- And our ws_type string because unique reference name is fucked
     weapons_aliases["{" .. table.concat(ws_type, ",") .. "}"] = dest[key]
@@ -194,9 +201,12 @@ function add_to_weapon_db(ws_type, weapon_data)
 end
 
 function process_weapon_table_item(item, path)
-
-    if type(item.ws_type) ~= 'table' then
-        log.write('process_weapon_table_item', log.INFO, "Skipping item: " .. item.name .. " at " .. path .. ": ws_type not a table")
+    if type(item.ws_type) ~= "table" then
+        log.write(
+            "process_weapon_table_item",
+            log.INFO,
+            "Skipping item: " .. item.name .. " at " .. path .. ": ws_type not a table"
+        )
         return false
     end
 
@@ -207,28 +217,31 @@ function process_weapon_table_item(item, path)
 
     local unique_resource_name = item._unique_resource_name
     if unique_resource_name == nil then
-        log.write('process_weapons_table', log.INFO, "No unique resource name for: " .. item.name .. " using " .. path)
+        log.write("process_weapons_table", log.INFO, "No unique resource name for: " .. item.name .. " using " .. path)
         unique_resource_name = path
     end
 
     local weapon_data = {
-        ['name'] = item.name,
-        ['category'] = get_warehouse_category(item.ws_type),
-        ['resource'] = unique_resource_name,
-        ['display_name'] = item.display_name,
-        ['ws_type_str'] = "{" .. table.concat(item.ws_type, ",") .. "}",
-        ['ws_type'] = item.ws_type,
-        ['path'] = path,
+        ["name"] = item.name,
+        ["category"] = get_warehouse_category(item.ws_type),
+        ["resource"] = unique_resource_name,
+        ["display_name"] = item.display_name,
+        ["ws_type_str"] = "{" .. table.concat(item.ws_type, ",") .. "}",
+        ["ws_type"] = item.ws_type,
+        ["path"] = path
     }
 
     if add_to_weapon_db(item.ws_type, weapon_data) == false then
-        log.write('process_weapon_table_item', log.INFO, "Failed to add to database: " .. unique_resource_name .. " at " .. path)
+        log.write(
+            "process_weapon_table_item",
+            log.INFO,
+            "Failed to add to database: " .. unique_resource_name .. " at " .. path
+        )
     end
 end
 
 function process_weapons_table_level(level, path)
-
-    path = path or ''
+    path = path or ""
 
     -- recurse through the new API weapons table, as not all items are at the same depth
     -- we continue until we have a name and ws_type, then populate weapon_table_id
@@ -237,9 +250,9 @@ function process_weapons_table_level(level, path)
         process_weapon_table_item(level, path)
     else
         for k, v in pairs(level) do
-            if type(v) == 'table' then
+            if type(v) == "table" then
                 local next_level = path .. "." .. k
-                if path == '' then
+                if path == "" then
                     next_level = k
                 end
                 process_weapons_table_level(v, next_level)
@@ -249,8 +262,7 @@ function process_weapons_table_level(level, path)
 end
 
 function get_weapon_from_wstype(wsType)
-
-    if type(wsType) ~= 'table' then
+    if type(wsType) ~= "table" then
         return weapons_aliases[tostring(wsType)]
     end
 
@@ -266,7 +278,6 @@ function get_weapon_from_wstype(wsType)
 end
 
 function get_warehouse_category(ws)
-
     -- At this point we'll try and find our classification, this matters
     -- when the launcher is the "weapon" itself, and used for inventory / wearhousing
     -- but if it has a wsType, then that's what we'll use in the wearhouse
@@ -280,17 +291,14 @@ function get_warehouse_category(ws)
     -- 4,5,36 = AG Bombs Guided  (wsType_Weapon -> wsType_Bomb -> wsType_Bomb_Guided) => remainder go to AG Bombs)
     -- 4,5,38 = AG Bombs         (wsType_Weapon -> wsType_Bomb -> )
 
-    if type(ws) ~= 'table' then
+    if type(ws) ~= "table" then
         return nil
     end
     if #ws < 4 then
         return nil
     end
 
-    log.write(
-            "get_warehouse_category",
-            log.INFO,
-            "Looking up category for: " .. table.concat(ws, ','))
+    log.write("get_warehouse_category", log.INFO, "Looking up category for: " .. table.concat(ws, ","))
 
     -- Level 1 (we can short circuit Fuel Tanks
     if ws[1] == wsType_Air and ws[2] == wsType_Free_Fall and ws[3] == wsType_FuelTank then
@@ -355,100 +363,117 @@ function add_launcher_to_export(airframe, pylon, launcher)
 
     if launcher_data == nil then
         log.write(
-                "add_launcher_to_export",
-                log.INFO,
-                "Launcher not found " .. tostring(airframe.type) .. " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID)
+            "add_launcher_to_export",
+            log.INFO,
+            "Launcher not found " ..
+                tostring(airframe.type) .. " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID
+        )
         return nil
     end
 
     if launcher_data.evaluated == nil then
         log.write(
-                "add_launcher_to_export",
-                log.INFO,
-                "Launcher not evaluated " .. tostring(airframe.type) .. " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID)
+            "add_launcher_to_export",
+            log.INFO,
+            "Launcher not evaluated " ..
+                tostring(airframe.type) .. " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID
+        )
         return nil
     end
 
     -- First we make sure all the weapons are added
     for weapon_ws_type_str, weapon_count in pairs(launcher_data.evaluated) do
-
         if export_weapons[weapon_ws_type_str] == nil then
             local weapon_data = get_weapon_from_wstype(weapon_ws_type_str)
             if weapon_data == nil then
-                log.write(
-                        "add_launcher_to_export",
-                        log.INFO,
-                        "Failed to lookup weapon data for " .. weapon_ws_type_str)
+                log.write("add_launcher_to_export", log.INFO, "Failed to lookup weapon data for " .. weapon_ws_type_str)
             else
-                table.insert(export_weapons, {
-                    ['id'] = weapon_ws_type_str,
-                    ['name'] = weapon_data.name,
-                    ['ws_type'] = weapon_data.ws_type_str,
-                    --['resource'] = weapon_data.resource,
-                    --['path'] = weapon_data.path,
-                    ['display_name'] = weapon_data.display_name,
-                })
+                table.insert(
+                    export_weapons,
+                    {
+                        ["id"] = weapon_ws_type_str,
+                        ["name"] = weapon_data.name,
+                        ["ws_type"] = weapon_data.ws_type_str,
+                        --['resource'] = weapon_data.resource,
+                        --['path'] = weapon_data.path,
+                        ["display_name"] = weapon_data.display_name
+                    }
+                )
             end
         end
     end
 
-    local launcher_attribute_str = ''
+    local launcher_attribute_str = ""
     if type(launcher_data.attribute) == "table" then
-        launcher_attribute_str = "{" .. table.concat(launcher_data.attribute, ',') .. "}"
+        launcher_attribute_str = "{" .. table.concat(launcher_data.attribute, ",") .. "}"
     else
         launcher_attribute_str = tostring(launcher_data.attribute)
         log.write(
-                "add_launcher_to_export",
-                log.INFO,
-                "Launcher has string attribute " .. tostring(airframe.type) .. " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID .. ": " .. launcher_attribute_str)
+            "add_launcher_to_export",
+            log.INFO,
+            "Launcher has string attribute " ..
+                tostring(airframe.type) ..
+                    " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID .. ": " .. launcher_attribute_str
+        )
     end
 
     local adapter_type_str
     if type(launcher_data.adapter_type) == "table" then
-        adapter_type_str = "{" .. table.concat(launcher_data.adapter_type, ',') .. "}"
+        adapter_type_str = "{" .. table.concat(launcher_data.adapter_type, ",") .. "}"
     elseif launcher_data.adapter_type ~= nil then
         adapter_type_str = tostring(launcher_data.adapter_type)
         log.write(
-                "add_launcher_to_export",
-                log.INFO,
-                "Launcher has string adapter_type_str " .. tostring(airframe.type) .. " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID .. ": " .. adapter_type_str)
+            "add_launcher_to_export",
+            log.INFO,
+            "Launcher has string adapter_type_str " ..
+                tostring(airframe.type) ..
+                    " Pylon " .. tostring(pylon.Number) .. " " .. launcher.CLSID .. ": " .. adapter_type_str
+        )
     end
 
-    -- Then we add ourselves, along with the counts
-    table.insert(export_launchers, {
-        ['clsid'] = launcher.CLSID,
-        --['hidden'] = launcher_data.hidden,
-        ['category'] = launcher_data.category or "Misc",
-        ['kind_of_shipping'] = launcher_data.kind_of_shipping,
-        ['adapter_type'] = adapter_type_str,
-        ['attribute'] = launcher_attribute_str,
-        ['display_name'] = launcher_data.displayName,
-        ['weight'] = launcher_data.Weight,
-        ['weapons'] = launcher_data.evaluated,
-        --['airframes'] = {},
-    })
+    -- Then we add ourselves, along with the counts and weapons
+
+    local _weapons = {}
+    for k, v in pairs(launcher_data.evaluated) do
+        local _w = {}
+        _w.id = k
+        _w.quantity = v
+
+        table.insert(_weapons, _w)
+    end
+
+    table.insert(
+        export_launchers,
+        {
+            ["clsid"] = launcher.CLSID,
+            --['hidden'] = launcher_data.hidden,
+            ["category"] = launcher_data.category or "Misc",
+            ["kind_of_shipping"] = launcher_data.kind_of_shipping,
+            ["adapter_type"] = adapter_type_str,
+            ["attribute"] = launcher_attribute_str,
+            ["display_name"] = launcher_data.displayName,
+            ["weight"] = launcher_data.Weight,
+            ["weapons"] = _weapons
+            --['airframes'] = {},
+        }
+    )
 
     return launcher.CLSID
-
 end
 
 function export_aircraft(airframe)
-
     -- Only care about human aircraft
     if airframe.HumanCockpit ~= true and flyable[airframe.type] == nil then
-        log.write(
-                "export_aircraft",
-                log.INFO,
-                "Skipping " .. tostring(airframe.type) .. " - No HumanCockpit")
+        log.write("export_aircraft", log.INFO, "Skipping " .. tostring(airframe.type) .. " - No HumanCockpit")
         return
     end
 
     -- Weights, also under M_ keys, but so far seem to match
     local weights = {
-        ['empty'] = airframe.EmptyWeight,
-        ['ammo'] = airframe.AmmoWeight,
-        ['mtow'] = airframe.MaxTakeOffWeight,
-        ['fuel'] = airframe.MaxFuelWeight,
+        ["empty"] = airframe.EmptyWeight,
+        ["ammo"] = airframe.AmmoWeight,
+        ["mtow"] = airframe.MaxTakeOffWeight,
+        ["fuel"] = airframe.MaxFuelWeight
     }
 
     -- Crew Roles
@@ -456,10 +481,13 @@ function export_aircraft(airframe)
     if airframe.crew_members ~= nil then
         for _, info in ipairs(airframe.crew_members) do
             if info.can_be_playable == true then
-                table.insert(roles, {
-                    ['role'] = info.role,
-                    ['display_name'] = info.role_display_name,
-                })
+                table.insert(
+                    roles,
+                    {
+                        ["role"] = info.role,
+                        ["display_name"] = info.role_display_name
+                    }
+                )
             end
         end
     end
@@ -482,50 +510,59 @@ function export_aircraft(airframe)
             if radio_data.range ~= nil then
                 -- connect is used to denote which is configured when modifying the group
                 local info = {
-                    ['name'] = radio_data.name,
-                    ['channels'] = {},
-                    ['ranges'] = {},
+                    ["name"] = radio_data.name,
+                    ["channels"] = {},
+                    ["ranges"] = {}
                 }
 
                 -- valid frequency ranges
                 if radio_data.range.max ~= nil then
-                    table.insert(info.ranges, {
-                        ['from'] = radio_data.range.min * 1000,
-                        ['to'] = radio_data.range.max * 1000,
-                        ['modulation'] = radio_data.range.modulation or 0,
-                        ['interval'] = math.floor((math.ceil(radio_data.range.max) - radio_data.range.max) * 1000 + 0.5),
-                    });
+                    table.insert(
+                        info.ranges,
+                        {
+                            ["from"] = radio_data.range.min * 1000,
+                            ["to"] = radio_data.range.max * 1000,
+                            ["modulation"] = radio_data.range.modulation or 0,
+                            ["interval"] = math.floor(
+                                (math.ceil(radio_data.range.max) - radio_data.range.max) * 1000 + 0.5
+                            )
+                        }
+                    )
                 else
                     for _, range in ipairs(radio_data.range) do
-                        table.insert(info.ranges, {
-                            ['from'] = range.min * 1000,
-                            ['to'] = range.max * 1000,
-                            ['modulation'] = range.modulation or radio_data.modulation or 0,
-                            ['interval'] = math.floor((math.ceil(range.max) - range.max) * 1000 + 0.5),
-                        })
+                        table.insert(
+                            info.ranges,
+                            {
+                                ["from"] = range.min * 1000,
+                                ["to"] = range.max * 1000,
+                                ["modulation"] = range.modulation or radio_data.modulation or 0,
+                                ["interval"] = math.floor((math.ceil(range.max) - range.max) * 1000 + 0.5)
+                            }
+                        )
                     end
                 end
 
                 -- Channels (presets) just an array of name, value, modulation, which is in FM / AM
                 for _, channel in ipairs(radio_data.channels) do
-
                     local modulation_id = 0
                     if channel.modulation == "FM" then
                         modulation_id = 1
                     end
 
-                    table.insert(info.channels, {
-                        ['name'] = channel.name,
-                        ['default'] = channel.default * 1000,
-                        ['modulation'] = modulation_id
-                    })
+                    table.insert(
+                        info.channels,
+                        {
+                            ["name"] = channel.name,
+                            ["default"] = channel.default * 1000,
+                            ["modulation"] = modulation_id
+                        }
+                    )
                 end
 
                 table.insert(radios, info)
             end
         end
     end
-
 
     -- Counter measures
     local cms = {}
@@ -536,12 +573,12 @@ function export_aircraft(airframe)
 
         cms.CMDS_Edit = airframe.passivCounterm.CMDS_Edit
         cms.total = airframe.passivCounterm.SingleChargeTotal
-        for _, cms_type in ipairs({ "chaff", "flare" }) do
+        for _, cms_type in ipairs({"chaff", "flare"}) do
             if airframe.passivCounterm[cms_type] ~= nil then
                 cms[cms_type] = {
-                    ['default'] = airframe.passivCounterm[cms_type].default,
-                    ['increment'] = airframe.passivCounterm[cms_type].increment,
-                    ['charge_sz'] = airframe.passivCounterm[cms_type].chargeSz,
+                    ["default"] = airframe.passivCounterm[cms_type].default,
+                    ["increment"] = airframe.passivCounterm[cms_type].increment,
+                    ["charge_sz"] = airframe.passivCounterm[cms_type].chargeSz
                 }
             end
         end
@@ -553,10 +590,10 @@ function export_aircraft(airframe)
         for id, pylon in ipairs(airframe.Pylons) do
             local display_name = pylon.DisplayName or pylon.Order
             local pylon_info = {
-                ['number'] = pylon.Number,
-                ['order'] = pylon.Order,
-                ['name'] = display_name,
-                ['stores'] = {}
+                ["number"] = pylon.Number,
+                ["order"] = pylon.Order,
+                ["name"] = display_name,
+                ["stores"] = {}
             }
 
             for _, launcher in ipairs(pylon.Launchers) do
@@ -569,34 +606,35 @@ function export_aircraft(airframe)
             table.insert(pylons, pylon_info)
         end
     end
-    
-    table.insert(export_aircraft_data, {
-        ['name'] = airframe.DisplayName,
-        ['type'] = airframe.type, -- basically a unique ID that can be used as key
-        ['weights'] = weights,
-        ['roles'] = roles,
-        ['pylons'] = pylons,
-        ['cms'] = cms,
-        ['radios'] = radios,
 
-        -- best guess, Mig-21Bis set to false, all FC 3 except J11 set to true, and J11 set to 3, so
-        -- if it's non-existent or not false, we count it as old and non full fidelity
-        ['full_fidelity'] = airframe.HumanFM ~= nil and (airframe.HumanFM.old == nil or airframe.HumanFM.old == false),
-    })
+    table.insert(
+        export_aircraft_data,
+        {
+            ["name"] = airframe.DisplayName,
+            ["type"] = airframe.type, -- basically a unique ID that can be used as key
+            ["weights"] = weights,
+            ["roles"] = roles,
+            ["pylons"] = pylons,
+            ["cms"] = cms,
+            ["radios"] = radios,
+            -- best guess, Mig-21Bis set to false, all FC 3 except J11 set to true, and J11 set to 3, so
+            -- if it's non-existent or not false, we count it as old and non full fidelity
+            ["full_fidelity"] = airframe.HumanFM ~= nil and
+                (airframe.HumanFM.old == nil or airframe.HumanFM.old == false)
+        }
+    )
 end
 
 function process_old_api_table(tbl, tbl_name)
     for idx, itm in ipairs(tbl) do
-
         if itm.ws_type ~= nil and itm.display_name ~= nil then
-
             -- I have no idea why, or how - but the ws_type of the AGM_CATM_64K in the API table doesn't match
             -- what's in game (API Table: {4, 4, 100, 142} however in the ME warehouse it's {4, 4, 101, 142})
             -- If you change the warehouse ot be 100, then it doesnt' work in game... Sooo. I'm just gonna fix
             -- it here
 
             if itm.name == "CATM_65K" then
-                itm.ws_type = { 4, 4, 101, 142 }
+                itm.ws_type = {4, 4, 101, 142}
             end
 
             local ws_type_str = "{" .. table.concat(itm.ws_type, ",") .. "}"
@@ -605,25 +643,37 @@ function process_old_api_table(tbl, tbl_name)
             local unique_resource_name = itm._unique_resource_name
             if unique_resource_name == nil then
                 unique_resource_name = tbl_name .. "." .. itm.name
-                log.write('process_weapons_table', log.INFO, "No unique resource name for: " .. itm.name .. " using " .. unique_resource_name)
+                log.write(
+                    "process_weapons_table",
+                    log.INFO,
+                    "No unique resource name for: " .. itm.name .. " using " .. unique_resource_name
+                )
             end
 
             local weapon_data = {
-                ['name'] = itm.name,
-                ['category'] = get_warehouse_category(itm.ws_type),
-                ['resource'] = unique_resource_name,
-                ['display_name'] = itm.display_name,
-                ['ws_type_str'] = ws_type_str,
-                ['ws_type'] = itm.ws_type,
-                ['path'] = unique_resource_name,
+                ["name"] = itm.name,
+                ["category"] = get_warehouse_category(itm.ws_type),
+                ["resource"] = unique_resource_name,
+                ["display_name"] = itm.display_name,
+                ["ws_type_str"] = ws_type_str,
+                ["ws_type"] = itm.ws_type,
+                ["path"] = unique_resource_name
             }
 
             -- we expect these not to be added for duplicates, so just annouce we're processing
             if add_to_weapon_db(itm.ws_type, weapon_data) == false then
-                log.write('process_old_api_table', log.INFO, "Skipping old API item, new API item exists " .. itm.name .. " " .. ws_type_str)
+                log.write(
+                    "process_old_api_table",
+                    log.INFO,
+                    "Skipping old API item, new API item exists " .. itm.name .. " " .. ws_type_str
+                )
             end
         else
-            log.write('process_old_api_table', log.INFO, "Skipping old API item (no ws_type or display_name: " .. idx .. ")")
+            log.write(
+                "process_old_api_table",
+                log.INFO,
+                "Skipping old API item (no ws_type or display_name: " .. idx .. ")"
+            )
         end
     end
 end
@@ -637,7 +687,6 @@ function table_is_empty(tbl)
 end
 
 function process_launcher_item(launcher)
-
     -- If we're already processed, return
     if launcher.evaluated ~= nil then
         return launcher.evaluated
@@ -652,10 +701,10 @@ function process_launcher_item(launcher)
     if launcher.Elements ~= nil then
         for _, element in ipairs(launcher.Elements) do
             if element.payload_CLSID ~= nil and launchers[element.payload_CLSID] ~= nil then
-                log.write('process_launcher_item', log.INFO, "processing payload CLSID of " .. element.payload_CLSID)
+                log.write("process_launcher_item", log.INFO, "processing payload CLSID of " .. element.payload_CLSID)
                 local element_info = process_launcher_item(launchers[element.payload_CLSID])
                 for weapon, count in pairs(element_info) do
-                    log.write('process_launcher_item', log.INFO, "processing payload weapon of " .. weapon)
+                    log.write("process_launcher_item", log.INFO, "processing payload weapon of " .. weapon)
                     if weapons[weapon] == nil then
                         weapons[weapon] = 0
                     end
@@ -670,7 +719,11 @@ function process_launcher_item(launcher)
     if not table_is_empty(weapons) then
         for weapon, count in pairs(weapons) do
             local weapon_data = get_weapon_from_wstype(weapon)
-            log.write('process_launcher_item', log.INFO, "Looking up category of first weapon " .. weapon .. " got " .. weapon_data.category)
+            log.write(
+                "process_launcher_item",
+                log.INFO,
+                "Looking up category of first weapon " .. weapon .. " got " .. weapon_data.category
+            )
             launcher.category = weapon_data.category
             launcher.evaluated = weapons
             return launcher.evaluated
@@ -678,7 +731,6 @@ function process_launcher_item(launcher)
     end
 
     if launcher.wsTypeOfWeapon ~= nil then
-
         local weapon_info = get_weapon_from_wstype(launcher.wsTypeOfWeapon)
         if weapon_info ~= nil then
             -- If we found our weapon then we can create it here and just link it to our count
@@ -691,26 +743,34 @@ function process_launcher_item(launcher)
             -- If we failed to look up the wsTypeOfWeapon then if it's a shell, gcontainer, then the
             -- launcher /is/ the weapon so we just skip to continue processing with attribute in the
             -- next block
-            if type(launcher.wsTypeOfWeapon) == 'table' then
-                if not (launcher.wsTypeOfWeapon[2] == wsType_Shell
-                        or launcher.wsTypeOfWeapon[2] == wsType_GContainer) then
-                    log.write('process_launcher_item', log.INFO, "wsTypeOfWeapon defined but not found: " .. launcher.CLSID .. " looking for " .. table.concat(launcher.wsTypeOfWeapon, ","))
+            if type(launcher.wsTypeOfWeapon) == "table" then
+                if not (launcher.wsTypeOfWeapon[2] == wsType_Shell or launcher.wsTypeOfWeapon[2] == wsType_GContainer) then
+                    log.write(
+                        "process_launcher_item",
+                        log.INFO,
+                        "wsTypeOfWeapon defined but not found: " ..
+                            launcher.CLSID .. " looking for " .. table.concat(launcher.wsTypeOfWeapon, ",")
+                    )
                     launcher.evaluated = {}
                     return launcher.evaluated
                 end
             else
-                log.write('process_launcher_item', log.INFO, "wsTypeOfWeapon defined but not a table: " .. launcher.CLSID .. " looking for " .. launcher.wsTypeOfWeapon)
+                log.write(
+                    "process_launcher_item",
+                    log.INFO,
+                    "wsTypeOfWeapon defined but not a table: " ..
+                        launcher.CLSID .. " looking for " .. launcher.wsTypeOfWeapon
+                )
             end
         end
     end
 
     -- If we haven't got an attribute, bail
     if launcher.attribute == nil then
-        log.write('process_launcher_item', log.ERROR, "unable to find weapon / count for: " .. launcher.CLSID)
+        log.write("process_launcher_item", log.ERROR, "unable to find weapon / count for: " .. launcher.CLSID)
         launcher.evaluated = {}
         return launcher.evaluated
     end
-
 
     -- Now, see if we're an existing item such as HVAR x 2
     local weapon_info = get_weapon_from_wstype(launcher.attribute)
@@ -719,7 +779,7 @@ function process_launcher_item(launcher)
         launcher.evaluated = {
             [weapon_info.ws_type_str] = launcher.Count or 1
         }
-        log.write('process_launcher_item', log.ERROR, "found via attribute: " .. weapon_info.ws_type_str)
+        log.write("process_launcher_item", log.ERROR, "found via attribute: " .. weapon_info.ws_type_str)
         return launcher.evaluated
     end
 
@@ -736,16 +796,16 @@ function process_launcher_item(launcher)
 
     local weapon_info = {
         -- Name is important as the name of the item reference in weapons table
-        ['name'] = launcher.CLSID,
-        ['category'] = get_warehouse_category(launcher.attribute),
-        ['resource'] = 'wmapi.internal.' .. launcher.CLSID,
-        ['display_name'] = launcher.displayName,
-        ['ws_type_str'] = ws_type_str,
-        ['ws_type'] = launcher.attribute,
+        ["name"] = launcher.CLSID,
+        ["category"] = get_warehouse_category(launcher.attribute),
+        ["resource"] = "wmapi.internal." .. launcher.CLSID,
+        ["display_name"] = launcher.displayName,
+        ["ws_type_str"] = ws_type_str,
+        ["ws_type"] = launcher.attribute
     }
 
     if add_to_weapon_db(launcher.attribute, weapon_info) == false then
-        log.write('process_launcher_item', log.ERROR, "FAILED to add Launcher to weapon DB: " .. launcher.CLSID)
+        log.write("process_launcher_item", log.ERROR, "FAILED to add Launcher to weapon DB: " .. launcher.CLSID)
         launcher.evaluated = {}
         return launcher.evaluated
     end
@@ -774,7 +834,6 @@ function process_launchers()
     for launcher_clsid, launcher in pairs(launchers) do
         process_launcher_item(launcher)
     end
-
 end
 
 -- -----------------------------------------------------------------------
@@ -826,27 +885,27 @@ end
 -------------------------------------------
 
 -- AIRFRAMES.JSON
-local file, error = io.open(lfs.writedir() .. [[airframes.json]], 'w')
+local file, error = io.open(lfs.writedir() .. [[airframes.json]], "w")
 if error then
-    log.write('ERRR', log.INFO, tostring(error))
+    log.write("ERRR", log.INFO, tostring(error))
 else
     file:write(JSON:encode(export_aircraft_data))
     file:close()
 end
 
 -- LAUNCHERS.JSON
-local file, error = io.open(lfs.writedir() .. [[launchers.json]], 'w')
+local file, error = io.open(lfs.writedir() .. [[launchers.json]], "w")
 if error then
-    log.write('ERRR', log.INFO, tostring(error))
+    log.write("ERRR", log.INFO, tostring(error))
 else
     file:write(JSON:encode(export_launchers))
     file:close()
 end
 
 -- WEAPONS.JSON
-local file, error = io.open(lfs.writedir() .. [[weapons.json]], 'w')
+local file, error = io.open(lfs.writedir() .. [[weapons.json]], "w")
 if error then
-    log.write('ERRR', log.INFO, tostring(error))
+    log.write("ERRR", log.INFO, tostring(error))
 else
     file:write(JSON:encode(export_weapons))
     file:close()
