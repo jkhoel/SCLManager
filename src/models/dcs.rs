@@ -27,7 +27,7 @@ pub struct LauncherModel {
 #[derive(Debug, Serialize, Deserialize)]
 pub struct LauncherWeapon {
     pub id: String,
-    pub quantity: u8
+    pub quantity: u8,
 }
 
 /// A weapon as used in this application (Do we need all fields?)
@@ -36,7 +36,7 @@ pub struct Weapon {
     pub display_name: String,
     pub name: String,
     pub ws_type: String,
-    pub quantity: Option<u8>
+    pub quantity: Option<u8>,
 }
 
 /// A launcher as used in this application (Do we need all fields?)
@@ -48,15 +48,21 @@ pub struct Launcher {
     pub attribute: String,
     pub display_name: String,
     pub weight: Option<f32>,
-    weapons: Vec<Weapon>
+    weapons: Vec<Weapon>,
 }
 
 impl Launcher {
     fn new(launcher_model: LauncherModel) -> Launcher {
         // TODO: Look up the weapon based on the launcher_model.weapons ID and create a Weapon from it
-        let weapons = Weapon { id: "someid".to_string(), display_name: "Some ID".to_string(), name: "some_id".to_string(), ws_type: "someWS".to_string(), quantity: Some(1) };
-        
+        let weapons = Weapon {
+            id: "someid".to_string(),
+            display_name: "Some ID".to_string(),
+            name: "some_id".to_string(),
+            ws_type: "someWS".to_string(),
+            quantity: Some(1),
+        };
+
         // Return a new launcher object
-        Launcher( weapons: vec![weapons], ..launcher_model)
+        Launcher(weapons: vec![weapons], ..launcher_model)
     }
 }
