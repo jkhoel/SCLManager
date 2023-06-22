@@ -30,6 +30,23 @@ pub struct Payload {
 }
 
 impl Payload {
+    /// Returns a new Payload created for the supplied DCS LauncherModel
+    ///
+    /// # Arguments
+    ///
+    /// * `&LauncherModel` - A LauncherModel that we want to make into a Payload
+    /// * `&[WeaponModel]` - A collection (slice) of all available WeaponModels. Used to match and populate the `Payload.weapons` field.
+    ///
+    /// # Examples
+    ///
+    /// Look up a certain Launcher and convert it into a Pyload:
+    /// ```
+    /// let payload = launchers
+    ///     .into_iter()
+    ///     .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
+    ///     .map(|lm| Payload::new(&lm, &weapons).unwrap());
+    /// ```
+
     pub(crate) fn new(
         launcher_model: &LauncherModel,
         weapon_models: &[WeaponModel],
