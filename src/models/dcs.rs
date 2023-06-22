@@ -1,12 +1,5 @@
 use serde::{Deserialize, Serialize};
 
-///
-/// These structs represent data as exported from DCS with the included LUA
-/// script. As time passes, the ED devs might change their API, and so having
-/// typed imports enables us to verify our data-structures before shipping data
-/// up front to the user.
-///
-
 /// Model representing the exported Weapon object from DCS
 #[derive(Debug, Serialize, Deserialize)]
 pub struct WeaponModel {
