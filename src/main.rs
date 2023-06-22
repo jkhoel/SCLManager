@@ -1,24 +1,31 @@
-use crate::models::dcs::{LauncherModel, WeaponModel};
+use crate::models::dcs::{AirframeModel, LauncherModel, WeaponModel};
 use crate::models::payload::Payload;
 
 mod models;
 
+/// Main application function
 fn main() {
     // Load WEAPONS file into a string.
     let weapons_path = "./data/weapons.json";
     let weapons_file_content = std::fs::read_to_string(weapons_path).unwrap();
 
-    // Load LAUNCHER file into a string.
+    // Load LAUNCHERS file into a string.
     let launchers_path = "./data/launchers.json";
     let launchers_file_content = std::fs::read_to_string(launchers_path).unwrap();
 
-    // Parse the string intotyped JSON structure.
+    // Load AIRFRAMES file into a string.
+    let airframes_path = "./data/airframes.json";
+    let airframes_file_content = std::fs::read_to_string(airframes_path).unwrap();
+
+    // Parse models into typed JSON structure.
     let weapons: Vec<WeaponModel> =
         serde_json::from_str::<Vec<WeaponModel>>(&weapons_file_content).unwrap();
 
-    // Parse the string typed JSON structure.
     let launchers: Vec<LauncherModel> =
         serde_json::from_str::<Vec<LauncherModel>>(&launchers_file_content).unwrap();
+
+    let _airframes: Vec<AirframeModel> =
+        serde_json::from_str::<Vec<AirframeModel>>(&airframes_file_content).unwrap();
 
     // println!(
     //     "Find AGM-65D in weapons: {:?}",
