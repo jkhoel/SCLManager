@@ -68,11 +68,11 @@ impl Launcher {
                 match wm {
                     None => None,
                     Some(w) => Some(LauncherWeapon {
-                        id: w.id.to_string(),
-                        display_name: w.display_name.to_string(),
-                        name: w.name.to_string(),
-                        ws_type: w.ws_type.to_string(),
-                        quantity: lwm.quantity,
+                        id: w.id.to_owned(),
+                        display_name: w.display_name.to_owned(),
+                        name: w.name.to_owned(),
+                        ws_type: w.ws_type.to_owned(),
+                        quantity: lwm.quantity.to_owned(),
                     }),
                 }
             })
@@ -80,13 +80,13 @@ impl Launcher {
 
         // Return a new launcher object
         Ok(Launcher {
-            clsid: launcher_model.clsid.clone(),
-            category: launcher_model.category.clone(),
-            kind_of_shipping: launcher_model.kind_of_shipping,
-            adapter_type: launcher_model.adapter_type.clone(),
-            attribute: launcher_model.attribute.clone(),
-            display_name: launcher_model.display_name.clone(),
-            weight: launcher_model.weight,
+            clsid: launcher_model.clsid.to_owned(),
+            category: launcher_model.category.to_owned(),
+            kind_of_shipping: launcher_model.kind_of_shipping.to_owned(),
+            adapter_type: launcher_model.adapter_type.to_owned(),
+            attribute: launcher_model.attribute.to_owned(),
+            display_name: launcher_model.display_name.to_owned(),
+            weight: launcher_model.weight.to_owned(),
             weapons: _weapons,
         })
     }
