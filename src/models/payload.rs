@@ -1,12 +1,12 @@
 use crate::models::dcs::{LauncherModel, WeaponModel};
 
 ///
-/// Payloads are structs representing some combination of a launcher (or pylon)
+/// `Payloads` are structs representing some combination of a launcher (or pylon)
 /// with one or more weapons attached. Typically they represent some payload that
 /// can be hung from aircraft weapon stores/stations.
 ///
 
-/// A weapon as used in this application (Do we need all fields?)
+/// A `PayloadWeapon` represents weapon(s) hung from a launcher represented as a `Payload`
 #[derive(Debug)]
 pub struct PayloadWeapon {
     pub id: String,
@@ -16,7 +16,7 @@ pub struct PayloadWeapon {
     pub quantity: u8,
 }
 
-/// A Payload is an struct representing some combination of a launcher or pylon with a weapon that can be hung on an aircraft's station.
+/// A `Payload` is an struct representing some combination of a launcher or pylon with a weapon that can be hung on an aircraft's station.
 #[derive(Debug)]
 pub struct Payload {
     pub clsid: String,
