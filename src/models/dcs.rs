@@ -1,4 +1,4 @@
-﻿use serde::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 
 /// Model representing the exported Weapon object from DCS
 #[derive(Debug, Serialize, Deserialize)]
@@ -58,16 +58,12 @@ impl Launcher {
         launcher_model: &LauncherModel,
         weapon_models: &[WeaponModel],
     ) -> Result<Launcher, &'static str> {
-        let _weapons = launcher_model
+        let _weapons: Option<Vec<LauncherWeapon>> = launcher_model
             .weapons
             .clone()
             .into_iter()
             .map(|lwm| {
-                let wm: Option<&WeaponModel> = match weapon_models.iter().find(|wm| wm.id == lwm.id)
-                {
-                    None => None,
-                    Some(res) => Some(res),
-                };
+                let wm = weapon_models.iter().find(|wm| wm.id == lwm.id);
 
                 match wm {
                     None => None,
@@ -81,7 +77,7 @@ impl Launcher {
                 }
             })
             .collect();
-        
+
         // Return a new launcher object
         Ok(Launcher {
             clsid: launcher_model.clsid.clone(),
@@ -91,10 +87,7 @@ impl Launcher {
             attribute: launcher_model.attribute.clone(),
             display_name: launcher_model.display_name.clone(),
             weight: launcher_model.weight,
-            weapons: match _weapons {
-                None => None,
-                Some(lw) => Some(lw),
-            },
+            weapons: _weapons,
         })
     }
 }

@@ -23,7 +23,7 @@ fn main() {
     //     "Find AGM-65D in weapons: {:?}",
     //     &weapons.into_iter().find(|w| w.id == "{4,4,8,77}")
     // );
-    // 
+    //
     // println!(
     //     "Find {{444BA8AE-82A7-4345-842E-76154EFCCA46}} in launchers: {:?}",
     //     &launchers
@@ -36,21 +36,18 @@ fn main() {
     //     .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}") {
     //     // Create an print a launcher
     //     let launcher: Launcher = Launcher::new(&lm, &weapons).unwrap();
-    //     
+    //
     //     println!("## Launcher: {:?}", launcher)
     // };
 
-    // Find a specific LauncherModel (from an aircraft pylon) and make it into a Launcher object 
-    let launcher = match launchers
+    // Find a specific LauncherModel (from an aircraft pylon) and make it into a Launcher object
+    let launcher = launchers
         .into_iter()
-        .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}") {
-        None => None,
-        Some(lm) => Some(Launcher::new(&lm, &weapons).unwrap())
-    };
-    
+        .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
+        .map(|lm| Launcher::new(&lm, &weapons).unwrap());
+
     // ... then debug print the result
-    match launcher {
-        Some(l) =>  println!("Launcher: {:?}", l),
-        _ => ()
+    if let Some(l) = launcher {
+        println!("Launcher: {:?}", l)
     }
 }
