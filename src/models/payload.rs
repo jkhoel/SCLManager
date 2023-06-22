@@ -35,7 +35,7 @@ impl Payload {
     /// # Arguments
     ///
     /// * `&LauncherModel` - A LauncherModel that we want to make into a Payload
-    /// * `&[WeaponModel]` - A collection (slice) of all available WeaponModels. Used to match and populate the `Payload.weapons` field.
+    /// * `&[WeaponModel]` - A collection (slice) of all available WeaponModels. Used to match and populate the `Payload.weapons` field with `Vec<PayloadWeapon>`
     ///
     /// # Examples
     ///
