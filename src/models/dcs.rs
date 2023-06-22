@@ -23,7 +23,6 @@ pub struct LauncherModel {
 }
 
 /// Model representing the exported Weapon for a Launcher object from DCS
-// TODO: Fix the DCS export file to include id
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct LauncherWeaponModel {
     pub id: String,
