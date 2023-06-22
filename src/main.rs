@@ -1,4 +1,5 @@
-use crate::models::dcs::{Launcher, LauncherModel, WeaponModel};
+use crate::models::dcs::{LauncherModel, WeaponModel};
+use crate::models::payload::Payload;
 
 mod models;
 
@@ -40,14 +41,14 @@ fn main() {
     //     println!("## Launcher: {:?}", launcher)
     // };
 
-    // Find a specific LauncherModel (from an aircraft pylon) and make it into a Launcher object
-    let launcher = launchers
+    // Find a specific LauncherModel (from an aircraft pylon) and make it into a Payload
+    let payload = launchers
         .into_iter()
         .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
-        .map(|lm| Launcher::new(&lm, &weapons).unwrap());
+        .map(|lm| Payload::new(&lm, &weapons).unwrap());
 
     // ... then debug print the result
-    if let Some(l) = launcher {
-        println!("Launcher: {:?}", l)
+    if let Some(l) = payload {
+        println!("Payload: {:?}", l)
     }
 }
