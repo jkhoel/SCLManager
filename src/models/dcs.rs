@@ -105,6 +105,7 @@ pub struct AirframeWeightsModel {
     pub mtow: serde_json::Value,
 }
 
+// TODO Write tests that can actually read the exported files and verify they work
 // TODO Implement a new() in order to make sure the above serde_json::Values actually get cast to a proper value? https://docs.rs/serde_json/latest/serde_json/value/fn.from_value.html
 
 // {
