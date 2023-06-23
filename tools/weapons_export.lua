@@ -570,18 +570,20 @@ function export_aircraft(airframe)
         -- If CMDS_Edit is false, then you cant change it on the rearm refuel menu
         -- However, these moduels (AV8B, F14) may allow you to change it on the kneeboard
         -- so, we need to manually configure how the CMDs work on a jet.... fun
+        local _cms = {}
 
-        cms.CMDS_Edit = airframe.passivCounterm.CMDS_Edit
-        cms.total = airframe.passivCounterm.SingleChargeTotal
+        _cms.CMDS_Edit = airframe.passivCounterm.CMDS_Edit
+        _cms.total = airframe.passivCounterm.SingleChargeTotal
         for _, cms_type in ipairs({"chaff", "flare"}) do
             if airframe.passivCounterm[cms_type] ~= nil then
-                cms[cms_type] = {
+                _cms[cms_type] = {
                     ["default"] = airframe.passivCounterm[cms_type].default,
                     ["increment"] = airframe.passivCounterm[cms_type].increment,
                     ["charge_sz"] = airframe.passivCounterm[cms_type].chargeSz
                 }
             end
         end
+        table.insert(cms, _cms)
     end
 
     -- Pylons
