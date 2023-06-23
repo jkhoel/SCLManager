@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+﻿use serde::{Deserialize, Serialize};
 
 /// Model representing the exported Weapon object from DCS
 #[derive(Debug, Serialize, Deserialize)]
@@ -81,18 +81,18 @@ pub struct AirframeRadioChannelModel {
 #[derive(Debug, Serialize, Deserialize)]
 /// A struct that defines the frequency ranges of an AirframeRadioModel
 pub struct AirframeRadioRangeModel {
-    from: u32,
+    from: f32,
     interval: u32,
     modulation: u32,
-    to: u32,
+    to: f32,
 }
 
 /// A struct representing a DCS Airframe's pylon
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AirframePylonModel {
     pub name: serde_json::Value,
-    pub number: u8,
-    pub order: u8,
+    pub number: u16,
+    pub order: u16,
     pub stores: Vec<String>,
 }
 
