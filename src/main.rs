@@ -24,8 +24,10 @@ fn main() {
     let launchers: Vec<LauncherModel> =
         serde_json::from_str::<Vec<LauncherModel>>(&launchers_file_content).unwrap();
 
-    let _airframes: Vec<AirframeModel> =
+    let airframes: Vec<AirframeModel> =
         serde_json::from_str::<Vec<AirframeModel>>(&airframes_file_content).unwrap();
+
+    println!("Airframes \n{:?}", airframes);
 
     // println!(
     //     "Find AGM-65D in weapons: {:?}",

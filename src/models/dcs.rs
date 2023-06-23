@@ -32,7 +32,7 @@ pub struct LauncherWeaponModel {
 /// A struct representing a DCS Airframe
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AirframeModel {
-    pub cms: AirframeCmsModel,
+    pub cms: Vec<AirframeCmsModel>,
     pub full_fidelity: bool,
     pub name: String,
     pub pylons: Vec<AirframePylonModel>,
