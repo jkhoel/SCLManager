@@ -1,5 +1,5 @@
+use crate::models::imports::{LauncherModel, WeaponModel};
 use serde::{Deserialize, Serialize};
-use crate::models::dcs::{LauncherModel, WeaponModel};
 
 /// A `PayloadWeapon` represents weapon(s) hung from a launcher represented as a `Payload`
 #[derive(Debug, Deserialize, Serialize)]
@@ -77,7 +77,7 @@ impl Payload {
             adapter_type: launcher_model.adapter_type.clone().unwrap_or(0.to_string()),
             attribute: launcher_model.attribute.to_owned(),
             display_name: launcher_model.display_name.to_owned(),
-            weight:launcher_model.weight.unwrap_or(0.0),
+            weight: launcher_model.weight.unwrap_or(0.0),
             weapons: _weapons,
         })
     }
