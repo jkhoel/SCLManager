@@ -16,10 +16,10 @@ pub struct Payload {
     pub clsid: String,
     pub category: String,
     pub kind_of_shipping: Option<u8>,
-    pub adapter_type: Option<String>,
+    pub adapter_type: String,
     pub attribute: String,
     pub display_name: String,
-    pub weight: Option<f32>,
+    pub weight: f32,
     pub weapons: Option<Vec<PayloadWeapon>>,
 }
 
@@ -68,12 +68,15 @@ impl Payload {
         // Return a new launcher object
         Ok(Payload {
             clsid: launcher_model.clsid.to_owned(),
-            category: launcher_model.category.to_string(),
+            category: match launcher_model.category.is_string() {
+                true => launcher_model.category.to_string(),
+                _ => "Other".to_string(),
+            },
             kind_of_shipping: launcher_model.kind_of_shipping.to_owned(),
-            adapter_type: launcher_model.adapter_type.to_owned(),
+            adapter_type: launcher_model.adapter_type.clone().unwrap(),
             attribute: launcher_model.attribute.to_owned(),
             display_name: launcher_model.display_name.to_owned(),
-            weight: launcher_model.weight.to_owned(),
+            weight:launcher_model.weight.unwrap_or(0.0),
             weapons: _weapons,
         })
     }
