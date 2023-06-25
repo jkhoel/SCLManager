@@ -5,6 +5,8 @@
 
 A Standard Combat Load (SCL) manager for DCS:World
 
+> Concurrent with DCS Open Beta v.2.8.6.41363
+
 ## Exporting data from DCS
 
 Run `weapons_export.lua` by adding the following line to the bottom of `C:\DCS\DCS World\MissionEditor\modules\me_mission.lua`:
