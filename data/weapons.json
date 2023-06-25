@@ -43,8 +43,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -85,740 +85,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "R-73 (AA-11 Archer)",
-        "id": "{4,4,7,18}",
-        "name": "P_73",
-        "ws_type": "{4,4,7,18}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27T (AA-10 Alamo B)",
-        "id": "{4,4,7,15}",
-        "name": "P_27T",
-        "ws_type": "{4,4,7,15}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "R-27ET (AA-10 Alamo D)",
-        "id": "{4,4,7,16}",
-        "name": "P_27TE",
-        "ws_type": "{4,4,7,16}"
-    },
-    {
-        "display_name": "S-8OFP2 MPP",
-        "id": "{4,7,33,155}",
-        "name": "C_8OFP2",
-        "ws_type": "{4,7,33,155}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BetAB-500ShP",
-        "id": "{4,5,37,4}",
-        "name": "BetAB_500ShP",
-        "ws_type": "{4,5,37,4}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "S-8KOM HEAT/Frag",
-        "id": "{4,7,33,32}",
-        "name": "C_8",
-        "ws_type": "{4,7,33,32}"
-    },
-    {
-        "display_name": "S-13OF",
-        "id": "{4,7,33,33}",
-        "name": "C_13",
-        "ws_type": "{4,7,33,33}"
-    },
-    {
-        "display_name": "S-25-OFM",
-        "id": "{4,7,33,35}",
-        "name": "C_25",
-        "ws_type": "{4,7,33,35}"
-    },
-    {
-        "display_name": "S-25-O",
-        "id": "{4,7,33,367}",
-        "name": "S-25-O",
-        "ws_type": "{4,7,33,367}"
-    },
-    {
-        "display_name": "S-8TsM SM Orange",
-        "id": "{4,7,33,30}",
-        "name": "C_8CM",
-        "ws_type": "{4,7,33,30}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "S-25-OFM",
-        "id": "{4,7,33,35}",
-        "name": "C_25",
-        "ws_type": "{4,7,33,35}"
-    },
-    {
-        "display_name": "S-25-O",
-        "id": "{4,7,33,367}",
-        "name": "S-25-O",
-        "ws_type": "{4,7,33,367}"
-    },
-    {
-        "display_name": "S-13OF",
-        "id": "{4,7,33,33}",
-        "name": "C_13",
-        "ws_type": "{4,7,33,33}"
-    },
-    {
-        "display_name": "S-8KOM HEAT/Frag",
-        "id": "{4,7,33,32}",
-        "name": "C_8",
-        "ws_type": "{4,7,33,32}"
-    },
-    {
-        "display_name": "S-8TsM SM Orange",
-        "id": "{4,7,33,30}",
-        "name": "C_8CM",
-        "ws_type": "{4,7,33,30}"
-    },
-    {
-        "display_name": "S-8OFP2 MPP",
-        "id": "{4,7,33,155}",
-        "name": "C_8OFP2",
-        "ws_type": "{4,7,33,155}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BetAB-500ShP",
-        "id": "{4,5,37,4}",
-        "name": "BetAB_500ShP",
-        "ws_type": "{4,5,37,4}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BetAB-500ShP",
-        "id": "{4,5,37,4}",
-        "name": "BetAB_500ShP",
-        "ws_type": "{4,5,37,4}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BetAB-500ShP",
-        "id": "{4,5,37,4}",
-        "name": "BetAB_500ShP",
-        "ws_type": "{4,5,37,4}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BetAB-500ShP",
-        "id": "{4,5,37,4}",
-        "name": "BetAB_500ShP",
-        "ws_type": "{4,5,37,4}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -1009,8 +277,740 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "S-25-OFM",
+        "id": "{4,7,33,35}",
+        "name": "C_25",
+        "ws_type": "{4,7,33,35}"
+    },
+    {
+        "display_name": "S-25-O",
+        "id": "{4,7,33,367}",
+        "name": "S-25-O",
+        "ws_type": "{4,7,33,367}"
+    },
+    {
+        "display_name": "S-13OF",
+        "id": "{4,7,33,33}",
+        "name": "C_13",
+        "ws_type": "{4,7,33,33}"
+    },
+    {
+        "display_name": "S-8KOM HEAT/Frag",
+        "id": "{4,7,33,32}",
+        "name": "C_8",
+        "ws_type": "{4,7,33,32}"
+    },
+    {
+        "display_name": "S-8TsM SM Orange",
+        "id": "{4,7,33,30}",
+        "name": "C_8CM",
+        "ws_type": "{4,7,33,30}"
+    },
+    {
+        "display_name": "S-8OFP2 MPP",
+        "id": "{4,7,33,155}",
+        "name": "C_8OFP2",
+        "ws_type": "{4,7,33,155}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BetAB-500ShP",
+        "id": "{4,5,37,4}",
+        "name": "BetAB_500ShP",
+        "ws_type": "{4,5,37,4}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BetAB-500ShP",
+        "id": "{4,5,37,4}",
+        "name": "BetAB_500ShP",
+        "ws_type": "{4,5,37,4}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BetAB-500ShP",
+        "id": "{4,5,37,4}",
+        "name": "BetAB_500ShP",
+        "ws_type": "{4,5,37,4}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BetAB-500ShP",
+        "id": "{4,5,37,4}",
+        "name": "BetAB_500ShP",
+        "ws_type": "{4,5,37,4}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "R-73 (AA-11 Archer)",
+        "id": "{4,4,7,18}",
+        "name": "P_73",
+        "ws_type": "{4,4,7,18}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27T (AA-10 Alamo B)",
+        "id": "{4,4,7,15}",
+        "name": "P_27T",
+        "ws_type": "{4,4,7,15}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "R-27ET (AA-10 Alamo D)",
+        "id": "{4,4,7,16}",
+        "name": "P_27TE",
+        "ws_type": "{4,4,7,16}"
+    },
+    {
+        "display_name": "S-8OFP2 MPP",
+        "id": "{4,7,33,155}",
+        "name": "C_8OFP2",
+        "ws_type": "{4,7,33,155}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BetAB-500ShP",
+        "id": "{4,5,37,4}",
+        "name": "BetAB_500ShP",
+        "ws_type": "{4,5,37,4}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "S-8KOM HEAT/Frag",
+        "id": "{4,7,33,32}",
+        "name": "C_8",
+        "ws_type": "{4,7,33,32}"
+    },
+    {
+        "display_name": "S-13OF",
+        "id": "{4,7,33,33}",
+        "name": "C_13",
+        "ws_type": "{4,7,33,33}"
+    },
+    {
+        "display_name": "S-25-OFM",
+        "id": "{4,7,33,35}",
+        "name": "C_25",
+        "ws_type": "{4,7,33,35}"
+    },
+    {
+        "display_name": "S-25-O",
+        "id": "{4,7,33,367}",
+        "name": "S-25-O",
+        "ws_type": "{4,7,33,367}"
+    },
+    {
+        "display_name": "S-8TsM SM Orange",
+        "id": "{4,7,33,30}",
+        "name": "C_8CM",
+        "ws_type": "{4,7,33,30}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -1087,8 +1087,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -1135,8 +1135,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -1177,8 +1177,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -2557,8 +2557,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -2605,8 +2605,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -4105,8 +4105,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -4153,8 +4153,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -4213,1023 +4213,9 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "R-73 (AA-11 Archer)",
-        "id": "{4,4,7,18}",
-        "name": "P_73",
-        "ws_type": "{4,4,7,18}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27T (AA-10 Alamo B)",
-        "id": "{4,4,7,15}",
-        "name": "P_27T",
-        "ws_type": "{4,4,7,15}"
-    },
-    {
-        "display_name": "R-27ET (AA-10 Alamo D)",
-        "id": "{4,4,7,16}",
-        "name": "P_27TE",
-        "ws_type": "{4,4,7,16}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "S-8KOM HEAT/Frag",
-        "id": "{4,7,33,32}",
-        "name": "C_8",
-        "ws_type": "{4,7,33,32}"
-    },
-    {
-        "display_name": "S-13OF",
-        "id": "{4,7,33,33}",
-        "name": "C_13",
-        "ws_type": "{4,7,33,33}"
-    },
-    {
-        "display_name": "S-25-OFM",
-        "id": "{4,7,33,35}",
-        "name": "C_25",
-        "ws_type": "{4,7,33,35}"
-    },
-    {
-        "display_name": "S-25-O",
-        "id": "{4,7,33,367}",
-        "name": "S-25-O",
-        "ws_type": "{4,7,33,367}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "S-8OFP2 MPP",
-        "id": "{4,7,33,155}",
-        "name": "C_8OFP2",
-        "ws_type": "{4,7,33,155}"
-    },
-    {
-        "display_name": "S-8TsM SM Orange",
-        "id": "{4,7,33,30}",
-        "name": "C_8CM",
-        "ws_type": "{4,7,33,30}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "S-25-OFM",
-        "id": "{4,7,33,35}",
-        "name": "C_25",
-        "ws_type": "{4,7,33,35}"
-    },
-    {
-        "display_name": "S-25-O",
-        "id": "{4,7,33,367}",
-        "name": "S-25-O",
-        "ws_type": "{4,7,33,367}"
-    },
-    {
-        "display_name": "S-13OF",
-        "id": "{4,7,33,33}",
-        "name": "C_13",
-        "ws_type": "{4,7,33,33}"
-    },
-    {
-        "display_name": "S-8KOM HEAT/Frag",
-        "id": "{4,7,33,32}",
-        "name": "C_8",
-        "ws_type": "{4,7,33,32}"
-    },
-    {
-        "display_name": "S-8TsM SM Orange",
-        "id": "{4,7,33,30}",
-        "name": "C_8CM",
-        "ws_type": "{4,7,33,30}"
-    },
-    {
-        "display_name": "S-8OFP2 MPP",
-        "id": "{4,7,33,155}",
-        "name": "C_8OFP2",
-        "ws_type": "{4,7,33,155}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "S-8KOM HEAT/Frag",
-        "id": "{4,7,33,32}",
-        "name": "C_8",
-        "ws_type": "{4,7,33,32}"
-    },
-    {
-        "display_name": "S-13OF",
-        "id": "{4,7,33,33}",
-        "name": "C_13",
-        "ws_type": "{4,7,33,33}"
-    },
-    {
-        "display_name": "S-25-OFM",
-        "id": "{4,7,33,35}",
-        "name": "C_25",
-        "ws_type": "{4,7,33,35}"
-    },
-    {
-        "display_name": "S-25-O",
-        "id": "{4,7,33,367}",
-        "name": "S-25-O",
-        "ws_type": "{4,7,33,367}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "S-8OFP2 MPP",
-        "id": "{4,7,33,155}",
-        "name": "C_8OFP2",
-        "ws_type": "{4,7,33,155}"
-    },
-    {
-        "display_name": "S-8TsM SM Orange",
-        "id": "{4,7,33,30}",
-        "name": "C_8CM",
-        "ws_type": "{4,7,33,30}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "FAB-100",
-        "id": "{4,5,9,5}",
-        "name": "FAB_100",
-        "ws_type": "{4,5,9,5}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
-    },
-    {
-        "display_name": "R-27R (AA-10 Alamo A)",
-        "id": "{4,4,7,13}",
-        "name": "P_27P",
-        "ws_type": "{4,4,7,13}"
-    },
-    {
-        "display_name": "R-27ER (AA-10 Alamo C)",
-        "id": "{4,4,7,14}",
-        "name": "P_27PE",
-        "ws_type": "{4,4,7,14}"
-    },
-    {
-        "display_name": "FAB-250",
-        "id": "{4,5,9,6}",
-        "name": "FAB_250",
-        "ws_type": "{4,5,9,6}"
-    },
-    {
-        "display_name": "FAB-250-M62",
-        "id": "{4,5,9,374}",
-        "name": "FAB-250-M62",
-        "ws_type": "{4,5,9,374}"
-    },
-    {
-        "display_name": "BetAB-500",
-        "id": "{4,5,37,3}",
-        "name": "BetAB_500",
-        "ws_type": "{4,5,37,3}"
-    },
-    {
-        "display_name": "BKF - 12 x AO-2.5RT",
-        "id": "{4,5,38,361}",
-        "name": "BKF_AO2_5RT",
-        "ws_type": "{4,5,38,361}"
-    },
-    {
-        "display_name": "BKF - 12 x PTAB-2.5KO",
-        "id": "{4,5,38,362}",
-        "name": "BKF_PTAB2_5KO",
-        "ws_type": "{4,5,38,362}"
-    },
-    {
-        "display_name": "RBK-250 PTAB-2.5M",
-        "id": "{4,5,38,18}",
-        "name": "RBK_250",
-        "ws_type": "{4,5,38,18}"
-    },
-    {
-        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
-        "id": "{4,5,38,299}",
-        "name": "RBK_250_275_AO_1SCH",
-        "ws_type": "{4,5,38,299}"
-    },
-    {
-        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
-        "id": "{4,5,38,301}",
-        "name": "RBK_500U_OAB_2_5RT",
-        "ws_type": "{4,5,38,301}"
-    },
-    {
-        "display_name": "RBK-500-255 PTAB-10-5",
-        "id": "{4,5,38,20}",
-        "name": "RBK_500AO",
-        "ws_type": "{4,5,38,20}"
-    },
-    {
-        "display_name": "RBK-500 PTAB-1M",
-        "id": "{4,5,38,91}",
-        "name": "RBK_500U",
-        "ws_type": "{4,5,38,91}"
-    },
-    {
-        "display_name": "FAB-500 M-62",
-        "id": "{4,5,9,7}",
-        "name": "FAB_500",
-        "ws_type": "{4,5,9,7}"
-    },
-    {
-        "display_name": "S-8KOM HEAT/Frag",
-        "id": "{4,7,33,32}",
-        "name": "C_8",
-        "ws_type": "{4,7,33,32}"
-    },
-    {
-        "display_name": "S-13OF",
-        "id": "{4,7,33,33}",
-        "name": "C_13",
-        "ws_type": "{4,7,33,33}"
-    },
-    {
-        "display_name": "S-25-OFM",
-        "id": "{4,7,33,35}",
-        "name": "C_25",
-        "ws_type": "{4,7,33,35}"
-    },
-    {
-        "display_name": "S-25-O",
-        "id": "{4,7,33,367}",
-        "name": "S-25-O",
-        "ws_type": "{4,7,33,367}"
-    },
-    {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
-        "ws_type": "{4,15,50,66}"
-    },
-    {
-        "display_name": "Smoke Generator - green",
-        "id": "{4,15,50,82}",
-        "name": "{INV-SMOKE-GREEN}",
-        "ws_type": "{4,15,50,82}"
-    },
-    {
-        "display_name": "Smoke Generator - blue",
-        "id": "{4,15,50,83}",
-        "name": "{INV-SMOKE-BLUE}",
-        "ws_type": "{4,15,50,83}"
-    },
-    {
-        "display_name": "Smoke Generator - white",
-        "id": "{4,15,50,84}",
-        "name": "{INV-SMOKE-WHITE}",
-        "ws_type": "{4,15,50,84}"
-    },
-    {
-        "display_name": "Smoke Generator - yellow",
-        "id": "{4,15,50,85}",
-        "name": "{INV-SMOKE-YELLOW}",
-        "ws_type": "{4,15,50,85}"
-    },
-    {
-        "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "ws_type": "{4,15,50,86}"
-    },
-    {
-        "display_name": "S-8OFP2 MPP",
-        "id": "{4,7,33,155}",
-        "name": "C_8OFP2",
-        "ws_type": "{4,7,33,155}"
-    },
-    {
-        "display_name": "S-8TsM SM Orange",
-        "id": "{4,7,33,30}",
-        "name": "C_8CM",
-        "ws_type": "{4,7,33,30}"
-    },
-    {
-        "display_name": "SAB-100MN",
-        "id": "{4,5,49,63}",
-        "name": "SAB_100MN",
-        "ws_type": "{4,5,49,63}"
     },
     {
         "display_name": "R-73 (AA-11 Archer)",
@@ -5383,8 +4369,1022 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "S-8OFP2 MPP",
+        "id": "{4,7,33,155}",
+        "name": "C_8OFP2",
+        "ws_type": "{4,7,33,155}"
+    },
+    {
+        "display_name": "S-8TsM SM Orange",
+        "id": "{4,7,33,30}",
+        "name": "C_8CM",
+        "ws_type": "{4,7,33,30}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "S-25-OFM",
+        "id": "{4,7,33,35}",
+        "name": "C_25",
+        "ws_type": "{4,7,33,35}"
+    },
+    {
+        "display_name": "S-25-O",
+        "id": "{4,7,33,367}",
+        "name": "S-25-O",
+        "ws_type": "{4,7,33,367}"
+    },
+    {
+        "display_name": "S-13OF",
+        "id": "{4,7,33,33}",
+        "name": "C_13",
+        "ws_type": "{4,7,33,33}"
+    },
+    {
+        "display_name": "S-8KOM HEAT/Frag",
+        "id": "{4,7,33,32}",
+        "name": "C_8",
+        "ws_type": "{4,7,33,32}"
+    },
+    {
+        "display_name": "S-8TsM SM Orange",
+        "id": "{4,7,33,30}",
+        "name": "C_8CM",
+        "ws_type": "{4,7,33,30}"
+    },
+    {
+        "display_name": "S-8OFP2 MPP",
+        "id": "{4,7,33,155}",
+        "name": "C_8OFP2",
+        "ws_type": "{4,7,33,155}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "S-8KOM HEAT/Frag",
+        "id": "{4,7,33,32}",
+        "name": "C_8",
+        "ws_type": "{4,7,33,32}"
+    },
+    {
+        "display_name": "S-13OF",
+        "id": "{4,7,33,33}",
+        "name": "C_13",
+        "ws_type": "{4,7,33,33}"
+    },
+    {
+        "display_name": "S-25-OFM",
+        "id": "{4,7,33,35}",
+        "name": "C_25",
+        "ws_type": "{4,7,33,35}"
+    },
+    {
+        "display_name": "S-25-O",
+        "id": "{4,7,33,367}",
+        "name": "S-25-O",
+        "ws_type": "{4,7,33,367}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "S-8OFP2 MPP",
+        "id": "{4,7,33,155}",
+        "name": "C_8OFP2",
+        "ws_type": "{4,7,33,155}"
+    },
+    {
+        "display_name": "S-8TsM SM Orange",
+        "id": "{4,7,33,30}",
+        "name": "C_8CM",
+        "ws_type": "{4,7,33,30}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "FAB-100",
+        "id": "{4,5,9,5}",
+        "name": "FAB_100",
+        "ws_type": "{4,5,9,5}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "S-8KOM HEAT/Frag",
+        "id": "{4,7,33,32}",
+        "name": "C_8",
+        "ws_type": "{4,7,33,32}"
+    },
+    {
+        "display_name": "S-13OF",
+        "id": "{4,7,33,33}",
+        "name": "C_13",
+        "ws_type": "{4,7,33,33}"
+    },
+    {
+        "display_name": "S-25-OFM",
+        "id": "{4,7,33,35}",
+        "name": "C_25",
+        "ws_type": "{4,7,33,35}"
+    },
+    {
+        "display_name": "S-25-O",
+        "id": "{4,7,33,367}",
+        "name": "S-25-O",
+        "ws_type": "{4,7,33,367}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "S-8OFP2 MPP",
+        "id": "{4,7,33,155}",
+        "name": "C_8OFP2",
+        "ws_type": "{4,7,33,155}"
+    },
+    {
+        "display_name": "S-8TsM SM Orange",
+        "id": "{4,7,33,30}",
+        "name": "C_8CM",
+        "ws_type": "{4,7,33,30}"
+    },
+    {
+        "display_name": "SAB-100MN",
+        "id": "{4,5,49,63}",
+        "name": "SAB_100MN",
+        "ws_type": "{4,5,49,63}"
+    },
+    {
+        "display_name": "R-73 (AA-11 Archer)",
+        "id": "{4,4,7,18}",
+        "name": "P_73",
+        "ws_type": "{4,4,7,18}"
+    },
+    {
+        "display_name": "R-27R (AA-10 Alamo A)",
+        "id": "{4,4,7,13}",
+        "name": "P_27P",
+        "ws_type": "{4,4,7,13}"
+    },
+    {
+        "display_name": "R-27T (AA-10 Alamo B)",
+        "id": "{4,4,7,15}",
+        "name": "P_27T",
+        "ws_type": "{4,4,7,15}"
+    },
+    {
+        "display_name": "R-27ET (AA-10 Alamo D)",
+        "id": "{4,4,7,16}",
+        "name": "P_27TE",
+        "ws_type": "{4,4,7,16}"
+    },
+    {
+        "display_name": "R-27ER (AA-10 Alamo C)",
+        "id": "{4,4,7,14}",
+        "name": "P_27PE",
+        "ws_type": "{4,4,7,14}"
+    },
+    {
+        "display_name": "FAB-250",
+        "id": "{4,5,9,6}",
+        "name": "FAB_250",
+        "ws_type": "{4,5,9,6}"
+    },
+    {
+        "display_name": "FAB-250-M62",
+        "id": "{4,5,9,374}",
+        "name": "FAB-250-M62",
+        "ws_type": "{4,5,9,374}"
+    },
+    {
+        "display_name": "BetAB-500",
+        "id": "{4,5,37,3}",
+        "name": "BetAB_500",
+        "ws_type": "{4,5,37,3}"
+    },
+    {
+        "display_name": "BKF - 12 x AO-2.5RT",
+        "id": "{4,5,38,361}",
+        "name": "BKF_AO2_5RT",
+        "ws_type": "{4,5,38,361}"
+    },
+    {
+        "display_name": "BKF - 12 x PTAB-2.5KO",
+        "id": "{4,5,38,362}",
+        "name": "BKF_PTAB2_5KO",
+        "ws_type": "{4,5,38,362}"
+    },
+    {
+        "display_name": "RBK-250 PTAB-2.5M",
+        "id": "{4,5,38,18}",
+        "name": "RBK_250",
+        "ws_type": "{4,5,38,18}"
+    },
+    {
+        "display_name": "RBK-250-275 - 150 x AO-1SCh, 250kg CBU HE/Frag",
+        "id": "{4,5,38,299}",
+        "name": "RBK_250_275_AO_1SCH",
+        "ws_type": "{4,5,38,299}"
+    },
+    {
+        "display_name": "RBK-500U - 126 x OAB-2.5RT, 500kg CBU HE/Frag",
+        "id": "{4,5,38,301}",
+        "name": "RBK_500U_OAB_2_5RT",
+        "ws_type": "{4,5,38,301}"
+    },
+    {
+        "display_name": "RBK-500-255 PTAB-10-5",
+        "id": "{4,5,38,20}",
+        "name": "RBK_500AO",
+        "ws_type": "{4,5,38,20}"
+    },
+    {
+        "display_name": "RBK-500 PTAB-1M",
+        "id": "{4,5,38,91}",
+        "name": "RBK_500U",
+        "ws_type": "{4,5,38,91}"
+    },
+    {
+        "display_name": "FAB-500 M-62",
+        "id": "{4,5,9,7}",
+        "name": "FAB_500",
+        "ws_type": "{4,5,9,7}"
+    },
+    {
+        "display_name": "S-8KOM HEAT/Frag",
+        "id": "{4,7,33,32}",
+        "name": "C_8",
+        "ws_type": "{4,7,33,32}"
+    },
+    {
+        "display_name": "S-13OF",
+        "id": "{4,7,33,33}",
+        "name": "C_13",
+        "ws_type": "{4,7,33,33}"
+    },
+    {
+        "display_name": "S-25-OFM",
+        "id": "{4,7,33,35}",
+        "name": "C_25",
+        "ws_type": "{4,7,33,35}"
+    },
+    {
+        "display_name": "S-25-O",
+        "id": "{4,7,33,367}",
+        "name": "S-25-O",
+        "ws_type": "{4,7,33,367}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "{4,15,50,82}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "{4,15,50,83}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,84}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "{4,15,50,85}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -5509,8 +5509,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -5557,8 +5557,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -5574,9 +5574,9 @@
         "ws_type": "{4,4,7,106}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -5592,9 +5592,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -5886,9 +5886,9 @@
         "ws_type": "{4,4,7,106}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -5904,9 +5904,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -5995,8 +5995,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6049,8 +6049,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6193,8 +6193,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6361,8 +6361,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6409,8 +6409,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6583,8 +6583,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6727,8 +6727,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6781,8 +6781,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6841,8 +6841,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -6991,8 +6991,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -7165,8 +7165,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -7213,8 +7213,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -7393,8 +7393,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -7543,8 +7543,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -8886,9 +8886,9 @@
         "ws_type": "{4,15,45,142}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -8904,9 +8904,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -10230,9 +10230,9 @@
         "ws_type": "{4,15,45,142}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -10248,9 +10248,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -10332,12 +10332,6 @@
         "ws_type": "{4,4,7,22}"
     },
     {
-        "display_name": "NO PYLON",
-        "id": "{0,0,0,0}",
-        "name": "<CLEAN-200.5>",
-        "ws_type": "{0,0,0,0}"
-    },
-    {
         "display_name": "CATM-9M",
         "id": "{4,4,100,143}",
         "name": "CATM_9M",
@@ -10356,9 +10350,9 @@
         "ws_type": "{4,15,45,25}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -10374,9 +10368,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -10710,7 +10704,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -11088,7 +11082,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -11406,7 +11400,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -11610,7 +11604,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -11736,7 +11730,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -12090,7 +12084,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -12576,9 +12570,9 @@
         "ws_type": "{4,4,7,22}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -12594,9 +12588,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -12672,12 +12666,6 @@
         "ws_type": "{4,4,7,22}"
     },
     {
-        "display_name": "NO PYLON",
-        "id": "{0,0,0,0}",
-        "name": "<CLEAN-200.5>",
-        "ws_type": "{0,0,0,0}"
-    },
-    {
         "display_name": "ALQ-184 - ECM Pod",
         "id": "wmapi.internal.ALQ_184",
         "name": "ALQ_184",
@@ -12732,12 +12720,6 @@
         "ws_type": "{4,4,7,22}"
     },
     {
-        "display_name": "NO PYLON",
-        "id": "{0,0,0,0}",
-        "name": "<CLEAN-200.5>",
-        "ws_type": "{0,0,0,0}"
-    },
-    {
         "display_name": "CATM-9M",
         "id": "{4,4,100,143}",
         "name": "CATM_9M",
@@ -12756,9 +12738,9 @@
         "ws_type": "{4,15,45,25}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -12774,9 +12756,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -13128,7 +13110,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -13470,7 +13452,7 @@
         "ws_type": "{4,4,8,293}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -13536,7 +13518,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -13824,7 +13806,7 @@
         "ws_type": "{4,4,8,293}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -13884,7 +13866,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -13950,7 +13932,7 @@
         "ws_type": "{4,5,9,75}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -14094,7 +14076,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -14160,7 +14142,7 @@
         "ws_type": "{4,5,9,75}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -14226,7 +14208,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -14514,7 +14496,7 @@
         "ws_type": "{4,4,8,293}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -14616,7 +14598,7 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -14964,7 +14946,7 @@
         "ws_type": "{4,4,8,293}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -15144,9 +15126,9 @@
         "ws_type": "{4,4,7,22}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -15162,9 +15144,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -15238,12 +15220,6 @@
         "id": "{4,4,7,22}",
         "name": "AIM_9",
         "ws_type": "{4,4,7,22}"
-    },
-    {
-        "display_name": "NO PYLON",
-        "id": "{0,0,0,0}",
-        "name": "<CLEAN-200.5>",
-        "ws_type": "{0,0,0,0}"
     },
     {
         "display_name": "ALQ-184 - ECM Pod",
@@ -15334,6 +15310,12 @@
         "id": "wmapi.internal.{AKAN}",
         "name": "{AKAN}",
         "ws_type": "{4,15,46,286}"
+    },
+    {
+        "display_name": "AKAN M/55 Gunpod, 150 rnds MINGR55-HE (no Tracer)",
+        "id": "wmapi.internal.{AKAN_NO_TRC}",
+        "name": "{AKAN_NO_TRC}",
+        "ws_type": "{4,15,46,1796}"
     },
     {
         "display_name": "ARAKM70BHE",
@@ -15642,6 +15624,12 @@
         "ws_type": "{4,15,46,286}"
     },
     {
+        "display_name": "AKAN M/55 Gunpod, 150 rnds MINGR55-HE (no Tracer)",
+        "id": "wmapi.internal.{AKAN_NO_TRC}",
+        "name": "{AKAN_NO_TRC}",
+        "ws_type": "{4,15,46,1796}"
+    },
+    {
         "display_name": "ARAKM70BHE",
         "id": "{4,7,33,11044}",
         "name": "ARAKM70BHE",
@@ -15822,9 +15810,9 @@
         "ws_type": "{4,5,9,69}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -15840,9 +15828,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -15930,7 +15918,7 @@
         "ws_type": "{4,5,36,39}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -15942,7 +15930,7 @@
         "ws_type": "{4,5,36,292}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -15984,13 +15972,13 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16026,25 +16014,25 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16074,13 +16062,13 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16236,9 +16224,9 @@
         "ws_type": "{4,15,44,101}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -16254,9 +16242,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -16338,7 +16326,7 @@
         "ws_type": "{4,5,36,39}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -16350,7 +16338,7 @@
         "ws_type": "{4,5,36,292}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16398,13 +16386,13 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16644,7 +16632,7 @@
         "ws_type": "{4,5,36,39}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -16656,7 +16644,7 @@
         "ws_type": "{4,5,36,292}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16704,13 +16692,13 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16938,7 +16926,7 @@
         "ws_type": "{4,5,36,39}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -16950,7 +16938,7 @@
         "ws_type": "{4,5,36,292}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -16992,13 +16980,13 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -17034,25 +17022,25 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -17082,13 +17070,13 @@
         "ws_type": "{4,5,9,79}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-54B",
+        "display_name": "GBU-54(V)1/B",
         "id": "{4,5,36,293}",
         "name": "GBU_54_V_1B",
         "ws_type": "{4,5,36,293}"
@@ -17244,9 +17232,9 @@
         "ws_type": "{4,15,44,101}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -17262,9 +17250,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -17370,9 +17358,9 @@
         "ws_type": "{4,5,9,69}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -17388,9 +17376,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -17508,12 +17496,6 @@
         "ws_type": "{4,5,38,319}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
         "display_name": "BIN-200 - 200kg Napalm Incendiary Bomb",
         "id": "{4,5,9,316}",
         "name": "BIN_200",
@@ -17572,18 +17554,6 @@
         "id": "{4,5,38,319}",
         "name": "BELOUGA",
         "ws_type": "{4,5,38,319}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "BIN-200 - 200kg Napalm Incendiary Bomb",
@@ -17664,18 +17634,6 @@
         "ws_type": "{4,5,38,319}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
-    },
-    {
         "display_name": "BIN-200 - 200kg Napalm Incendiary Bomb",
         "id": "{4,5,9,316}",
         "name": "BIN_200",
@@ -17754,12 +17712,6 @@
         "ws_type": "{4,5,38,319}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
         "display_name": "BIN-200 - 200kg Napalm Incendiary Bomb",
         "id": "{4,5,9,316}",
         "name": "BIN_200",
@@ -17790,9 +17742,9 @@
         "ws_type": "{4,4,7,306}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_R",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "{4,15,50,67}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -17808,9 +17760,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "{4,15,50,89}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_W",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -17988,9 +17940,9 @@
         "ws_type": "{4,15,44,461}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_R",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "{4,15,50,67}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -18006,9 +17958,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "{4,15,50,89}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_W",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -18198,9 +18150,9 @@
         "ws_type": "{4,15,45,462}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_R",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "{4,15,50,67}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -18216,9 +18168,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "{4,15,50,89}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_W",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -18516,9 +18468,9 @@
         "ws_type": "{4,15,44,461}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_R",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "{4,15,50,67}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -18534,9 +18486,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "{4,15,50,89}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_W",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -18558,9 +18510,9 @@
         "ws_type": "{4,4,7,306}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_R",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "{4,15,50,67}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -18576,9 +18528,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "{4,15,50,89}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.DIS_SMOKE_GENERATOR_W",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -18598,6 +18550,1182 @@
         "id": "wmapi.internal.{CE2_SMOKE_WHITE}",
         "name": "{CE2_SMOKE_WHITE}",
         "ws_type": "{4,15,50,467}"
+    },
+    {
+        "display_name": "AIM-9L",
+        "id": "{4,4,7,267}",
+        "name": "AIM-9L",
+        "ws_type": "{4,4,7,267}"
+    },
+    {
+        "display_name": "AIM-9M",
+        "id": "{4,4,7,22}",
+        "name": "AIM_9",
+        "ws_type": "{4,4,7,22}"
+    },
+    {
+        "display_name": "AIM-9P",
+        "id": "{4,4,7,135}",
+        "name": "AIM-9P",
+        "ws_type": "{4,4,7,135}"
+    },
+    {
+        "display_name": "AIM-9J",
+        "id": "{4,4,7,371}",
+        "name": "AIM-9J",
+        "ws_type": "{4,4,7,371}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "CATM-9M",
+        "id": "{4,4,100,143}",
+        "name": "CATM_9M",
+        "ws_type": "{4,4,100,143}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-24A/B Paveway III",
+        "id": "{4,5,36,41}",
+        "name": "GBU_24",
+        "ws_type": "{4,5,36,41}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50LGB",
+        "id": "{4,5,36,72}",
+        "name": "BDU_50LGB",
+        "ws_type": "{4,5,36,72}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "Fuel tank 610 gal",
+        "id": "wmapi.internal.{F15E_EXTTANK}",
+        "name": "{F15E_EXTTANK}",
+        "ws_type": "{1,3,43,1715}"
+    },
+    {
+        "display_name": "Fuel tank 610 gal (Empty)",
+        "id": "wmapi.internal.{F15E_EXTTANK_EMPTY}",
+        "name": "{F15E_EXTTANK_EMPTY}",
+        "ws_type": "{1,3,43,1716}"
+    },
+    {
+        "display_name": "NO PYLON",
+        "id": "{0,0,0,0}",
+        "name": "<CLEAN-200.5>",
+        "ws_type": "{0,0,0,0}"
+    },
+    {
+        "display_name": "AIM-9L",
+        "id": "{4,4,7,267}",
+        "name": "AIM-9L",
+        "ws_type": "{4,4,7,267}"
+    },
+    {
+        "display_name": "AIM-9M",
+        "id": "{4,4,7,22}",
+        "name": "AIM_9",
+        "ws_type": "{4,4,7,22}"
+    },
+    {
+        "display_name": "AIM-9P",
+        "id": "{4,4,7,135}",
+        "name": "AIM-9P",
+        "ws_type": "{4,4,7,135}"
+    },
+    {
+        "display_name": "AIM-9J",
+        "id": "{4,4,7,371}",
+        "name": "AIM-9J",
+        "ws_type": "{4,4,7,371}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "CATM-9M",
+        "id": "{4,4,100,143}",
+        "name": "CATM_9M",
+        "ws_type": "{4,4,100,143}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "BLU-107/B Durandal",
+        "id": "{4,5,37,62}",
+        "name": "Durandal",
+        "ws_type": "{4,5,37,62}"
+    },
+    {
+        "display_name": "BLU-107/B Durandal",
+        "id": "{4,5,37,62}",
+        "name": "Durandal",
+        "ws_type": "{4,5,37,62}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-24A/B Paveway III",
+        "id": "{4,5,36,41}",
+        "name": "GBU_24",
+        "ws_type": "{4,5,36,41}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50LGB",
+        "id": "{4,5,36,72}",
+        "name": "BDU_50LGB",
+        "ws_type": "{4,5,36,72}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "AIM-7M",
+        "id": "{4,4,7,21}",
+        "name": "AIM_7",
+        "ws_type": "{4,4,7,21}"
+    },
+    {
+        "display_name": "AIM-7F",
+        "id": "{4,4,7,269}",
+        "name": "AIM-7F",
+        "ws_type": "{4,4,7,269}"
+    },
+    {
+        "display_name": "AIM-7MH",
+        "id": "{4,4,7,270}",
+        "name": "AIM-7MH",
+        "ws_type": "{4,4,7,270}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "AIM-7M",
+        "id": "{4,4,7,21}",
+        "name": "AIM_7",
+        "ws_type": "{4,4,7,21}"
+    },
+    {
+        "display_name": "AIM-7F",
+        "id": "{4,4,7,269}",
+        "name": "AIM-7F",
+        "ws_type": "{4,4,7,269}"
+    },
+    {
+        "display_name": "AIM-7MH",
+        "id": "{4,4,7,270}",
+        "name": "AIM-7MH",
+        "ws_type": "{4,4,7,270}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "AN/AAQ-14 LANTIRN TGT Pod",
+        "id": "wmapi.internal.{F-15E_AAQ-14_LANTIRN}",
+        "name": "{F-15E_AAQ-14_LANTIRN}",
+        "ws_type": "{4,15,44,1718}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-24A/B Paveway III",
+        "id": "{4,5,36,41}",
+        "name": "GBU_24",
+        "ws_type": "{4,5,36,41}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50LGB",
+        "id": "{4,5,36,72}",
+        "name": "BDU_50LGB",
+        "ws_type": "{4,5,36,72}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "AN/AXQ-14 Data Link Pod",
+        "id": "wmapi.internal.{AN_AXQ_14}",
+        "name": "{AN_AXQ_14}",
+        "ws_type": "{4,15,44,1721}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "Fuel tank 610 gal",
+        "id": "wmapi.internal.{F15E_EXTTANK}",
+        "name": "{F15E_EXTTANK}",
+        "ws_type": "{1,3,43,1715}"
+    },
+    {
+        "display_name": "Fuel tank 610 gal (Empty)",
+        "id": "wmapi.internal.{F15E_EXTTANK_EMPTY}",
+        "name": "{F15E_EXTTANK_EMPTY}",
+        "ws_type": "{1,3,43,1716}"
+    },
+    {
+        "display_name": "NO PYLON",
+        "id": "{0,0,0,0}",
+        "name": "<CLEAN-200.5>",
+        "ws_type": "{0,0,0,0}"
+    },
+    {
+        "display_name": "AN/AAQ-13 LANTIRN NAV POD",
+        "id": "wmapi.internal.{F-15E_AAQ-13_LANTIRN}",
+        "name": "{F-15E_AAQ-13_LANTIRN}",
+        "ws_type": "{4,15,44,1717}"
+    },
+    {
+        "display_name": "AIM-7M",
+        "id": "{4,4,7,21}",
+        "name": "AIM_7",
+        "ws_type": "{4,4,7,21}"
+    },
+    {
+        "display_name": "AIM-7F",
+        "id": "{4,4,7,269}",
+        "name": "AIM-7F",
+        "ws_type": "{4,4,7,269}"
+    },
+    {
+        "display_name": "AIM-7MH",
+        "id": "{4,4,7,270}",
+        "name": "AIM-7MH",
+        "ws_type": "{4,4,7,270}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "AIM-7M",
+        "id": "{4,4,7,21}",
+        "name": "AIM_7",
+        "ws_type": "{4,4,7,21}"
+    },
+    {
+        "display_name": "AIM-7F",
+        "id": "{4,4,7,269}",
+        "name": "AIM-7F",
+        "ws_type": "{4,4,7,269}"
+    },
+    {
+        "display_name": "AIM-7MH",
+        "id": "{4,4,7,270}",
+        "name": "AIM-7MH",
+        "ws_type": "{4,4,7,270}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "BLU-107/B Durandal",
+        "id": "{4,5,37,62}",
+        "name": "Durandal",
+        "ws_type": "{4,5,37,62}"
+    },
+    {
+        "display_name": "BLU-107/B Durandal",
+        "id": "{4,5,37,62}",
+        "name": "Durandal",
+        "ws_type": "{4,5,37,62}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-24A/B Paveway III",
+        "id": "{4,5,36,41}",
+        "name": "GBU_24",
+        "ws_type": "{4,5,36,41}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50LGB",
+        "id": "{4,5,36,72}",
+        "name": "BDU_50LGB",
+        "ws_type": "{4,5,36,72}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "AIM-9L",
+        "id": "{4,4,7,267}",
+        "name": "AIM-9L",
+        "ws_type": "{4,4,7,267}"
+    },
+    {
+        "display_name": "AIM-9M",
+        "id": "{4,4,7,22}",
+        "name": "AIM_9",
+        "ws_type": "{4,4,7,22}"
+    },
+    {
+        "display_name": "AIM-9P",
+        "id": "{4,4,7,135}",
+        "name": "AIM-9P",
+        "ws_type": "{4,4,7,135}"
+    },
+    {
+        "display_name": "AIM-9J",
+        "id": "{4,4,7,371}",
+        "name": "AIM-9J",
+        "ws_type": "{4,4,7,371}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "CATM-9M",
+        "id": "{4,4,100,143}",
+        "name": "CATM_9M",
+        "ws_type": "{4,4,100,143}"
+    },
+    {
+        "display_name": "Mk-82",
+        "id": "{4,5,9,31}",
+        "name": "Mk_82",
+        "ws_type": "{4,5,9,31}"
+    },
+    {
+        "display_name": "Mk-82 Snakeye",
+        "id": "{4,5,9,79}",
+        "name": "MK_82SNAKEYE",
+        "ws_type": "{4,5,9,79}"
+    },
+    {
+        "display_name": "Mk-82AIR",
+        "id": "{4,5,9,75}",
+        "name": "MK_82AIR",
+        "ws_type": "{4,5,9,75}"
+    },
+    {
+        "display_name": "Mk-84",
+        "id": "{4,5,9,33}",
+        "name": "Mk_84",
+        "ws_type": "{4,5,9,33}"
+    },
+    {
+        "display_name": "Mk-84 AIR GP HD",
+        "id": "{4,5,9,412}",
+        "name": "Mk_84AIR_GP",
+        "ws_type": "{4,5,9,412}"
+    },
+    {
+        "display_name": "CBU-87",
+        "id": "{4,5,38,77}",
+        "name": "CBU_87",
+        "ws_type": "{4,5,38,77}"
+    },
+    {
+        "display_name": "CBU-97",
+        "id": "{4,5,38,35}",
+        "name": "CBU_97",
+        "ws_type": "{4,5,38,35}"
+    },
+    {
+        "display_name": "Mk-20 Rockeye",
+        "id": "{4,5,38,45}",
+        "name": "ROCKEYE",
+        "ws_type": "{4,5,38,45}"
+    },
+    {
+        "display_name": "GBU-10",
+        "id": "{4,5,36,36}",
+        "name": "GBU_10",
+        "ws_type": "{4,5,36,36}"
+    },
+    {
+        "display_name": "GBU-12",
+        "id": "{4,5,36,38}",
+        "name": "GBU_12",
+        "ws_type": "{4,5,36,38}"
+    },
+    {
+        "display_name": "GBU-24A/B Paveway III",
+        "id": "{4,5,36,41}",
+        "name": "GBU_24",
+        "ws_type": "{4,5,36,41}"
+    },
+    {
+        "display_name": "BDU-50LD",
+        "id": "{4,5,9,70}",
+        "name": "BDU_50LD",
+        "ws_type": "{4,5,9,70}"
+    },
+    {
+        "display_name": "BDU-50HD",
+        "id": "{4,5,9,71}",
+        "name": "BDU_50HD",
+        "ws_type": "{4,5,9,71}"
+    },
+    {
+        "display_name": "BDU-50LGB",
+        "id": "{4,5,36,72}",
+        "name": "BDU_50LGB",
+        "ws_type": "{4,5,36,72}"
+    },
+    {
+        "display_name": "Mk-84 AIR TP HD",
+        "id": "{4,5,9,413}",
+        "name": "Mk_84AIR_TP",
+        "ws_type": "{4,5,9,413}"
+    },
+    {
+        "display_name": "MXU-648 Travel Pod",
+        "id": "wmapi.internal.MXU-648-TP",
+        "name": "MXU-648-TP",
+        "ws_type": "{4,15,47,104}"
+    },
+    {
+        "display_name": "Fuel tank 610 gal",
+        "id": "wmapi.internal.{F15E_EXTTANK}",
+        "name": "{F15E_EXTTANK}",
+        "ws_type": "{1,3,43,1715}"
+    },
+    {
+        "display_name": "Fuel tank 610 gal (Empty)",
+        "id": "wmapi.internal.{F15E_EXTTANK_EMPTY}",
+        "name": "{F15E_EXTTANK_EMPTY}",
+        "ws_type": "{1,3,43,1716}"
+    },
+    {
+        "display_name": "NO PYLON",
+        "id": "{0,0,0,0}",
+        "name": "<CLEAN-200.5>",
+        "ws_type": "{0,0,0,0}"
+    },
+    {
+        "display_name": "AIM-9L",
+        "id": "{4,4,7,267}",
+        "name": "AIM-9L",
+        "ws_type": "{4,4,7,267}"
+    },
+    {
+        "display_name": "AIM-9M",
+        "id": "{4,4,7,22}",
+        "name": "AIM_9",
+        "ws_type": "{4,4,7,22}"
+    },
+    {
+        "display_name": "AIM-9P",
+        "id": "{4,4,7,135}",
+        "name": "AIM-9P",
+        "ws_type": "{4,4,7,135}"
+    },
+    {
+        "display_name": "AIM-9J",
+        "id": "{4,4,7,371}",
+        "name": "AIM-9J",
+        "ws_type": "{4,4,7,371}"
+    },
+    {
+        "display_name": "AIM-120B",
+        "id": "{4,4,7,24}",
+        "name": "AIM_120",
+        "ws_type": "{4,4,7,24}"
+    },
+    {
+        "display_name": "AIM-120C",
+        "id": "{4,4,7,106}",
+        "name": "AIM_120C",
+        "ws_type": "{4,4,7,106}"
+    },
+    {
+        "display_name": "CATM-9M",
+        "id": "{4,4,100,143}",
+        "name": "CATM_9M",
+        "ws_type": "{4,4,100,143}"
     },
     {
         "display_name": "AIM-9M",
@@ -18960,13 +20088,13 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -19776,13 +20904,13 @@
         "ws_type": "{4,5,36,92}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -20011,8 +21139,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "{4,15,50,86}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -20034,9 +21162,9 @@
         "ws_type": "{4,4,7,135}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -20052,9 +21180,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -20916,9 +22044,9 @@
         "ws_type": "{4,4,7,135}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -20934,9 +22062,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -21156,9 +22284,9 @@
         "ws_type": "{4,4,100,143}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -21174,9 +22302,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -22278,9 +23406,9 @@
         "ws_type": "{4,4,100,143}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -22296,9 +23424,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -22338,9 +23466,9 @@
         "ws_type": "{4,4,100,143}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -22356,9 +23484,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -23460,9 +24588,9 @@
         "ws_type": "{4,4,100,143}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -23478,9 +24606,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -23844,13 +24972,13 @@
         "ws_type": "{4,5,36,41}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -24252,13 +25380,13 @@
         "ws_type": "{4,5,36,41}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -24840,13 +25968,13 @@
         "ws_type": "{4,5,36,41}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -25248,13 +26376,13 @@
         "ws_type": "{4,5,36,41}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
     },
     {
-        "display_name": "GBU-38",
+        "display_name": "GBU-38(V)1/B",
         "id": "{4,5,36,86}",
         "name": "GBU_38",
         "ws_type": "{4,5,36,86}"
@@ -25423,8 +26551,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "{4,15,50,86}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -25639,8 +26767,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -25675,8 +26803,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "{4,15,50,86}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -25747,8 +26875,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -25849,8 +26977,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -25951,8 +27079,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "{4,15,50,86}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -26119,8 +27247,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -26142,9 +27270,9 @@
         "ws_type": "{4,7,33,145}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -26160,9 +27288,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -26418,9 +27546,9 @@
         "ws_type": "{1,3,43,1642}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -26436,9 +27564,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -26652,9 +27780,9 @@
         "ws_type": "{4,7,33,145}"
     },
     {
-        "display_name": "Smoke Generator - red",
-        "id": "{4,15,50,67}",
-        "name": "DIS_SMOKE_GENERATOR_R",
+        "display_name": "Smokewinder - red",
+        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
+        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E741}",
         "ws_type": "{4,15,50,67}"
     },
     {
@@ -26670,9 +27798,9 @@
         "ws_type": "{4,15,50,88}"
     },
     {
-        "display_name": "Smokewinder - white",
-        "id": "wmapi.internal.{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
-        "name": "{A4BCC903-06C8-47bb-9937-A30FEDB4E744}",
+        "display_name": "Smoke Generator - white",
+        "id": "{4,15,50,89}",
+        "name": "DIS_SMOKE_GENERATOR_W",
         "ws_type": "{4,15,50,89}"
     },
     {
@@ -27625,8 +28753,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -27739,8 +28867,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "wmapi.internal.{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "{4,15,50,86}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -28530,18 +29658,6 @@
         "ws_type": "{4,5,9,32}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
-    },
-    {
         "display_name": "SAMP-125 LD",
         "id": "{4,5,9,388}",
         "name": "SAMP125LD",
@@ -28726,18 +29842,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "GBU-12",
@@ -28858,18 +29962,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "GBU-10",
@@ -28890,12 +29982,6 @@
         "ws_type": "{4,5,9,31}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
         "display_name": "R530F EM",
         "id": "{4,4,7,395}",
         "name": "R_530F_EM",
@@ -29092,18 +30178,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "GBU-12",
@@ -29308,18 +30382,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "AIM-9B",
@@ -29568,22 +30630,10 @@
         "ws_type": "{4,5,9,32}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
-    },
-    {
         "display_name": "BARAX - ECM Pod",
         "id": "wmapi.internal.BARAX_ECM",
         "name": "BARAX_ECM",
-        "ws_type": "{4,15,45,1735}"
+        "ws_type": "{4,15,45,1762}"
     },
     {
         "display_name": "SAMP-125 LD",
@@ -29770,18 +30820,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "GBU-12",
@@ -29902,18 +30940,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "GBU-10",
@@ -29934,12 +30960,6 @@
         "ws_type": "{4,5,9,31}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
         "display_name": "R530F EM",
         "id": "{4,4,7,395}",
         "name": "R_530F_EM",
@@ -30136,18 +31156,6 @@
         "id": "{4,5,9,32}",
         "name": "Mk_83",
         "ws_type": "{4,5,9,32}"
-    },
-    {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
     },
     {
         "display_name": "GBU-12",
@@ -30354,22 +31362,10 @@
         "ws_type": "{4,5,9,32}"
     },
     {
-        "display_name": "BR-250 - 250kg GP Bomb LD",
-        "id": "{4,5,9,317}",
-        "name": "BR_250",
-        "ws_type": "{4,5,9,317}"
-    },
-    {
-        "display_name": "BR-500 - 500kg GP Bomb LD",
-        "id": "{4,5,9,318}",
-        "name": "BR_500",
-        "ws_type": "{4,5,9,318}"
-    },
-    {
         "display_name": "BARAX - ECM Pod",
         "id": "wmapi.internal.BARAX_ECM",
         "name": "BARAX_ECM",
-        "ws_type": "{4,15,45,1735}"
+        "ws_type": "{4,15,45,1762}"
     },
     {
         "display_name": "AIM-9B",
@@ -30439,8 +31435,8 @@
     },
     {
         "display_name": "Smoke Generator - orange",
-        "id": "{4,15,50,86}",
-        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B6}",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
         "ws_type": "{4,15,50,86}"
     },
     {
@@ -31647,7 +32643,7 @@
         "display_name": "Internal Auxiliary Fuel tank 100 gal Combo Pak",
         "id": "wmapi.internal.{IAFS_ComboPak_100}",
         "name": "{IAFS_ComboPak_100}",
-        "ws_type": "{1,3,43,1695}"
+        "ws_type": "{1,3,43,1700}"
     },
     {
         "display_name": "S-8TsM SM Orange",
@@ -32556,6 +33552,108 @@
         "ws_type": "{4,15,47,1100}"
     },
     {
+        "display_name": "Smoke Generator - red",
+        "id": "{4,15,50,66}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "wmapi.internal.{INV-SMOKE-GREEN}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "wmapi.internal.{INV-SMOKE-BLUE}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.{INV-SMOKE-WHITE}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "wmapi.internal.{INV-SMOKE-YELLOW}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "{4,15,50,66}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "wmapi.internal.{INV-SMOKE-GREEN}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "wmapi.internal.{INV-SMOKE-BLUE}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.{INV-SMOKE-WHITE}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "wmapi.internal.{INV-SMOKE-YELLOW}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "GIAT M621 (240x Combat mix 4x AP 1x HE)",
+        "id": "wmapi.internal.{GIAT_M621_APHE}",
+        "name": "{GIAT_M621_APHE}",
+        "ws_type": "{4,15,46,1764}"
+    },
+    {
+        "display_name": "GIAT M621 (240x combat mix 4x HE 1x AP)",
+        "id": "wmapi.internal.{GIAT_M621_HEAP}",
+        "name": "{GIAT_M621_HEAP}",
+        "ws_type": "{4,15,46,1765}"
+    },
+    {
+        "display_name": "GIAT M621 (240x HE)",
+        "id": "wmapi.internal.{GIAT_M621_HE}",
+        "name": "{GIAT_M621_HE}",
+        "ws_type": "{4,15,46,1766}"
+    },
+    {
+        "display_name": "GIAT M621 (240x AP)",
+        "id": "wmapi.internal.{GIAT_M621_AP}",
+        "name": "{GIAT_M621_AP}",
+        "ws_type": "{4,15,46,1768}"
+    },
+    {
+        "display_name": "GIAT M621 (240x SAPHEI)",
+        "id": "wmapi.internal.{GIAT_M621_SAPHEI}",
+        "name": "{GIAT_M621_SAPHEI}",
+        "ws_type": "{4,15,46,1767}"
+    },
+    {
         "display_name": "SNEB Type 250 F1B TP-SM",
         "id": "{4,7,33,375}",
         "name": "SNEB_TYPE250_F1B",
@@ -32616,6 +33714,150 @@
         "ws_type": "{4,7,33,393}"
     },
     {
+        "display_name": "FN HMP400 (400rnds)",
+        "id": "wmapi.internal.{FN_HMP400}",
+        "name": "{FN_HMP400}",
+        "ws_type": "{4,15,46,1769}"
+    },
+    {
+        "display_name": "FN HMP400 (200rnds)",
+        "id": "wmapi.internal.{FN_HMP400_200}",
+        "name": "{FN_HMP400_200}",
+        "ws_type": "{4,15,46,1770}"
+    },
+    {
+        "display_name": "FN HMP400 (100rnds)",
+        "id": "wmapi.internal.{FN_HMP400_100}",
+        "name": "{FN_HMP400_100}",
+        "ws_type": "{4,15,46,1771}"
+    },
+    {
+        "display_name": "Mistral",
+        "id": "{4,4,34,291}",
+        "name": "Mistral",
+        "ws_type": "{4,4,34,291}"
+    },
+    {
+        "display_name": "Mistral",
+        "id": "{4,4,34,291}",
+        "name": "Mistral",
+        "ws_type": "{4,4,34,291}"
+    },
+    {
+        "display_name": "HOT3",
+        "id": "{4,4,8,345}",
+        "name": "HOT3",
+        "ws_type": "{4,4,8,345}"
+    },
+    {
+        "display_name": "HOT3",
+        "id": "{4,4,8,345}",
+        "name": "HOT3",
+        "ws_type": "{4,4,8,345}"
+    },
+    {
+        "display_name": "SNEB Type 250 F1B TP-SM",
+        "id": "{4,7,33,375}",
+        "name": "SNEB_TYPE250_F1B",
+        "ws_type": "{4,7,33,375}"
+    },
+    {
+        "display_name": "SNEB Type 251 H1 HE",
+        "id": "{4,7,33,377}",
+        "name": "SNEB_TYPE251_H1",
+        "ws_type": "{4,7,33,377}"
+    },
+    {
+        "display_name": "SNEB Type 252 H1 TP",
+        "id": "{4,7,33,379}",
+        "name": "SNEB_TYPE252_H1",
+        "ws_type": "{4,7,33,379}"
+    },
+    {
+        "display_name": "SNEB Type 253 H1 HEAT",
+        "id": "{4,7,33,381}",
+        "name": "SNEB_TYPE253_H1",
+        "ws_type": "{4,7,33,381}"
+    },
+    {
+        "display_name": "SNEB Type 254 H1 SM Red",
+        "id": "{4,7,33,383}",
+        "name": "SNEB_TYPE254_H1_RED",
+        "ws_type": "{4,7,33,383}"
+    },
+    {
+        "display_name": "SNEB Type 254 H1 SM Yellow",
+        "id": "{4,7,33,385}",
+        "name": "SNEB_TYPE254_H1_YELLOW",
+        "ws_type": "{4,7,33,385}"
+    },
+    {
+        "display_name": "SNEB Type 254 H1 SM Green",
+        "id": "{4,7,33,387}",
+        "name": "SNEB_TYPE254_H1_GREEN",
+        "ws_type": "{4,7,33,387}"
+    },
+    {
+        "display_name": "SNEB Type 256 H1 HE/Frag",
+        "id": "{4,7,33,389}",
+        "name": "SNEB_TYPE256_H1",
+        "ws_type": "{4,7,33,389}"
+    },
+    {
+        "display_name": "SNEB Type 257 H1 HE/Frag Lg Whd",
+        "id": "{4,7,33,391}",
+        "name": "SNEB_TYPE257_H1",
+        "ws_type": "{4,7,33,391}"
+    },
+    {
+        "display_name": "SNEB Type 259E H1 IL",
+        "id": "{4,7,33,393}",
+        "name": "SNEB_TYPE259E_H1",
+        "ws_type": "{4,7,33,393}"
+    },
+    {
+        "display_name": "FN HMP400 (400rnds)",
+        "id": "wmapi.internal.{FN_HMP400}",
+        "name": "{FN_HMP400}",
+        "ws_type": "{4,15,46,1769}"
+    },
+    {
+        "display_name": "FN HMP400 (200rnds)",
+        "id": "wmapi.internal.{FN_HMP400_200}",
+        "name": "{FN_HMP400_200}",
+        "ws_type": "{4,15,46,1770}"
+    },
+    {
+        "display_name": "FN HMP400 (100rnds)",
+        "id": "wmapi.internal.{FN_HMP400_100}",
+        "name": "{FN_HMP400_100}",
+        "ws_type": "{4,15,46,1771}"
+    },
+    {
+        "display_name": "Mistral",
+        "id": "{4,4,34,291}",
+        "name": "Mistral",
+        "ws_type": "{4,4,34,291}"
+    },
+    {
+        "display_name": "Mistral",
+        "id": "{4,4,34,291}",
+        "name": "Mistral",
+        "ws_type": "{4,4,34,291}"
+    },
+    {
+        "display_name": "HOT3",
+        "id": "{4,4,8,345}",
+        "name": "HOT3",
+        "ws_type": "{4,4,8,345}"
+    },
+    {
+        "display_name": "HOT3",
+        "id": "{4,4,8,345}",
+        "name": "HOT3",
+        "ws_type": "{4,4,8,345}"
+    },
+    {
         "display_name": "Sand Filter",
         "id": "wmapi.internal.{FAS}",
         "name": "{FAS}",
@@ -32634,28 +33876,76 @@
         "ws_type": "{4,15,47,1100}"
     },
     {
-        "display_name": "MBDA Mistral",
-        "id": "{4,4,7,346}",
-        "name": "MBDA_Mistral",
-        "ws_type": "{4,4,7,346}"
+        "display_name": "Smoke Generator - red",
+        "id": "{4,15,50,66}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
     },
     {
-        "display_name": "MBDA Mistral",
-        "id": "{4,4,7,346}",
-        "name": "MBDA_Mistral",
-        "ws_type": "{4,4,7,346}"
+        "display_name": "Smoke Generator - green",
+        "id": "wmapi.internal.{INV-SMOKE-GREEN}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
     },
     {
-        "display_name": "MBDA Mistral",
-        "id": "{4,4,7,346}",
-        "name": "MBDA_Mistral",
-        "ws_type": "{4,4,7,346}"
+        "display_name": "Smoke Generator - blue",
+        "id": "wmapi.internal.{INV-SMOKE-BLUE}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
     },
     {
-        "display_name": "MBDA Mistral",
-        "id": "{4,4,7,346}",
-        "name": "MBDA_Mistral",
-        "ws_type": "{4,4,7,346}"
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.{INV-SMOKE-WHITE}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "wmapi.internal.{INV-SMOKE-YELLOW}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "{4,15,50,66}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "wmapi.internal.{INV-SMOKE-GREEN}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "wmapi.internal.{INV-SMOKE-BLUE}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.{INV-SMOKE-WHITE}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "wmapi.internal.{INV-SMOKE-YELLOW}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
     },
     {
         "display_name": "Sand Filter",
@@ -32686,5 +33976,83 @@
         "id": "wmapi.internal.{IR_Deflector}",
         "name": "{IR_Deflector}",
         "ws_type": "{4,15,47,680}"
+    },
+    {
+        "display_name": "Dipole Antanna (aesthetic)",
+        "id": "wmapi.internal.{SA342_Dipole}",
+        "name": "{SA342_Dipole}",
+        "ws_type": "{4,15,47,1100}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "{4,15,50,66}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "wmapi.internal.{INV-SMOKE-GREEN}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "wmapi.internal.{INV-SMOKE-BLUE}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.{INV-SMOKE-WHITE}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "wmapi.internal.{INV-SMOKE-YELLOW}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
+    },
+    {
+        "display_name": "Smoke Generator - red",
+        "id": "{4,15,50,66}",
+        "name": "{D3F65166-1AB8-490f-AF2F-2FB6E22568B1}",
+        "ws_type": "{4,15,50,66}"
+    },
+    {
+        "display_name": "Smoke Generator - green",
+        "id": "wmapi.internal.{INV-SMOKE-GREEN}",
+        "name": "{INV-SMOKE-GREEN}",
+        "ws_type": "{4,15,50,82}"
+    },
+    {
+        "display_name": "Smoke Generator - blue",
+        "id": "wmapi.internal.{INV-SMOKE-BLUE}",
+        "name": "{INV-SMOKE-BLUE}",
+        "ws_type": "{4,15,50,83}"
+    },
+    {
+        "display_name": "Smoke Generator - white",
+        "id": "wmapi.internal.{INV-SMOKE-WHITE}",
+        "name": "{INV-SMOKE-WHITE}",
+        "ws_type": "{4,15,50,84}"
+    },
+    {
+        "display_name": "Smoke Generator - yellow",
+        "id": "wmapi.internal.{INV-SMOKE-YELLOW}",
+        "name": "{INV-SMOKE-YELLOW}",
+        "ws_type": "{4,15,50,85}"
+    },
+    {
+        "display_name": "Smoke Generator - orange",
+        "id": "wmapi.internal.{INV-SMOKE-ORANGE}",
+        "name": "{INV-SMOKE-ORANGE}",
+        "ws_type": "{4,15,50,86}"
     }
 ]
