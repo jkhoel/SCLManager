@@ -1,4 +1,4 @@
-use crate::models::dcs::{AirframeModel, LauncherModel, WeaponModel};
+use crate::models::imports::{AirframeModel, LauncherModel, WeaponModel};
 use crate::models::payload::Payload;
 
 mod models;
@@ -27,7 +27,7 @@ fn main() {
     let airframes: Vec<AirframeModel> =
         serde_json::from_str::<Vec<AirframeModel>>(&airframes_file_content).unwrap();
 
-    println!("Airframes \n{:?}", airframes);
+    // println!("Airframes \n{:?}", airframes);
 
     // println!(
     //     "Find AGM-65D in weapons: {:?}",
@@ -57,7 +57,12 @@ fn main() {
         .map(|lm| Payload::new(&lm, &weapons).unwrap());
 
     // ... then debug print the result
-    if let Some(l) = payload {
-        println!("Payload: {:?}", l)
-    }
+    println!("{}", serde_json::to_string_pretty(&payload).unwrap());
+    
+    // Find a specific AircraftModel
+    let f16cm50 = airframes.into_iter().find(|am| am._type == "F-16C_50");
+    
+    // ... then debug print it
+    println!("{}", serde_json::to_string_pretty(&f16cm50).unwrap());
+   
 }

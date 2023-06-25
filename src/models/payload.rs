@@ -1,7 +1,8 @@
+use serde::{Deserialize, Serialize};
 use crate::models::dcs::{LauncherModel, WeaponModel};
 
 /// A `PayloadWeapon` represents weapon(s) hung from a launcher represented as a `Payload`
-#[derive(Debug)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct PayloadWeapon {
     pub id: String,
     pub display_name: String,
@@ -11,7 +12,7 @@ pub struct PayloadWeapon {
 }
 
 /// A `Payload` is an struct representing some combination of a launcher or pylon with a weapon that can be hung on an aircraft's station.
-#[derive(Debug)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Payload {
     pub clsid: String,
     pub category: String,
@@ -73,7 +74,7 @@ impl Payload {
                 _ => "Other".to_string(),
             },
             kind_of_shipping: launcher_model.kind_of_shipping.to_owned(),
-            adapter_type: launcher_model.adapter_type.clone().unwrap(),
+            adapter_type: launcher_model.adapter_type.clone().unwrap_or(0.to_string()),
             attribute: launcher_model.attribute.to_owned(),
             display_name: launcher_model.display_name.to_owned(),
             weight:launcher_model.weight.unwrap_or(0.0),
