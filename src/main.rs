@@ -1,7 +1,10 @@
 use crate::models::airframe::Airframe;
 use crate::models::imports::{AirframeModel, LauncherModel, WeaponModel};
 
+use crate::ui::app::app;
+
 mod models;
+mod ui;
 
 /// Main application function
 fn main() {
@@ -35,4 +38,7 @@ fn main() {
 
     // ... then debug print it
     println!("{}", serde_json::to_string_pretty(&f16cm50).unwrap());
+
+    // START THE APP
+    let _ = app();
 }
