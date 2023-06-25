@@ -89,7 +89,7 @@ pub struct AirframeRadioRangeModel {
 }
 
 /// A struct representing a DCS Airframe's pylon
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct AirframePylonModel {
     pub name: serde_json::Value,
     pub number: u16,

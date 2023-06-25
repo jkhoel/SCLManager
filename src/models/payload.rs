@@ -25,6 +25,7 @@ pub struct Payload {
 }
 
 impl Payload {
+    ///
     /// Returns a new Payload created for the supplied DCS LauncherModel
     ///
     /// # Arguments
@@ -41,7 +42,6 @@ impl Payload {
     ///     .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
     ///     .map(|lm| Payload::new(&lm, &weapons).unwrap());
     /// ```
-
     pub(crate) fn new(
         launcher_model: &LauncherModel,
         weapon_models: &[WeaponModel],

@@ -1,5 +1,5 @@
+use crate::models::airframe::Airframe;
 use crate::models::imports::{AirframeModel, LauncherModel, WeaponModel};
-use crate::models::payload::Payload;
 
 mod models;
 
@@ -27,42 +27,12 @@ fn main() {
     let airframes: Vec<AirframeModel> =
         serde_json::from_str::<Vec<AirframeModel>>(&airframes_file_content).unwrap();
 
-    // println!("Airframes \n{:?}", airframes);
-
-    // println!(
-    //     "Find AGM-65D in weapons: {:?}",
-    //     &weapons.into_iter().find(|w| w.id == "{4,4,8,77}")
-    // );
-    //
-    // println!(
-    //     "Find {{444BA8AE-82A7-4345-842E-76154EFCCA46}} in launchers: {:?}",
-    //     &launchers
-    //         .into_iter()
-    //         .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
-    // );
-
-    // if let Some(lm) = launchers
-    //     .into_iter()
-    //     .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}") {
-    //     // Create an print a launcher
-    //     let launcher: Launcher = Launcher::new(&lm, &weapons).unwrap();
-    //
-    //     println!("## Launcher: {:?}", launcher)
-    // };
-
-    // Find a specific LauncherModel (from an aircraft pylon) and make it into a Payload
-    let payload = launchers
+    // Find a specific AircraftModel and make it into an Airframe
+    let f16cm50 = airframes
         .into_iter()
-        .find(|l| l.clsid == "{CFT_R_BDU50LGB_x_2}")
-        .map(|lm| Payload::new(&lm, &weapons).unwrap());
+        .find(|am| am._type == "F-16C_50")
+        .map(|afm| Airframe::new(&afm, &launchers, &weapons));
 
-    // ... then debug print the result
-    println!("{}", serde_json::to_string_pretty(&payload).unwrap());
-    
-    // Find a specific AircraftModel
-    let f16cm50 = airframes.into_iter().find(|am| am._type == "F-16C_50");
-    
     // ... then debug print it
     println!("{}", serde_json::to_string_pretty(&f16cm50).unwrap());
-   
 }
