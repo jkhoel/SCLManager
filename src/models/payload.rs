@@ -68,7 +68,7 @@ impl Payload {
         // Return a new launcher object
         Ok(Payload {
             clsid: launcher_model.clsid.to_owned(),
-            category: launcher_model.category.to_owned(),
+            category: launcher_model.category.to_string(),
             kind_of_shipping: launcher_model.kind_of_shipping.to_owned(),
             adapter_type: launcher_model.adapter_type.to_owned(),
             attribute: launcher_model.attribute.to_owned(),

@@ -53,7 +53,7 @@ fn main() {
     // Find a specific LauncherModel (from an aircraft pylon) and make it into a Payload
     let payload = launchers
         .into_iter()
-        .find(|l| l.clsid == "{444BA8AE-82A7-4345-842E-76154EFCCA46}")
+        .find(|l| l.clsid == "{CFT_R_BDU50LGB_x_2}")
         .map(|lm| Payload::new(&lm, &weapons).unwrap());
 
     // ... then debug print the result

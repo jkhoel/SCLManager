@@ -1,5 +1,8 @@
 ﻿use serde::{Deserialize, Serialize};
 
+// TODO Write tests that can actually read the exported files and verify they work
+// TODO Implement a new() in order to make sure the above serde_json::Values actually get cast to a proper value? https://docs.rs/serde_json/latest/serde_json/value/fn.from_value.html
+
 /// Model representing the exported Weapon object from DCS
 #[derive(Debug, Serialize, Deserialize)]
 pub struct WeaponModel {
@@ -13,7 +16,7 @@ pub struct WeaponModel {
 #[derive(Debug, Serialize, Deserialize)]
 pub struct LauncherModel {
     pub clsid: String,
-    pub category: String,
+    pub category: serde_json::Value,
     pub kind_of_shipping: Option<u8>,
     pub adapter_type: Option<String>,
     pub attribute: String,
@@ -63,7 +66,6 @@ pub struct AirframeCmsDispenserModel {
 
 /// A struct defining an Airframe Radio
 #[derive(Debug, Serialize, Deserialize)]
-
 pub struct AirframeRadioModel {
     channels: Vec<AirframeRadioChannelModel>,
     name: String,
@@ -104,64 +106,3 @@ pub struct AirframeWeightsModel {
     pub fuel: serde_json::Value,
     pub mtow: serde_json::Value,
 }
-
-// TODO Write tests that can actually read the exported files and verify they work
-// TODO Implement a new() in order to make sure the above serde_json::Values actually get cast to a proper value? https://docs.rs/serde_json/latest/serde_json/value/fn.from_value.html
-
-// {
-//     "cms": {
-//       "CMDS_Edit": true,
-//       "chaff": { "charge_sz": 1, "default": 60, "increment": 30 },
-//       "flare": { "charge_sz": 1, "default": 60, "increment": 30 },
-//       "total": 120
-//     },
-//     "full_fidelity": true,
-//     "name": "F-16CM bl.50",
-//     "pylons": [
-//       {
-//         "name": 1,
-//         "number": 1,
-//         "order": 1,
-//         "stores": [
-//           "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-//           "{AIS_ASQ_T50}"
-//         ]
-//       },
-//       .....
-//       {
-//         "name": "SMK",
-//         "number": 12,
-//         "order": 12,
-//         "stores": [
-//           "{INV-SMOKE-RED}",
-//           "{INV-SMOKE-ORANGE}"
-//         ]
-//       }
-//     ],
-//     "radios": [
-//       {
-//         "channels": [
-//           { "default": 305000, "modulation": 0, "name": "Channel 1" },
-//           { "default": 266000, "modulation": 0, "name": "Channel 20" }
-//         ],
-//         "name": "COMM 1 (UHF) AN/ARC-164",
-//         "ranges": [
-//           { "from": 225000, "interval": 25, "modulation": 0, "to": 399975 }
-//         ]
-//       },
-//       {
-//         "channels": [
-//           { "default": 127000, "modulation": 0, "name": "Channel 1" },
-//           { "default": 137000, "modulation": 0, "name": "Channel 20" }
-//         ],
-//         "name": "COMM 2 (VHF) AN/ARC-222",
-//         "ranges": [
-//           { "from": 30000, "interval": 25, "modulation": 1, "to": 87975 },
-//           { "from": 116000, "interval": 25, "modulation": 0, "to": 155975 }
-//         ]
-//       }
-//     ],
-//     "roles": [],
-//     "type": "F-16C_50",
-//     "weights": { "ammo": 132.6, "empty": 9026, "fuel": 3249, "mtow": 19187 }
-//   },
