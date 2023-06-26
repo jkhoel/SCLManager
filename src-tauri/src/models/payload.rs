@@ -1,5 +1,6 @@
 use crate::models::imports::{LauncherModel, WeaponModel};
 use serde::{Deserialize, Serialize};
+use typeshare::typeshare;
 
 /// A `PayloadWeapon` represents weapon(s) hung from a launcher represented as a `Payload`
 #[typeshare]

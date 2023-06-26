@@ -1,6 +1,7 @@
 ﻿use crate::models::imports::{AirframeModel, WeaponModel};
 use crate::models::payload::Payload;
 use serde::{Deserialize, Serialize};
+use typeshare::typeshare;
 
 use super::imports::LauncherModel;
 
