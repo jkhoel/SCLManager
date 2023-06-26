@@ -18,6 +18,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
       - name: Run tests
+        working-directory: ./src-tauri
         run: cargo test --verbose
 
   format:
@@ -29,6 +30,7 @@ jobs:
         with:
           components: rustfmt
       - name: Run Rustfmt
+        working-directory: ./src-tauri
         run: cargo fmt --check
 
   clippy:
@@ -41,6 +43,7 @@ jobs:
           components: clippy
       - uses: Swatinem/rust-cache@v2
       - name: Linting
+        working-directory: ./src-tauri
         run: cargo clippy -- -D warnings
 
   # build:
