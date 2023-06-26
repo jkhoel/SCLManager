@@ -17,8 +17,15 @@ base.dofile("D:\\path\\to\\scl_manager\\tools\\weapons_export.lua")
 
 ## Development
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### UI development
 
+This project uses a few packages to help speed up development:
+
+- [TailwindCSS](https://tailwindcss.com/) a hugely popular CSS framework that provides utility classes for styling components
+- [HeadlessUI](https://headlessui.com/) provides bare-bones component that style well with Tailwind CSS
+- [Heroicons](https://heroicons.com/) is an SVG icon library developed by Tailwind CSS
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 To learn more about Next.js, take a look at the following resources:
 

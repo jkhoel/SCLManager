@@ -11,6 +11,8 @@
     "typeshare": "typeshare ./src-tauri --lang=typescript --output-file=./bindings/types.ts"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
     "@tauri-apps/api": "^1.4.0",
     "@types/node": "20.3.1",
     "@types/react": "18.2.14",
