@@ -81,8 +81,8 @@ impl Airframe {
             .collect();
 
         Ok(Airframe {
-            id: "".into(),
-            name: "".into(),
+            id: airframe_model._type.clone(),
+            name: airframe_model.name.clone(),
             // cms: airframe_model.cms.to_owned(),
             pylons: _pylons,
             // radios: airframe_model.radios.to_owned(´),
