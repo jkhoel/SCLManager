@@ -7,7 +7,7 @@
     "distDir": "../out"
   },
   "package": {
-    "productName": "scl-manager",
+    "productName": "msnplanner",
     "version": "0.1.0"
   },
   "tauri": {
@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.hoelweb.msnplanner",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -61,8 +61,8 @@
       {
         "fullscreen": false,
         "height": 600,
-        "resizable": true,
-        "title": "SCLManager",
+        "resizable": false,
+        "title": "MSNPlanner",
         "width": 800
       }
     ]
