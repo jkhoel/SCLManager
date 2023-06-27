@@ -1,86 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import { invoke } from "@tauri-apps/api/tauri";
-import { Airframe, FlyableAirframe, Handlers } from "@/bindings/rust";
-
-import StyledListBox, { StyledListBoxItem } from "@/components/ui/listbox";
 import BrandText from "@/components/ui/branding";
-import DraggableTable, {
-  DragableDataHeader,
-  createColumnsFromHeaders,
-} from "@/components/ui/table";
 import AirframeSelectListBox from "@/components/widgets/airframe-selector-listbox";
 import useFlyableAirframes from "@/bindings/hooks/useFlyableAirframes";
-import useAirframe from "@/bindings/hooks/useAirframe";
-
-type FakeDataType = {
-  col1: string;
-  col2: string;
-  col3: string;
-};
-
-const fakeData: FakeDataType[] = [
-  {
-    col1: "somedata11",
-    col2: "somedata22",
-    col3: "somedata33",
-  },
-  {
-    col1: "somedata4",
-    col2: "somedata5",
-    col3: "somedata6",
-  },
-];
-
-const fakeDataHeaders: DragableDataHeader<FakeDataType>[] = [
-  {
-    header: "Col11",
-    accessor: "col1",
-  },
-  {
-    header: "Col12",
-    accessor: "col2",
-  },
-  {
-    header: "Col12",
-    accessor: "col3",
-  },
-];
-
-// const columnHelper = createColumnHelper<FakeDataType>();
-
-// const columns = fakeDataHeaders.map((header, headerIdx) =>
-//   columnHelper.accessor((row: FakeDataType) => row[header.accessor], {
-//     header: header.header,
-//     cell: (info) => info.getValue(),
-//   })
-// );
-
-const columns = createColumnsFromHeaders(fakeDataHeaders);
+import AirframeLoadoutExplorer from "@/components/widgets/airframe-loadout-explorer";
+import { StyledListBoxItem } from "@/components/ui/listbox";
 
 export default function Home() {
-  // const [flyableAirframes, setFlyableAirframes] = useState<FlyableAirframe[]>();
   const [selected, setSelected] = useState<StyledListBoxItem>({
     id: 1,
     label: "Hello world!",
     value: 1,
   });
 
-  const [data, setData] = useState<FakeDataType[]>(fakeData);
-
   const flyableAirframes = useFlyableAirframes();
-
-  // useEffect(() => {
-  //   invoke<Airframe>(Handlers.GetAirframeById, { id: "F-16C_50" })
-  //     .then((flyables) => console.log(flyables))
-  //     .catch(console.error);
-  // }, []);
-
-  const airframe = useAirframe({ id: selected.id as string });
-
-  console.log(airframe);
 
   const handleAirframeSelect = (selectedItem: StyledListBoxItem) => {
     setSelected(selectedItem);
@@ -107,8 +42,9 @@ export default function Home() {
               <BrandText />
             </div>
           </div>
-          <div>
-            <DraggableTable columns={columns} data={data} setData={setData} />
+
+          <div className="overflow-x-scroll">
+            <AirframeLoadoutExplorer id={selected.id as string} />
           </div>
         </div>
       </div>

@@ -60,10 +60,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": false,
+        "height": 800,
+        "resizable": true,
         "title": "SCLPlanner",
-        "width": 800
+        "width": 1000
       }
     ]
   }

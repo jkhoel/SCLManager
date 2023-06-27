@@ -47,7 +47,7 @@ const DraggableTable: React.FC<DraggableTable> = ({
   });
 
   return (
-    <div className="p-2 text-white">
+    <div className="p-2 text-white text-sm overflow-y-auto">
       <table>
         <thead>
           {getHeaderGroups().map((headerGroup) => (
@@ -65,11 +65,11 @@ const DraggableTable: React.FC<DraggableTable> = ({
             </tr>
           ))}
         </thead>
-        <tbody>
+        <tbody className="text-xs font-normal">
           {getRowModel().rows.map((row) => (
-            <tr key={row.id}>
+            <tr key={row.id} className="hover:bg-green-900">
               {row.getVisibleCells().map((cell) => (
-                <td key={cell.id}>
+                <td key={cell.id} className="hover:bg-green-700">
                   {flexRender(cell.column.columnDef.cell, cell.getContext())}
                 </td>
               ))}
