@@ -1,4 +1,5 @@
-"use client";
+// prettier-ignore
+'use client'
 
 import { useState } from "react";
 
