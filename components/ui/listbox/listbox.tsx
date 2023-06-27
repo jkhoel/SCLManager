@@ -14,7 +14,11 @@ export type StyledListBoxProps = {
   callback: (selectedItem: StyledListBoxItem) => void;
 };
 
-const StyledListBox: React.FC<StyledListBoxProps> = ({ items, callback }) => {
+const StyledListBox: React.FC<StyledListBoxProps> = ({
+  items,
+  callback,
+  ...rest
+}) => {
   const [selectedItem, setSelectedItem] = useState<StyledListBoxItem>(items[0]);
 
   const handleSelect = (selectedItem: StyledListBoxItem) => {
@@ -23,9 +27,9 @@ const StyledListBox: React.FC<StyledListBoxProps> = ({ items, callback }) => {
   };
 
   return (
-    <Listbox value={selectedItem} onChange={handleSelect}>
+    <Listbox value={selectedItem} onChange={handleSelect} {...rest}>
       <div className="relative">
-        <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
+        <Listbox.Button className="relative min-w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
           <span className="block truncate">{selectedItem.label}</span>
           <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
             <ChevronUpDownIcon
@@ -43,7 +47,7 @@ const StyledListBox: React.FC<StyledListBoxProps> = ({ items, callback }) => {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+          <Listbox.Options className="absolute z-50 mt-1 max-h-60 min-w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
             {items.map((item, itemIdx) => (
               <Listbox.Option
                 key={itemIdx}

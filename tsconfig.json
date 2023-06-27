@@ -21,7 +21,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@bindings/*": ["./bindings/rust.ts"],
+      "@bindings": ["./bindings/*"],
       "@components/*": ["./components/*"]
     }
   },

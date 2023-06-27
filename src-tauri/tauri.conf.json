@@ -7,7 +7,7 @@
     "distDir": "../out"
   },
   "package": {
-    "productName": "msnplanner",
+    "productName": "sclplanner",
     "version": "0.1.0"
   },
   "tauri": {
@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.hoelweb.msnplanner",
+      "identifier": "com.hoelweb.sclplanner",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -62,7 +62,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": false,
-        "title": "MSNPlanner",
+        "title": "SCLPlanner",
         "width": 800
       }
     ]

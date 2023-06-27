@@ -7,32 +7,80 @@ import { Airframe, FlyableAirframe, Handlers } from "@/bindings/rust";
 
 import StyledListBox, { StyledListBoxItem } from "@/components/ui/listbox";
 import BrandText from "@/components/ui/branding";
+import DraggableTable, {
+  DragableDataHeader,
+  createColumnsFromHeaders,
+} from "@/components/ui/table";
+import AirframeSelectListBox from "@/components/widgets/airframe-selector-listbox";
+import useFlyableAirframes from "@/bindings/hooks/useFlyableAirframes";
+import useAirframe from "@/bindings/hooks/useAirframe";
 
-const fakeItems: StyledListBoxItem[] = [
-  { id: 1, label: "foo", value: "foo" },
-  { id: 2, label: "bar", value: "bar" },
-  { id: 3, label: "baz", value: "baz" },
+type FakeDataType = {
+  col1: string;
+  col2: string;
+  col3: string;
+};
+
+const fakeData: FakeDataType[] = [
+  {
+    col1: "somedata11",
+    col2: "somedata22",
+    col3: "somedata33",
+  },
+  {
+    col1: "somedata4",
+    col2: "somedata5",
+    col3: "somedata6",
+  },
 ];
 
+const fakeDataHeaders: DragableDataHeader<FakeDataType>[] = [
+  {
+    header: "Col11",
+    accessor: "col1",
+  },
+  {
+    header: "Col12",
+    accessor: "col2",
+  },
+  {
+    header: "Col12",
+    accessor: "col3",
+  },
+];
+
+// const columnHelper = createColumnHelper<FakeDataType>();
+
+// const columns = fakeDataHeaders.map((header, headerIdx) =>
+//   columnHelper.accessor((row: FakeDataType) => row[header.accessor], {
+//     header: header.header,
+//     cell: (info) => info.getValue(),
+//   })
+// );
+
+const columns = createColumnsFromHeaders(fakeDataHeaders);
+
 export default function Home() {
-  const [flyableAirframes, setFlyableAirframes] = useState<FlyableAirframe[]>();
+  // const [flyableAirframes, setFlyableAirframes] = useState<FlyableAirframe[]>();
   const [selected, setSelected] = useState<StyledListBoxItem>({
     id: 1,
     label: "Hello world!",
     value: 1,
   });
 
-  useEffect(() => {
-    invoke<FlyableAirframe[]>(Handlers.GetFlyableAirframes)
-      .then((flyables) => setFlyableAirframes(flyables))
-      .catch(console.error);
+  const [data, setData] = useState<FakeDataType[]>(fakeData);
 
-    invoke<Airframe>(Handlers.GetAirframeById, { id: "F-16C_50" })
-      .then((flyables) => console.log(flyables))
-      .catch(console.error);
-  }, []);
+  const flyableAirframes = useFlyableAirframes();
 
-  console.log(flyableAirframes);
+  // useEffect(() => {
+  //   invoke<Airframe>(Handlers.GetAirframeById, { id: "F-16C_50" })
+  //     .then((flyables) => console.log(flyables))
+  //     .catch(console.error);
+  // }, []);
+
+  const airframe = useAirframe({ id: selected.id as string });
+
+  console.log(airframe);
 
   const handleAirframeSelect = (selectedItem: StyledListBoxItem) => {
     setSelected(selectedItem);
@@ -44,56 +92,26 @@ export default function Home() {
         <div className="grid grid-flow-row auto-rows-max min-w-full mx-2">
           <div
             id="header-menu-container"
-            className="p-4 grid grid-flow-col justify-between bg-slate-800"
+            className="p-4 grid grid-flow-col justify-between items-center bg-slate-800"
           >
-            <div>
+            <div style={{ minWidth: "160px" }}>
               <AirframeSelectListBox
                 airframes={flyableAirframes}
                 callback={handleAirframeSelect}
               />
             </div>
-            <div className="justify-end flex items-center ">
+            <div className="mx-auto text-green-300 font-bold text-lg">
+              {selected.label}
+            </div>
+            <div>
               <BrandText />
             </div>
           </div>
-          <div className="mx-auto text-white">{selected.label}</div>
+          <div>
+            <DraggableTable columns={columns} data={data} setData={setData} />
+          </div>
         </div>
       </div>
     </main>
   );
 }
-
-type AirframeSelectListBox = {
-  airframes?: FlyableAirframe[];
-  callback?: (selectedItem: StyledListBoxItem) => void;
-};
-
-const AirframeSelectListBox: React.FC<AirframeSelectListBox> = ({
-  airframes,
-  callback,
-}) => {
-  const [airframeItems, setAirframeItems] = useState<StyledListBoxItem[]>();
-
-  useEffect(() => {
-    if (airframes) {
-      const items: StyledListBoxItem[] = airframes.map(
-        (airframe, airframeIdx) => ({
-          id: airframe.id ?? airframeIdx,
-          label: airframe.name,
-          value: airframe.id ?? airframeIdx,
-        })
-      );
-
-      setAirframeItems(items);
-    }
-  }, [airframes, setAirframeItems]);
-
-  if (!airframeItems) return <></>;
-
-  return (
-    <StyledListBox
-      items={airframeItems}
-      callback={callback ? callback : console.log}
-    />
-  );
-};

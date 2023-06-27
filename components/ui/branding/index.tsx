@@ -1,6 +1,6 @@
 const BrandText = () => (
   <p className="text-white font-extrabold text-2xl text-shadow">
-    MSN
+    SCL
     <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-cyan-300">
       PLANNER
     </span>
