@@ -20,7 +20,7 @@ jobs:
       - name: Run apt update
         run: sudo apt update
       - name: Install packages (apt install)
-        run: sudo apt install libgtk-3-dev
+        run: sudo apt install libgtk-3-dev libsoup-2.4 libwebkit2gtk-4.0
       - name: Run tests
         working-directory: ./src-tauri
         run: cargo test --verbose
