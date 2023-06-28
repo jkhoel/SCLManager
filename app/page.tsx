@@ -1,12 +1,6 @@
 // prettier-ignore
 'use client'
 
-import dynamic from "next/dynamic";
+import App from "../screen/app";
 
-const DynamicApp = dynamic(() => import("../screen/app"), {
-  ssr: false,
-});
-
-const Home = () => <DynamicApp />;
-
-export default Home;
+export default App;

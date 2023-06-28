@@ -1,4 +1,4 @@
-import { invoke } from "@tauri-apps/api";
+import { invoke } from "@tauri-apps/api/tauri";
 import { FlyableAirframe, Handlers } from "../rust";
 import { useEffect, useState } from "react";
 
