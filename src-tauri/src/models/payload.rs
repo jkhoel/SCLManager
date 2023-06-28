@@ -1,7 +1,9 @@
 use crate::models::imports::{LauncherModel, WeaponModel};
 use serde::{Deserialize, Serialize};
+use typeshare::typeshare;
 
 /// A `PayloadWeapon` represents weapon(s) hung from a launcher represented as a `Payload`
+#[typeshare]
 #[derive(Debug, Deserialize, Serialize)]
 pub struct PayloadWeapon {
     pub id: String,
@@ -12,6 +14,7 @@ pub struct PayloadWeapon {
 }
 
 /// A `Payload` is an struct representing some combination of a launcher or pylon with a weapon that can be hung on an aircraft's station.
+#[typeshare]
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Payload {
     pub clsid: String,
