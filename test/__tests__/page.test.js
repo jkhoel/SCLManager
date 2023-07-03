@@ -4,7 +4,7 @@ import { describe, it } from "node:test";
 
 import {} from "@tauri-apps/api/mocks";
 
-import Page from "../app/page";
+import Page from "../../app/page";
 
 describe("Page", () => {
   it("renders the main element", () => {
