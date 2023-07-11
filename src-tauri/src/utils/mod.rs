@@ -8,7 +8,8 @@ pub mod resources {
         handle
             .path_resolver()
             .resolve_resource(path)
-            .expect("Failed to resolve resource")
+            .unwrap_or_default()
+            //.expect(format!("Failed to resolve resource: {} (Source: {:?})", path, std::env::current_dir().unwrap()).as_mut_str())
     }
 
     /// Helper function that reads a JSON object from the resource files and
@@ -18,9 +19,9 @@ pub mod resources {
         T: for<'a> serde::Deserialize<'a>,
     {
         let path = resolve_resource_path(handle, path);
-        let file_content = &std::fs::read_to_string(path).unwrap();
+        let file_content = &std::fs::read_to_string(path).unwrap_or_default();
 
-        serde_json::from_str::<Vec<T>>(file_content).unwrap()
+        serde_json::from_str::<Vec<T>>(file_content).unwrap_or_default()
     }
 
     /// Helper function to get a vector of all Airframe models from the library files
