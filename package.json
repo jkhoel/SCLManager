@@ -11,10 +11,10 @@
     "typeshare": "typeshare ./src-tauri --lang=typescript --output-file=./bindings/types.ts"
   },
   "dependencies": {
-    "@dnd-kit/core": "^6.0.8",
-    "@headlessui/react": "^1.7.15",
-    "@heroicons/react": "^2.0.18",
-    "@tanstack/react-table": "^8.9.3",
+    "@blueprintjs/core": "^5.0.1",
+    "@blueprintjs/icons": "^5.0.0",
+    "@blueprintjs/select": "^5.0.1",
+    "@blueprintjs/table": "^5.0.1",
     "@tauri-apps/api": "^1.4.0",
     "@types/node": "20.3.1",
     "@types/react": "18.2.14",
@@ -31,6 +31,9 @@
     "typescript": "5.1.3"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.4.0"
+    "@blueprintjs/eslint-config": "^3.0.0",
+    "@blueprintjs/eslint-plugin": "^3.0.0",
+    "@tauri-apps/cli": "^1.4.0",
+    "sass": "^1.63.6"
   }
 }

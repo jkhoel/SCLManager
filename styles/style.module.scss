@@ -1,0 +1,12 @@
+@import "@blueprintjs/core/lib/scss/variables";
+
+$primary: $blue1;
+$bg-titlebar: $dark-gray2;
+$bg-main: $black;
+
+:export {
+  primary: $primary;
+  bg-titlebar: $bg-titlebar;
+  bg-main: $bg-main;
+  bg-footer: $bg-titlebar;
+}
