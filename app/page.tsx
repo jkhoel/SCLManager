@@ -3,8 +3,11 @@
 
 import { useState } from "react";
 
+import '@utils/string.extensions'
+
 import BrandText from "@/components/ui/branding";
 import SelectAirframe from "@components/widgets/select-airframe";
+
 
 import style from '@styles/style.module.scss';
 
