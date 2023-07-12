@@ -51,6 +51,11 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
 
     const requiredRows = useMemo(() => airframe?.pylons.reduce((p, c) => p > c.stores.length ? p : c.stores.length, 0), [airframe])
 
+
+    const sortOptions: OptionProps[] = useMemo(() => typeAsArrayOfKeys(SORTING_OPTION).map((key, idx): OptionProps =>
+        ({label: key.toProperCase(), value: idx})
+    ), [SORTING_OPTION])
+    
     const handleSorting = handleNumberChange(val =>
         setSortingOption(val)
     )
@@ -69,9 +74,7 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
     // TODO: Add some way of showing weapon info when selecting a cell
     
     
-    const sortOptions: OptionProps[] = typeAsArrayOfKeys(SORTING_OPTION).map((key, idx): OptionProps =>
-        ({label: key.toProperCase(), value: idx})
-    )
+
 
     return <div>
         <div className="px-4 py-2">
