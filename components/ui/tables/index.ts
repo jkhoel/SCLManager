@@ -1,5 +1,8 @@
-import AirframeExplorerTable, {AirframeExplorerSortingOptions} from "./table-airframe-explorer"
+import AirframeExplorerTable, {
+    AirframeExplorerSortingOptions,
+    AirframeExplorerDefaultFilterOptions
+} from "./table-airframe-explorer"
 
 export default {
-    AirframeExplorerTable, AirframeExplorerSortingOptions
+    AirframeExplorerTable, AirframeExplorerSortingOptions, AirframeExplorerFilterOptions: AirframeExplorerDefaultFilterOptions
 }

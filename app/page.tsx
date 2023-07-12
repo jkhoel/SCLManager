@@ -12,7 +12,7 @@ import style from '@styles/style.module.scss';
 import {FlyableAirframe} from "@/bindings/rust";
 import useAirframe from "@/bindings/hooks/useAirframe";
 
-import LoadoutExplorerTable from "@components/widgets/loadout-explorer";
+import LoadoutExplorer from "@components/widgets/loadout-explorer";
 import SelectAirframe from "@components/ui/select/select-airframe";
 
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
             </header>
             <main className="overflow-y-auto">
-                {selected && <LoadoutExplorerTable airframeId={selected.id}/>}
+                {selected && <LoadoutExplorer airframeId={selected.id}/>}
             </main>
             <footer className="absolute w-full bg-sky-900 inset-x-0 bottom-0"
                     style={{backgroundColor: style["bg-titlebar"]}}>
