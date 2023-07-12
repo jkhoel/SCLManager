@@ -12,7 +12,6 @@ import SelectAirframe from "@components/widgets/select-airframe";
 import style from '@styles/style.module.scss';
 
 import {FlyableAirframe} from "@/bindings/rust";
-import {Text} from "@blueprintjs/core";
 import LoadoutExplorerTable from "@components/widgets/table-loadout-explorer";
 
 export default function Home() {
