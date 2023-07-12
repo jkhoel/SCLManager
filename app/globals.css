@@ -17,7 +17,7 @@
 }
 
 body {
-  /* overflow: hidden; */
+  /*overflow: hidden;*/
   user-select: none;
   cursor: default;
   color: rgb(var(--foreground-rgb));
@@ -31,13 +31,4 @@ body {
 
 button {
   cursor: pointer;
-}
-
-.page {
-  overflow: hidden;
-}
-
-.contents {
-  overflow: scroll;
-  height: calc(100vh - 40px);
 }

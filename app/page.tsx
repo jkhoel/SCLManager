@@ -1,7 +1,7 @@
 // prettier-ignore
 'use client'
 
-import { useState } from "react";
+import {useState} from "react";
 
 import '@utils/string.extensions'
 
@@ -13,42 +13,39 @@ import style from '@styles/style.module.scss';
 
 import {FlyableAirframe} from "@/bindings/rust";
 import LoadoutExplorerTable from "@components/widgets/table-loadout-explorer";
+import {Text} from "@blueprintjs/core";
 
 export default function Home() {
-  const [selected, setSelected] = useState<FlyableAirframe>();
+    const [selected, setSelected] = useState<FlyableAirframe>();
 
 
-  const handleAirframeSelect = (selectedItem: FlyableAirframe) => {
-    setSelected(selectedItem);
-  };
+    const handleAirframeSelect = (selectedItem: FlyableAirframe) => {
+        setSelected(selectedItem);
+    };
 
-  return (
-    <main className="bp5-dark overscroll-none overflow-hidden">
-      <div className="relative flex min-h-screen flex-col justify-start items-center bg-titlebar leading-7 text-white" style={{backgroundColor: style["bg-main"]}}>
-        <div className="grid grid-flow-row auto-rows-max min-w-full mx-2">
-          <div
-            id="header-menu-container"
-            className="p-4 grid grid-flow-col justify-between items-center bg-slate-800"
-            style={{backgroundColor: style["bg-titlebar"]}}
-          >
-            <div style={{ minWidth: "160px" }}>
-              <SelectAirframe
-                callback={handleAirframeSelect}
-              />
-            </div>
-            <div className="mx-auto text-green-300 font-bold text-lg">
-              {selected?.name}
-            </div>
-            <div>
-              <BrandText />
-            </div>
-          </div>
-
-          <div className="overflow-x-scroll">
-            {selected && <LoadoutExplorerTable airframeId={selected.id} />}
-          </div>
-        </div>
-      </div>
-    </main>
-  );
+    return (
+        <>
+            <header className="w-full p-4 grid grid-flow-col items-center justify-between"  style={{backgroundColor: style["bg-titlebar"]}}>
+                <div style={{ minWidth: "160px" }}>
+                    <SelectAirframe
+                        callback={handleAirframeSelect}
+                    />
+                </div>
+                <div className="mx-auto text-green-300 font-bold text-lg">
+                    {selected?.name}
+                </div>
+                <div>
+                    <BrandText />
+                </div>
+            </header>
+            <main className="overflow-y-auto">
+                    {selected && <LoadoutExplorerTable airframeId={selected.id}/>}
+            </main>
+            <footer className="absolute w-full bg-sky-900 inset-x-0 bottom-0" style={{backgroundColor: style["bg-titlebar"]}}>
+                <Text>Footer</Text>
+            </footer>
+        </>
+    );
 }
+
+

@@ -1,9 +1,11 @@
 import useAirframe from "@/bindings/hooks/useAirframe";
-import {Cell, Column, Table2} from "@blueprintjs/table";
-import {OptionProps, RadioGroup} from "@blueprintjs/core";
+import {Cell, Column, FocusedCellCoordinates, RegionCardinality, Table2} from "@blueprintjs/table";
+import {Card, OptionProps, RadioGroup, Text} from "@blueprintjs/core";
 import React, {useCallback, useMemo, useState} from "react";
 import {typeAsArrayOfKeys} from "@/utils/type.utils";
 import {handleNumberChange} from "@utils/event.utils";
+import {Payload} from "@/bindings/rust";
+import {toPounds} from "@utils/formatting.utils";
 
 type LoadoutExplorerTableProps = {
     airframeId: string;
@@ -20,6 +22,8 @@ enum SORTING_OPTION {
 
 const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId}) => {
     const [sortingOption, setSortingOption] = useState<number>(0)
+    
+    const [selectedRowData, setSelectedRowData] = useState<Payload | undefined >()
 
     const airframe = useAirframe({id: airframeId});
 
@@ -52,14 +56,12 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
     const sortOptions: OptionProps[] = useMemo(() => typeAsArrayOfKeys(SORTING_OPTION).map((key, idx): OptionProps =>
         ({label: key.toProperCase(), value: idx})
     ), [SORTING_OPTION])
-    
+
     const handleSorting = handleNumberChange(val =>
         setSortingOption(val)
     )
-    
-    const handleFocusedCell = (foo: any) => {
-        console.log(foo)
-    }
+
+    const handleFocusedCell = ({col, row}: FocusedCellCoordinates) => setSelectedRowData(airframe?.pylons[col].stores[row])
 
     if (!airframe) return <></>
 
@@ -70,22 +72,32 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
     sortAirframesBySortingOption();
 
     // TODO: Filter by categories
-
-
-    // TODO: Add some way of showing weapon info when selecting a cell
     
+    // TODO: Make selection and filter buttons as a ButtonGroup with Popovers https://blueprintjs.com/docs/#core/components/button-group.usage-with-popovers
+    // TODO: Make the footer stay attached to the bottom of the screen when scrolling...
     
-
-
     return <div>
         <div className="px-4 py-2">
-            <RadioGroup label="Sorting:" inline selectedValue={sortingOption} onChange={handleSorting} options={sortOptions}/>
+            <RadioGroup label="Sorting:" inline selectedValue={sortingOption} onChange={handleSorting}
+                        options={sortOptions}/>
         </div>
-        <Table2 numRows={requiredRows ? requiredRows + 2 : 0} cellRendererDependencies={[sortingOption]} onFocusedCell={handleFocusedCell}>
-            {airframe?.pylons.map((pylon) =>
-                <Column name={pylon.name.replaceAll("\"", "")} cellRenderer={(rowIndex) =>
-                    <Cell>{pylon.stores[rowIndex] ? pylon.stores[rowIndex].display_name : ""}</Cell>}/>)}
-        </Table2>
+        <div className="p-2">
+            <Card>
+                <div className="flex-row">
+                    <Text>{selectedRowData?.display_name ?? "N/A"} </Text>
+                    <Text>{toPounds(selectedRowData?.weight ?? 0, true)}</Text>
+                </div>
+            </Card>
+        </div>
+        <div className="">
+            <Table2 numRows={requiredRows ? requiredRows + 2 : 0} cellRendererDependencies={[sortingOption]}
+                    selectionModes={[RegionCardinality.CELLS]} enableMultipleSelection={false} enableFocusedCell={true}
+                    onFocusedCell={handleFocusedCell}>
+                {airframe?.pylons.map((pylon) =>
+                    <Column key={pylon.number} name={pylon.name.replaceAll("\"", "")} cellRenderer={(rowIndex) =>
+                        <Cell>{pylon.stores[rowIndex] ? pylon.stores[rowIndex].display_name : ""}</Cell>}/>)}
+            </Table2>
+        </div>
     </div>
 }
 
