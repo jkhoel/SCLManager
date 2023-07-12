@@ -25,11 +25,9 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
 
 
     const sortAirframesBySortingOption = useCallback(() => {
-        console.log("yolo!", sortingOption)
         const algorithmTypes: SortingAlgorithmTypes = {
             // Sort each pylon's stores alphabetically and by weight
             0: () => {
-                console.log("Sorting by default...")
                 airframe?.pylons.forEach((pyl) => {
                     pyl.stores
                         .sort((a, b) => a.weight - b.weight)
@@ -38,7 +36,6 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
             },
             // Sort each pylon's stores by weight
             1: () => {
-                console.log("Sorting by weight...")
                 airframe?.pylons.forEach((pyl) => {
                     pyl.stores
                         .sort((a, b) => a.weight - b.weight)
@@ -59,6 +56,10 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
     const handleSorting = handleNumberChange(val =>
         setSortingOption(val)
     )
+    
+    const handleFocusedCell = (foo: any) => {
+        console.log(foo)
+    }
 
     if (!airframe) return <></>
 
@@ -80,7 +81,7 @@ const LoadoutExplorerTable: React.FC<LoadoutExplorerTableProps> = ({airframeId})
         <div className="px-4 py-2">
             <RadioGroup label="Sorting:" inline selectedValue={sortingOption} onChange={handleSorting} options={sortOptions}/>
         </div>
-        <Table2 numRows={requiredRows ? requiredRows + 2 : 0} cellRendererDependencies={[sortingOption]}>
+        <Table2 numRows={requiredRows ? requiredRows + 2 : 0} cellRendererDependencies={[sortingOption]} onFocusedCell={handleFocusedCell}>
             {airframe?.pylons.map((pylon) =>
                 <Column name={pylon.name.replaceAll("\"", "")} cellRenderer={(rowIndex) =>
                     <Cell>{pylon.stores[rowIndex] ? pylon.stores[rowIndex].display_name : ""}</Cell>}/>)}
