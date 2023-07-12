@@ -8,7 +8,7 @@ export enum AirframeExplorerSortingOptions {
 }
 
 export enum AirframeExplorerDefaultFilterOptions {
-    All = "All",
+    All = "All Categories",
 }
 
 
@@ -79,7 +79,6 @@ export default class AirframeExplorerTable extends React.PureComponent<AirframeE
     }
 
     public render() {
-        // this.sortingOptions[this.props.sorting as keyof AirframeExplorerSortingAlgorithmTypes]()
         const filteredAirframe = this.filterStores();
         const filteredAndSortedAirframe = this.sortStores(filteredAirframe)
 

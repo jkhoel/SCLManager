@@ -3,10 +3,12 @@
 $primary: $blue1;
 $bg-titlebar: $dark-gray2;
 $bg-main: $dark-gray1;
+$bg-toolbar: $dark-gray2;
 
 :export {
   primary: $primary;
   bg-titlebar: $bg-titlebar;
+  bg-toolbar: $bg-toolbar;
   bg-main: $bg-main;
   bg-footer: $bg-titlebar;
 }
