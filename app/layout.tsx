@@ -1,5 +1,11 @@
 import './globals.css'
+import '@blueprintjs/core/lib/css/blueprint.css'
+import '@blueprintjs/icons/lib/css/blueprint-icons.css'
+import '@blueprintjs/select/lib/css/blueprint-select.css'
+import '@blueprintjs/table/lib/css/table.css'
+
 import { Inter } from 'next/font/google'
+import style from "@styles/style.module.scss";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bp5-dark flex flex-col h-screen bg-neutral-950`} style={{backgroundColor: style["bg-main"]}}>{children}</body>
     </html>
   )
 }

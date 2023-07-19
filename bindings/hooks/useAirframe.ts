@@ -12,7 +12,11 @@ export default function useAirframe({ id }: UseAirframeProps) {
 
     useEffect(() => {
         invoke<Airframe>(Handlers.GetAirframeById, { id })
-            .then((af) => setAirframe(af))
+            .then((af) => {
+                // Sort pylons by order before setting state
+                af.pylons.sort((a, b) => a.order - b.order);
+                setAirframe(af)
+            })
             .catch(console.error);
 
     }, [id]);
